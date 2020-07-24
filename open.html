@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kim-Yeonji :-)</title>
+    <script src="js/commons/jquery-3.5.1.min.js"></script>
+    <link rel="stylesheet" href="css/commons/reset.css">
+    <link rel="stylesheet" href="css/open.css">
+</head>
+<body>
+    <div class="openSection">
+        <div class="openGrdient"></div>
+            <div class="introTxt-1">
+                <p>Hello,</p>
+            </div>
+                <div class="introTxt-2">
+                    <p>My&nbsp;name&nbsp;is&nbsp;<strong>yeonji</strong>.</p>
+                </div>
+                <div class="introTxt-3">
+                    <p>Nice&nbsp;to&nbsp;meet&nbsp;you&nbsp;!</p>
+                </div>
+                <div class="introTxt-4">
+                    <p>Let's go about me👇</p>
+                </div>
+            
+        
+    </div>
+    <script>
+        $(document).ready(function(){
+            $('.introTxt-1').delay(1000).fadeIn(0, function(){
+                $('.introTxt-1').animate({width:'100%'},3000);
+                $('.introTxt-1').fadeOut(0);
+
+                $('.introTxt-2').delay(3000).fadeIn(0, function(){
+                    $('.introTxt-2').animate({width:'100%'},4000);
+                    $('.introTxt-2').fadeOut(0);
+                
+                    $('.introTxt-3').delay(4000).fadeIn(0, function(){
+                        $('.openGrdient').fadeIn(2000);
+                        $('.introTxt-3').animate({width:'100%'},4000);
+                    });
+                });
+            });
+            $('.introTxt-4').delay(10000).fadeIn(1000,function(){
+                aboutMe();
+            });
+         });
+
+         function aboutMe(){
+            $('.introTxt-4').animate({top:'57%'},1000, function(){
+                    $(this).animate({top:'57.5%'},1000, function(){
+                        aboutMe();
+                    });
+                });
+         }
+    </script>
+</body>
+</html>
