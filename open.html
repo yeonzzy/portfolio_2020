@@ -8,12 +8,13 @@
     <link rel="stylesheet" href="css/commons/reset.css">
     <link rel="stylesheet" href="css/open.css">
 </head>
-<body>
-    <div class="openSection">
-        <div class="openGrdient"></div>
-            <div class="introTxt-1">
-                <p>Hello,</p>
-            </div>
+<body><div id="wrap">
+    <div class="inner-wrap">
+        <div class="section1">
+            <div class="openGrdient"></div>
+                <div class="introTxt-1">
+                    <p>Hello,</p>
+                </div>
                 <div class="introTxt-2">
                     <p>My&nbsp;name&nbsp;is&nbsp;<strong>yeonji</strong>.</p>
                 </div>
@@ -23,9 +24,14 @@
                 <div class="introTxt-4">
                     <p>Let's go about me👇</p>
                 </div>
-            
-        
+        </div>
+        <div class="section2">
+
+        </div>
     </div>
+    
+</div>
+    
     <script>
         $(document).ready(function(){
             $('.introTxt-1').delay(1000).fadeIn(0, function(){
@@ -37,8 +43,10 @@
                     $('.introTxt-2').fadeOut(0);
                 
                     $('.introTxt-3').delay(4000).fadeIn(0, function(){
+                        $('.introTxt-3>span').animate({width:'90%'},4000);
                         $('.openGrdient').fadeIn(2000);
                         $('.introTxt-3').animate({width:'100%'},4000);
+                        
                     });
                 });
             });
@@ -53,6 +61,13 @@
                         aboutMe();
                     });
                 });
+         }
+
+         var goTopSec2=$('.section2').offset().top;
+         var sec2Go=$('.introTxt-4>p');
+         sec2Go.on('click',sec2GoFunc);
+         function sec2GoFunc(){
+             $('html,body').animate({scrollTop:goTopSec2},1000);
          }
     </script>
 </body>
