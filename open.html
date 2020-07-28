@@ -119,9 +119,10 @@
              var sec2Go=$('.introTxt-4>p');
              sec2Go.on('click',sec2GoFunc);
              function sec2GoFunc(){
-                 $('html,body').animate({scrollTop:goTopSec2},1000)}
+                 $('html,body').animate({scrollTop:goTopSec2},1000);
+                 console.log(goTopSec2);
+                }
 
-             
              $(window).on('scroll', sec2_scrollFunc)
              function sec2_scrollFunc(){
                  var docScrollTop=$(document).scrollTop();
