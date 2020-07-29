@@ -7,13 +7,13 @@
 
 .inner-wrap{
     width: 100%;
-    height: 300%;
+    height: 400%;
 }
 
 /*section1 부분!!!!!!*/
 .inner-wrap .section{
     width: 100%;
-    height: 33.3333%;
+    height: 25%;
     font-style: italic;
     /* background: linear-gradient(to right, #FC5C7D,#6A82FB); */
 }
@@ -114,17 +114,31 @@
 .section.sec2 .inner-sec2{
     width: 100%;
     height: 100%;
-    padding: 20px;
-    box-sizing: border-box;
+    position: relative;
+    margin: 0 auto;   
 }
 
 .section.sec2 .inner-sec2 .grdient-border{
-    width: 100%;
-    height: 100%;
+    width: 90%;
+    height: 10px;
+    box-sizing:border-box;
     border-style: solid;
     border-image: linear-gradient(to right, #FC5C7D,#6A82FB);
     border-image-slice: 1;
-    border-image-width: 10px 0;
+    border-image-width: 10px 0 0 0;
+    position: absolute;
+    left: 0;
+    margin-left :5%;
+}
+
+.section.sec2 .inner-sec2 .grdient-border.g-b-top{
+    top: 0;
+    margin-top: 20px;
+}
+
+.section.sec2 .inner-sec2 .grdient-border.g-b-bottom{
+    bottom: 0;
+    margin-bottom: 20px;
 }
 
 .section.sec2 .inner-sec2 .grdient-border::after{
@@ -133,16 +147,16 @@
     clear: both;
 }
 /*좌측 myself : innner-text , graph*/
-.section.sec2 .inner-sec2 .grdient-border .myself-txt{
-    width: 50%;
+.section.sec2 .inner-sec2 .myself-txt{
+    width: 60%;
     height: 100%;
-    padding: 2% 10% 0 10%;
+    padding: 2% 5% 0 5%;
     box-sizing: border-box;
     /* border: 5px solid #f00; */
     float: left;
 }
 
-.section.sec2 .inner-sec2 .grdient-border .myself-txt .inner-txt{
+.section.sec2 .inner-sec2 .myself-txt .inner-txt{
     width: 100%;
     height: auto;
     text-align: center;
@@ -150,13 +164,13 @@
     padding: 0 0 30px 0;
 }
 
-.section.sec2 .inner-sec2 .grdient-border .myself-txt .inner-txt::after{
+.section.sec2 .inner-sec2 .myself-txt .inner-txt::after{
     content: "";
     display: block;
     clear: both;
 }
 
-.section.sec2 .inner-sec2 .grdient-border .myself-txt .inner-txt >h1{
+.section.sec2 .inner-sec2 .myself-txt .inner-txt >h1{
     letter-spacing: 20px;
     font-weight: 700;
     font-size: 45px;
@@ -164,7 +178,7 @@
     display: none;
 }
 
-.section.sec2 .inner-sec2 .grdient-border .myself-txt .inner-txt >span{
+.section.sec2 .inner-sec2 .myself-txt .inner-txt >span{
     font-style: normal;
     font-family: 'NanumSquare', sans-serif;
     font-size: 14px;
@@ -172,7 +186,7 @@
     display: none;
 }
 
-.section.sec2 .inner-sec2 .grdient-border .myself-txt .inner-txt >span::before{
+.section.sec2 .inner-sec2 .myself-txt .inner-txt >span::before{
     content: "";
     width: 100px;
     height: 50px;
@@ -185,27 +199,28 @@
     margin-left: 135px;
 }
 
-.section.sec2 .inner-sec2 .grdient-border .myself-txt .graph{
+.section.sec2 .inner-sec2 .myself-txt .graph{
     width: 100%;
     height: auto;
     box-sizing: border-box;
-    padding: 20px 20px;
+    padding: 20px 70px;
+    /* border: 1px solid; */
 }
 
-.section.sec2 .inner-sec2 .grdient-border .myself-txt .graph::after{
+.section.sec2 .inner-sec2 .myself-txt .graph::after{
     content: "";
     display: block;
     clear: both;
 }
 
-.section.sec2 .inner-sec2 .grdient-border .myself-txt .graph .graph-txt{
+.section.sec2 .inner-sec2 .myself-txt .graph .graph-txt{
     width: 20%;
     height: auto;
     float: left;
     display: none;
 }
 
-.section.sec2 .inner-sec2 .grdient-border .myself-txt .graph .graph-txt >ul >li{
+.section.sec2 .inner-sec2 .myself-txt .graph .graph-txt >ul >li{
     line-height: 40px;
     padding: 15px 0;
     box-sizing: border-box;
@@ -215,7 +230,7 @@
     text-align: center;
 }
 
-.section.sec2 .inner-sec2 .grdient-border .myself-txt .graph .graph-shape{
+.section.sec2 .inner-sec2 .myself-txt .graph .graph-shape{
     width: 80%;
     height: auto;
     float: left;
@@ -223,14 +238,14 @@
     padding: 0 20px 0 0;
 }
 
-.section.sec2 .inner-sec2 .grdient-border .myself-txt .graph .graph-shape >ul >li{
+.section.sec2 .inner-sec2 .myself-txt .graph .graph-shape >ul >li{
     line-height: 40px;
     padding: 15px 0;
     box-sizing: border-box;
     display: none;
 }
 
-.section.sec2 .inner-sec2 .grdient-border .myself-txt .graph .graph-shape >ul >li >div{
+.section.sec2 .inner-sec2 .myself-txt .graph .graph-shape >ul >li >div{
     font-size: 14px;
     font-weight: 500;
     font-style: normal;
@@ -238,91 +253,93 @@
     color: #fff;
 }
 
-.section.sec2 .inner-sec2 .grdient-border .myself-txt .graph .graph-shape >ul >li .markup{
+.section.sec2 .inner-sec2 .myself-txt .graph .graph-shape >ul >li .markup{
     background: #f35e85;
 }
 
-.section.sec2 .inner-sec2 .grdient-border .myself-txt .graph .graph-shape >ul >li .markup.html{
+.section.sec2 .inner-sec2 .myself-txt .graph .graph-shape >ul >li .markup.html{
     width: 0;
 }
 
-.section.sec2 .inner-sec2 .grdient-border .myself-txt .graph .graph-shape >ul >li .markup.html::after{
+.section.sec2 .inner-sec2 .myself-txt .graph .graph-shape >ul >li .markup.html::after{
     content:"90%";
-    padding: 0 15px 0 0;
+    padding: 0 10px 0 0;
     letter-spacing: 1px;
 }
 
-.section.sec2 .inner-sec2 .grdient-border .myself-txt .graph .graph-shape >ul >li .markup.css{
+.section.sec2 .inner-sec2 .myself-txt .graph .graph-shape >ul >li .markup.css{
     width: 0;
 }
 
-.section.sec2 .inner-sec2 .grdient-border .myself-txt .graph .graph-shape >ul >li .markup.css::after{
+.section.sec2 .inner-sec2 .myself-txt .graph .graph-shape >ul >li .markup.css::after{
     content:"95%";
-    padding: 0 15px 0 0;
+    padding: 0 10px 0 0;
     letter-spacing: 1px;
 }
 
-.section.sec2 .inner-sec2 .grdient-border .myself-txt .graph .graph-shape >ul >li .coding{
+.section.sec2 .inner-sec2 .myself-txt .graph .graph-shape >ul >li .coding{
     background: #c26baf;
 }
 
-.section.sec2 .inner-sec2 .grdient-border .myself-txt .graph .graph-shape >ul >li .coding.jquery{
+.section.sec2 .inner-sec2 .myself-txt .graph .graph-shape >ul >li .coding.jquery{
     width: 0;
 }
 
-.section.sec2 .inner-sec2 .grdient-border .myself-txt .graph .graph-shape >ul >li .coding.jquery::after{
+.section.sec2 .inner-sec2 .myself-txt .graph .graph-shape >ul >li .coding.jquery::after{
     content:"80%";
-    padding: 0 15px 0 0;
+    padding: 0 10px 0 0;
     letter-spacing: 1px;
 }
 
-.section.sec2 .inner-sec2 .grdient-border .myself-txt .graph .graph-shape >ul >li .coding.jScript{
+.section.sec2 .inner-sec2 .myself-txt .graph .graph-shape >ul >li .coding.jScript{
     width: 0;
 }
 
-.section.sec2 .inner-sec2 .grdient-border .myself-txt .graph .graph-shape >ul >li .coding.jScript::after{
+.section.sec2 .inner-sec2 .myself-txt .graph .graph-shape >ul >li .coding.jScript::after{
     content:"40%";
-    padding: 0 15px 0 0;
+    padding: 0 10px 0 0;
     letter-spacing: 1px;
 }
 
-.section.sec2 .inner-sec2 .grdient-border .myself-txt .graph .graph-shape >ul >li .design{
+.section.sec2 .inner-sec2 .myself-txt .graph .graph-shape >ul >li .design{
     background: #8e78dc;
 }
 
-.section.sec2 .inner-sec2 .grdient-border .myself-txt .graph .graph-shape >ul >li .design.pho{
+.section.sec2 .inner-sec2 .myself-txt .graph .graph-shape >ul >li .design.pho{
     width: 0;
 }
 
-.section.sec2 .inner-sec2 .grdient-border .myself-txt .graph .graph-shape >ul >li .design.pho::after{
+.section.sec2 .inner-sec2 .myself-txt .graph .graph-shape >ul >li .design.pho::after{
     content:"95%";
-    padding: 0 15px 0 0;
+    padding: 0 10px 0 0;
     letter-spacing: 1px;
 }
 
-.section.sec2 .inner-sec2 .grdient-border .myself-txt .graph .graph-shape >ul >li .design.ill{
+.section.sec2 .inner-sec2 .myself-txt .graph .graph-shape >ul >li .design.ill{
     width: 0;
 }
 
-.section.sec2 .inner-sec2 .grdient-border .myself-txt .graph .graph-shape >ul >li .design.ill::after{
+.section.sec2 .inner-sec2 .myself-txt .graph .graph-shape >ul >li .design.ill::after{
     content:"80%";
-    padding: 0 15px 0 0;
+    padding: 0 10px 0 0;
     letter-spacing: 1px;
 }
 /*우측 myself-pic*/
-.section.sec2 .inner-sec2 .grdient-border .myself-pic{
-    width: 50%;
+.section.sec2 .inner-sec2 .myself-pic{
+    width: 40%;
     height: 100%;
     float: left;
+    /* border: 1px solid;
+    box-sizing: border-box; */
 }
 
-.section.sec2 .inner-sec2 .grdient-border .myself-pic .inner-pic{
+.section.sec2 .inner-sec2 .myself-pic .inner-pic{
     width: 100%;
     height: 100%;
     margin: 0 auto;
 }
 
-.section.sec2 .inner-sec2 .grdient-border .myself-pic .inner-pic .selfie{
+.section.sec2 .inner-sec2 .myself-pic .inner-pic .selfie{
     width: 100%;
     height: 100%;
     background: url(../img/sec2-selfie.png) no-repeat;
@@ -332,17 +349,18 @@
     display: none;
 }
 
-.section.sec2 .inner-sec2 .grdient-border .myself-pic .inner-pic .selfie .heartBack{
+.section.sec2 .inner-sec2 .myself-pic .inner-pic .selfie .heartBack{
     width: 100%;
     height: 100%;
     display: none;
+    padding: 30px 0;
+    box-sizing: border-box;
 } 
 
-.section.sec2 .inner-sec2 .grdient-border .myself-pic .inner-pic .selfie .heartBack >img{
+.section.sec2 .inner-sec2 .myself-pic .inner-pic .selfie .heartBack >img{
     display: block;
-    width: 80%;
-    height:auto;
-    margin: 0 auto;
+    height: 100%;
+    margin: 0 auto
 }
 
 /*section3 부분!!!!!!*/
@@ -511,6 +529,20 @@
 
 
 
+
+
+/*section4 부분!!!!!!*/
+.section.sec4 {
+    background: #000;
+}
+
+.section.sec3 .inner-sec3{
+    width:100%;
+    height:100%;
+}
+
+
+
 /*미디어쿼리!!!!!!!!!!!!!!*/
 /*태블릿사이즈*/
 @media only screen and (min-width:768px) and (max-width:1024px){
@@ -525,63 +557,131 @@
         background-position: center;
     }
 
-    .section.sec2 .inner-sec2 .grdient-border{
-        width: 100%;
-        height: 100%;
-        border-style: solid;
-        border-image: linear-gradient(to right, #FC5C7D,#6A82FB);
-        border-image-slice: 1;
-        border-image-width: 10px 0;
-        box-sizing: border-box;
-    }
-
-    .section.sec2 .inner-sec2 .grdient-border .myself-txt{
-        width: 100%;
+    .section.sec2 .inner-sec2 .myself-txt{
         height: 100%;
         padding: 50px 0;
-        float: none;
+        float: unset;
         color: #fff;
+        margin: 0 auto;
     }
 
-    .section.sec2 .inner-sec2 .grdient-border .myself-txt .inner-txt{
+    .section.sec2 .inner-sec2 .myself-txt .inner-txt{
+        width:100%;
         margin: 0 0 10px 0;
         padding: 0 0 30px 0;
         opacity: 0.8;
+        margin: 0 auto;
     }
 
-    .section.sec2 .inner-sec2 .grdient-border .myself-txt .inner-txt >h1{
+    .section.sec2 .inner-sec2 .myself-txt .inner-txt >h1{
+        font-size: 35px;
         line-height: 120px;
     }
 
-    .section.sec2 .inner-sec2 .grdient-border .myself-txt .graph{
+    .section.sec2 .inner-sec2 .myself-txt .graph{
         padding: 40px 20px;
     }
 
-    .section.sec2 .inner-sec2 .grdient-border .myself-txt .graph .graph-txt{
+    .section.sec2 .inner-sec2 .myself-txt .graph .graph-txt{
         width: 25%;
         color: #fff;
     }
     
-    .section.sec2 .inner-sec2 .grdient-border .myself-txt .graph .graph-txt >ul >li{
+    .section.sec2 .inner-sec2 .myself-txt .graph .graph-txt >ul >li{
         opacity: 0.8;
     }
     
-    .section.sec2 .inner-sec2 .grdient-border .myself-txt .graph .graph-shape{
+    .section.sec2 .inner-sec2 .myself-txt .graph .graph-shape{
         width: 75%;
         padding: 0 0 0 10px;
     }
     
-    .section.sec2 .inner-sec2 .grdient-border .myself-txt .graph .graph-shape >ul >li{
+    .section.sec2 .inner-sec2 .myself-txt .graph .graph-shape >ul >li{
         opacity: 0.6;
     }
 
-    .section.sec2 .inner-sec2 .grdient-border .myself-pic{
+    .section.sec2 .inner-sec2 .myself-pic{
         display: none;
     }
 
-    .section.sec2 .inner-sec2 .grdient-border .myself-pic .inner-pic .selfie .heartBack >img{
+    .section.sec2 .inner-sec2 .myself-pic .inner-pic .selfie .heartBack >img{
         display: none;
     }
+
+    /*section3 부분*/
+    .section.sec3{
+        /* border:1px solid #00f; */
+        padding: 10% 0 0 0;
+        box-sizing: border-box;
+    }
+    .section.sec3 .inner-sec3 .sec3-port{
+        width: 100%;
+        height: auto;
+        float: unset;
+        /* border: 1px solid #f00; */
+    }
+    .section.sec3 .inner-sec3 .sec3-port .vibeImg{
+        width: 100%;
+        height: auto;
+        float: unset;
+        padding: 0 0 0 0;
+    }
+    
+    .section.sec3 .inner-sec3 .sec3-port .vibeImg img{
+        width: 600px;
+        height: 414px;
+    }
+
+    .section.sec3 .inner-sec3 .sec3-Txt{
+        width: 100%;
+        height: auto;
+        padding: 0 0 0 0;
+        margin: 55% 0 0 0;
+        /* border: 1px solid #000; */
+    }
+
+    .section.sec3 .inner-sec3 .sec3-Txt .logoTxt h1.logo{
+        width: 400px;
+        height: 66px;
+        position: absolute;
+        right:0;
+        margin-right:100px;
+    }
+    
+    .section.sec3 .inner-sec3 .sec3-Txt .logoTxt h1.logo img{
+        width:400px;
+        display: block;
+        opacity: 0;
+        float:right;
+    }
+
+    .section.sec3 .inner-sec3 .sec3-Txt .logoTxt .vibeColor >ul >li:nth-child(1)::after{
+        width: 15px;
+        height: 15px;
+        margin-top: 80px;
+        right:0;
+        margin-right: 160px;
+    }
+    .section.sec3 .inner-sec3 .sec3-Txt .logoTxt .vibeColor >ul >li:nth-child(2)::after{
+        width: 15px;
+        height: 15px;
+        margin-top: 80px;
+        right:0;
+        margin-right: 130px;
+    }
+    .section.sec3 .inner-sec3 .sec3-Txt .logoTxt .vibeColor >ul >li:nth-child(3)::after{
+        width: 15px;
+        height: 15px;
+        margin-top: 80px;
+        right:0;
+        margin-right: 100px;
+    }
+
+    .section.sec3 .inner-sec3 .sec3-Txt .vibe-about{
+        padding: 0 80px;
+        box-sizing:border-box;
+    }
+
 }
 
 /*모바일사이즈*/
@@ -610,32 +710,35 @@
         background-position: center;
     }
 
-    .section.sec2 .inner-sec2 .grdient-border .myself-txt{
-        width: 100%;
+    .section.sec2 .inner-sec2  .myself-txt{
         height: auto;
         padding: 10px 0;
         box-sizing: border-box;
-        float: none;
+        float: unset;
         color: #fff;
+        margin: 0 auto;
     }
     
-    .section.sec2 .inner-sec2 .grdient-border .myself-txt .inner-txt{
+    .section.sec2 .inner-sec2 .myself-txt .inner-txt{
+        width: 100%;
         margin: 0 0 10px 0;
         padding: 0 0 30px 0;
         opacity: 0.8;
+        margin: 0 auto;
     }
 
-    .section.sec2 .inner-sec2 .grdient-border .myself-txt .inner-txt >h1{
-        font-size: 20px;
-        line-height: 100px;
+    .section.sec2 .inner-sec2 .myself-txt .inner-txt >h1{
+        font-size: 16px;
+        line-height: 110px;
+        letter-spacing: 10px;
     }
 
-    .section.sec2 .inner-sec2 .grdient-border .myself-txt .inner-txt >span{
-        font-size: 12px;
+    .section.sec2 .inner-sec2 .myself-txt .inner-txt >span{
+        font-size: 10px;
         line-height: 24px;
     }
 
-    .section.sec2 .inner-sec2 .grdient-border .myself-txt .inner-txt >span::before{
+    .section.sec2 .inner-sec2 .myself-txt .inner-txt >span::before{
         content: "";
         width: 50px;
         height: 50px;
@@ -648,55 +751,60 @@
         position: absolute;
     }
 
-    .section.sec2 .inner-sec2 .grdient-border .myself-txt .graph{
-        padding: 30px 20px;
+    .section.sec2 .inner-sec2 .myself-txt .graph{
+        padding: 30px 0px;
     }
 
-    .section.sec2 .inner-sec2 .grdient-border .myself-txt .graph .graph-txt{
+    .section.sec2 .inner-sec2 .myself-txt .graph .graph-txt{
         width: 25%;
         color: #fff;
     }
     
-    .section.sec2 .inner-sec2 .grdient-border .myself-txt .graph .graph-txt >ul >li{
-        line-height: 25px;
-        padding: 15px 0;
+    .section.sec2 .inner-sec2 .myself-txt .graph .graph-txt >ul >li{
+        line-height: 22px;
+        padding: 12px 0;
         opacity: 0.8;
+        font-size: 12px;
     }
     
-    .section.sec2 .inner-sec2 .grdient-border .myself-txt .graph .graph-shape{
+    .section.sec2 .inner-sec2 .myself-txt .graph .graph-shape{
         width: 75%;
         padding: 0 0 0 10px;
     }
     
-    .section.sec2 .inner-sec2 .grdient-border .myself-txt .graph .graph-shape >ul >li{
-        line-height: 25px;
-        padding: 15px 0;
+    .section.sec2 .inner-sec2 .myself-txt .graph .graph-shape >ul >li{
+        line-height: 22px;
+        padding: 12px 0;
         opacity: 0.6;
+        font-size: 12px;
     }
 
-    .section.sec2 .inner-sec2 .grdient-border .myself-pic{
+    .section.sec2 .inner-sec2 .myself-pic{
         width: 100%;
         height: auto;
         display: none;
     }
 
-    .section.sec2 .inner-sec2 .grdient-border .myself-pic .inner-pic .selfie .heartBack >img{
+    .section.sec2 .inner-sec2 .myself-pic .inner-pic .selfie .heartBack >img{
         display: none;
     }
+    
     /*section3 부분*/
     .section.sec3{
         /* border:1px solid #00f; */
-        padding: 70px 0 0 0;
+        padding: 10% 0 0 0;
         box-sizing: border-box;
     }
     .section.sec3 .inner-sec3 .sec3-port{
         width: 100%;
         height: auto;
+        float: unset;
         /* border: 1px solid #f00; */
     }
     .section.sec3 .inner-sec3 .sec3-port .vibeImg{
         width: 100%;
         height: auto;
+        float: unset;
         padding: 0 0 0 0;
     }
     
