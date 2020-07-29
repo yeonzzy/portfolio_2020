@@ -59,7 +59,8 @@
         </script>
         <div class="section sec2">
             <div class="inner-sec2">
-                <div class="grdient-border">
+                <div class="grdient-border g-b-top"></div>
+                <div class="grdient-border g-b-bottom"></div>
                     <div class="myself-txt">
                         <div class="inner-txt">
                             <h1>KIM-Yeonji</h1>
@@ -112,7 +113,7 @@
                         </div>
                         
                     </div>
-                </div>
+                
             </div>
         </div>
         <script>
@@ -120,7 +121,7 @@
              var sec2Go=$('.introTxt-4>p');
              sec2Go.on('click',sec2GoFunc);
              function sec2GoFunc(){
-                 $('html,body').animate({scrollTop:goTopSec2+1},1000);
+                 $('html,body').animate({scrollTop:goTopSec2},1000);
                  console.log(goTopSec2);
                 }
 
@@ -144,9 +145,6 @@
 
                      $('.selfie').delay(3000).fadeIn(2000);
                      $('.heartBack').delay(4000).fadeIn();
-
-                 }
-                 else{
                  }
              }
              
@@ -209,6 +207,14 @@
             });
             
         </script>
+
+        <div class="section sec4">
+            <div class="inner-sec4">
+
+            </div>
+        </div>
+
+        
     </div>
 </div>
     
