@@ -3,9 +3,214 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Kim-Yeonji :-)</title>
+    <script src="js/commons/jquery-3.5.1.min.js"></script>
+    <link rel="stylesheet" href="css/commons/reset.css">
+    <link rel="stylesheet" href="css/index.css">
 </head>
 <body>
+    <div id="wrap">
+    <div class="inner-wrap">
+        <div class="section sec1">
+            <div class="openGrdient"></div>
+                <div class="introTxt-1">
+                    <p>Hello,</p>
+                </div>
+                <div class="introTxt-2">
+                    <p>My&nbsp;name&nbsp;is&nbsp;<strong>yeonji</strong>.</p>
+                </div>
+                <div class="introTxt-3">
+                    <p>Nice&nbsp;to&nbsp;meet&nbsp;you&nbsp;!</p>
+                </div>
+                <div class="introTxt-4">
+                    <p>Let's go about me👇</p>
+                </div>
+        </div>
+        <script>
+            $(document).ready(function(){
+                $('.introTxt-1').delay(1000).fadeIn(0, function(){
+                    $('.introTxt-1').animate({width:'100%'},3000);
+                    $('.introTxt-1').fadeOut(0);
+    
+                    $('.introTxt-2').delay(3000).fadeIn(0, function(){
+                        $('.introTxt-2').animate({width:'100%'},4000);
+                        $('.introTxt-2').fadeOut(0);
+                    
+                        $('.introTxt-3').delay(4000).fadeIn(0, function(){
+                            $('.introTxt-3>span').animate({width:'90%'},4000);
+                            $('.openGrdient').fadeIn(2000);
+                            $('.introTxt-3').animate({width:'100%'},4000);
+                            
+                        });
+                    });
+                });
+                $('.introTxt-4').delay(10000).fadeIn(1000,function(){
+                    aboutMe();
+                });
+             });
+    
+             function aboutMe(){
+                $('.introTxt-4').animate({top:'57%'},1000, function(){
+                        $(this).animate({top:'57.5%'},1000, function(){
+                            aboutMe();
+                        });
+                    });
+             }
+        </script>
+        <div class="section sec2">
+            <div class="inner-sec2">
+                <div class="grdient-border">
+                    <div class="myself-txt">
+                        <div class="inner-txt">
+                            <h1>KIM-Yeonji</h1>
+                            <span>퍼블리싱을 즐기고 좋아하는 김연지입니다.<br>
+                            프론트앤드 마스터가 되기 위해 열심히 노력합니다 :-)</span>
+                        </div>
+                            <div class="graph">
+                                <div class="graph-txt">
+                                    <ul>
+                                        <li>HTML</li>
+                                        <li>CSS</li>
+                                        <li>jQuery</li>
+                                        <li>JavaScript</li>
+                                        <li>Photoshop</li>
+                                        <li>Illustrator</li>
+                                    </ul>
+                                </div>
+                                <div class="graph-shape">
+                                    <ul>
+                                        <li>
+                                            <div class="markup html"></div>
+                                        </li>
+                                        <li>
+                                            <div class="markup css"></div>
+                                        </li>
+                                        <li>
+                                            <div class="coding jquery"></div>
+                                        </li>
+                                        <li>
+                                            <div class="coding jScript"></div>
+                                        </li>
+                                        <li>
+                                            <div class="design pho"></div>
+                                        </li>
+                                        <li>
+                                            <div class="design ill"></div>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                    </div>
+                    <div class="myself-pic">
+                        <div class="inner-pic">
+                            <div class="selfie">
+                                <div class="heartBack">
+                                    <img src="img/sec2-heartBack.gif" alt="star">
+                                </div>
+                                
+                            </div>
+                        </div>
+                        
+                    </div>
+                </div>
+            </div>
+        </div>
+        <script>
+             var goTopSec2=$('.section.sec2').offset().top;
+             var sec2Go=$('.introTxt-4>p');
+             sec2Go.on('click',sec2GoFunc);
+             function sec2GoFunc(){
+                 $('html,body').animate({scrollTop:goTopSec2+1},1000);
+                 console.log(goTopSec2);
+                }
+
+             $(window).on('scroll', sec2_scrollFunc)
+             function sec2_scrollFunc(){
+                 var docScrollTop=$(document).scrollTop();
+                 if(docScrollTop>=goTopSec2){
+                     $('.inner-txt>h1').fadeIn(1000,function(){
+                        $('.inner-txt').css({borderBottom:'1px solid #eee'});
+                     });
+                     $('.inner-txt>span').delay(200).fadeIn(1000);
+
+                     $('.graph-txt').delay(500).fadeIn(1000);
+                     $('.graph-shape>ul>li').delay(500).fadeIn(1000);
+                     $('.markup.html').delay(1000).animate({width:'90%'},1000);
+                     $('.markup.css').delay(1200).animate({width:'95%'},1000);
+                     $('.coding.jquery').delay(1400).animate({width:'80%'},1000);
+                     $('.coding.jScript').delay(1600).animate({width:'40%'},1000);
+                     $('.design.pho').delay(1800).animate({width:'95%'},1000);
+                     $('.design.ill').delay(2000).animate({width:'80%'},1000);
+
+                     $('.selfie').delay(3000).fadeIn(2000);
+                     $('.heartBack').delay(4000).fadeIn();
+
+                 }
+                 else{
+                 }
+             }
+             
+        </script>
+        <div class="section sec3">
+            <div class="inner-sec3">
+                <div class="sec3-port">
+                    <div class="vibeImg">
+                        <img src="img/sec3-vibe.jpg" alt="vibeImg">
+                    </div>
+                </div>
+                <div class="sec3-Txt">
+                    <div class="logoTxt">
+                        <h1 class="logo">
+                            <img src="img/sec3-vibe-logo.png" alt="vibe-logo">
+                        </h1>
+                        <div class="vibeColor">
+                            <ul>
+                                <li></li>
+                                <li></li>
+                                <li></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="vibe-about">
+                        <h3>Reponsive Website</h3>
+                    <h6>Only Desktop, Tablet, Mobile size</h6>
+                    <span>반응형 웹<br>
+                    HTML, CSS, jQuery, JavaScript <strong>100%</strong></span>
+                    <p>앨범의 슬라이드쇼 구현, Player구현,<br>
+                    팝업창을 활용한 로그인 및 회원가입 구현</p>
+                    <input type="button" value="VIEW INDEX">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <script>
+            var vibeBtn=$('.vibe-about input[type=button]');
+            $(window).on('scroll', sec3_scrollFunc);
+            function sec3_scrollFunc(){
+                var goTopSec3=$('.section.sec3').offset().top;
+                var docScrollTop=$(document).scrollTop();
+                if(docScrollTop>=goTopSec3){
+                    $('.sec3-port').animate({left:'0'},2000);
+                    $('h1.logo').fadeIn(500,function(){
+                        $('.vibeColor>ul>li').fadeIn(1000);
+                    });
+                    // $('h1.logo').animate({top:'28%'},1000);
+                    $('h1.logo img').animate({opacity:'1'},1000);
+                    $('.vibe-about >h3').delay(1000).fadeIn(500);
+                    $('.vibe-about >h6').delay(1500).fadeIn(500);
+                    $('.vibe-about >span').delay(2000).fadeIn(500);
+                    $('.vibe-about >p').delay(2500).fadeIn(500);
+                    vibeBtn.delay(3000).fadeIn(500);
+                }
+            }
+
+            vibeBtn.on('click',function(){
+                window.open('http://yeonzzy.dothome.co.kr/project_vibe/index.html');
+            });
+            
+        </script>
+    </div>
+</div>
     
 </body>
 </html>
