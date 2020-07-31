@@ -422,13 +422,13 @@
     height: auto;
 }
 
-.section.sec3 .inner-sec3 .sec3-Txt .logoTxt h1.logo{
+.section.sec3 .inner-sec3 .sec3-Txt .logoTxt h1.vibeLogo{
     width: 500px;
     height: 82px;
     position: absolute;
 }
 
-.section.sec3 .inner-sec3 .sec3-Txt .logoTxt h1.logo img{
+.section.sec3 .inner-sec3 .sec3-Txt .logoTxt h1.vibeLogo img{
     width: 500px;
     display: block;
     opacity: 0;
@@ -533,13 +533,168 @@
 
 /*section4 부분!!!!!!*/
 .section.sec4 {
-    background: #000;
+    background: #fff;
 }
 
-.section.sec3 .inner-sec3{
+.section.sec4 .inner-sec4{
     width:100%;
     height:100%;
 }
+
+.section.sec4 .inner-sec4::after{
+    content: "";
+    display: block;
+    clear: both;
+}
+
+.section.sec4 .inner-sec4 .sec4-port{
+    width: 60%;
+    height: 100%;
+    float: left;
+    position: absolute;
+    left: -100%;
+}
+
+.section.sec4 .inner-sec4 .sec4-port .cocaImg{
+    width: 100%;
+    height: 100%;
+    padding: 150px 0 0 0;
+    box-sizing: border-box;
+    /* border: 1px solid; */
+}
+
+.section.sec4 .inner-sec4 .sec4-port .cocaImg img{
+    width: 800px;
+    height: 643px;
+    margin: 0 auto;
+    display: block;
+}
+
+.section.sec4 .inner-sec4 .sec4-Txt{
+    width: 40%;
+    height: auto;
+    padding: 12% 0 0 0;
+    box-sizing: border-box;
+    float: left;
+    font-style: normal;
+    color: #333;
+    position: absolute;
+    margin: 0 0 0 60%;
+    
+}
+
+.section.sec4 .inner-sec4 .sec4-Txt .logoTxt{
+    width: 100%;
+    height: auto;
+}
+
+.section.sec4 .inner-sec4 .sec4-Txt .logoTxt h1.cocaLogo{
+    width: 315px;
+    height: 103px;
+    position: absolute;
+}
+
+.section.sec4 .inner-sec4 .sec4-Txt .logoTxt h1.cocaLogo img{
+    width: 315px;
+    display: block;
+    opacity: 0;
+}
+
+.section.sec4 .inner-sec4 .sec4-Txt .logoTxt .cocaColor >ul >li{
+    display: none;
+}
+
+.section.sec4 .inner-sec4 .sec4-Txt .logoTxt .cocaColor >ul >li:nth-child(1)::after{
+    content:"";
+    background: #000;
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    float: left;
+    margin: 5px;
+    position: absolute;
+    margin-top: 120px;
+    margin-left: 200px;
+}
+.section.sec4 .inner-sec4 .sec4-Txt .logoTxt .cocaColor >ul >li:nth-child(2)::after{
+    content: "";
+    background: #bfbfbf;
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    float: left;
+    margin: 5px;
+    position: absolute;
+    margin-top: 120px;
+    margin-left: 230px;
+}
+.section.sec4 .inner-sec4 .sec4-Txt .logoTxt .cocaColor >ul >li:nth-child(3)::after{
+    content: "";
+    background: #f40009;
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    float: left;
+    margin: 5px;
+    position: absolute;
+    margin-top: 120px;
+    margin-left: 260px;
+}
+
+.section.sec4 .inner-sec4 .sec4-Txt .coca-about >h3{
+    font-size: 28px;
+    font-weight: 500;
+    margin: 180px 0 0 0;
+    font-family: 'NanumSquare', sans-serif;
+    display: none;
+}
+
+.section.sec4 .inner-sec4 .sec4-Txt .coca-about >h6{
+    font-size: 14px;
+    font-weight: 500;
+    font-family: 'NanumSquare', sans-serif;
+    line-height: 24px;
+    display: none;
+    margin: 0 0 20px 0;
+}
+
+.section.sec4 .inner-sec4 .sec4-Txt .coca-about >span{
+    font-size: 16px;
+    line-height: 24px;
+    font-family: 'NanumSquare', sans-serif;
+    display: none;
+}
+
+.section.sec4 .inner-sec4 .sec4-Txt .coca-about >p{
+    font-size: 16px;
+    line-height: 24px;
+    font-family: 'NanumSquare', sans-serif;
+    display: none;
+    margin: 20px 0 0 0;
+}
+
+.section.sec4 .inner-sec4 .sec4-Txt .coca-about input[type=button]{
+    width: 150px;
+    height: 40px;
+    border-radius: 10px;
+    background: #000;
+    margin: 25px 0 0 0;
+    color: #fff !important;
+    text-align: center;
+    border: 0;
+    cursor: pointer;
+    display: none;
+    outline: none;
+    font-weight: bold;
+    letter-spacing: 1px;
+}
+
+.section.sec4 .inner-sec4 .sec4-Txt .coca-about input[type=button]:hover{
+    background: #f40009;
+    transition: ease-in 0.5s;
+}
+
+
 
 
 
@@ -614,12 +769,14 @@
         padding: 10% 0 0 0;
         box-sizing: border-box;
     }
+
     .section.sec3 .inner-sec3 .sec3-port{
         width: 100%;
         height: auto;
         float: unset;
         /* border: 1px solid #f00; */
     }
+
     .section.sec3 .inner-sec3 .sec3-port .vibeImg{
         width: 100%;
         height: auto;
@@ -640,7 +797,7 @@
         /* border: 1px solid #000; */
     }
 
-    .section.sec3 .inner-sec3 .sec3-Txt .logoTxt h1.logo{
+    .section.sec3 .inner-sec3 .sec3-Txt .logoTxt h1.vibeLogo{
         width: 400px;
         height: 66px;
         position: absolute;
@@ -648,7 +805,7 @@
         margin-right:100px;
     }
     
-    .section.sec3 .inner-sec3 .sec3-Txt .logoTxt h1.logo img{
+    .section.sec3 .inner-sec3 .sec3-Txt .logoTxt h1.vibeLogo img{
         width:400px;
         display: block;
         opacity: 0;
@@ -680,6 +837,87 @@
     .section.sec3 .inner-sec3 .sec3-Txt .vibe-about{
         padding: 0 80px;
         box-sizing:border-box;
+    }
+
+    /*section4 부분*/
+    .section.sec4{
+        /* border:1px solid #00f; */
+        padding: 10% 0 0 0;
+        box-sizing: border-box;
+    }
+
+    .section.sec4 .inner-sec4 .sec4-port{
+        width: 100%;
+        height: auto;
+        float: unset;
+        /* border: 1px solid #f00; */
+    }
+
+    .section.sec4 .inner-sec4 .sec4-port .cocaImg{
+        width: 100%;
+        height: auto;
+        float: unset;
+        padding: 0 0 0 0;
+    }
+    
+    .section.sec4 .inner-sec4 .sec4-port .cocaImg img{
+        width: 600px;
+        height: 482px;
+    }
+
+    .section.sec4 .inner-sec4 .sec4-Txt{
+        width: 100%;
+        height: auto;
+        padding: 0 0 0 0;
+        margin: 65% 0 0 0;
+        /* border: 1px solid #000; */
+    }
+
+    .section.sec4 .inner-sec4 .sec4-Txt .logoTxt h1.cocaLogo{
+        width: 230px;
+        height: 75px;
+        position: absolute;
+        right:0;
+        margin-right:110px;
+    }
+    
+    .section.sec4 .inner-sec4 .sec4-Txt .logoTxt h1.cocaLogo img{
+        width:230px;
+        display: block;
+        opacity: 0;
+        float:right;
+    }
+
+    .section.sec4 .inner-sec4 .sec4-Txt .logoTxt .cocaColor >ul >li:nth-child(1)::after{
+        width: 15px;
+        height: 15px;
+        margin-top: 100px;
+        right:0;
+        margin-right: 200px;
+    }
+    .section.sec4 .inner-sec4 .sec4-Txt .logoTxt .cocaColor >ul >li:nth-child(2)::after{
+        width: 15px;
+        height: 15px;
+        margin-top: 100px;
+        right:0;
+        margin-right: 170px;
+    }
+    .section.sec4 .inner-sec4 .sec4-Txt .logoTxt .cocaColor >ul >li:nth-child(3)::after{
+        width: 15px;
+        height: 15px;
+        margin-top: 100px;
+        right:0;
+        margin-right: 140px;
+    }
+
+    .section.sec4 .inner-sec4 .sec4-Txt .coca-about{
+        padding: 0 80px;
+        box-sizing:border-box;
+    }
+
+    .section.sec4 .inner-sec4 .sec4-Txt .coca-about >h3{
+        font-size: 20px;
+        margin: 150px 0 0 0;
     }
 
 }
@@ -821,7 +1059,7 @@
         /* border: 1px solid; */
     }
 
-    .section.sec3 .inner-sec3 .sec3-Txt .logoTxt h1.logo{
+    .section.sec3 .inner-sec3 .sec3-Txt .logoTxt h1.vibeLogo{
         width: 220px;
         height: 36px;
         position: absolute;
@@ -829,8 +1067,8 @@
         margin-right:30px;
     }
     
-    .section.sec3 .inner-sec3 .sec3-Txt .logoTxt h1.logo img{
-        width:250px;
+    .section.sec3 .inner-sec3 .sec3-Txt .logoTxt h1.vibeLogo img{
+        width:220px;
         display: block;
         opacity: 0;
         float:right;
@@ -887,6 +1125,107 @@
         height: 30px;
     }
 
+    /*section4 부분*/
+    .section.sec4{
+        /* border:1px solid #00f; */
+        padding: 10% 0 0 0;
+        box-sizing: border-box;
+    }
+
+    .section.sec4 .inner-sec4 .sec4-port{
+        width: 100%;
+        height: auto;
+        float: unset;
+        /* border: 1px solid #f00; */
+    }
+
+    .section.sec4 .inner-sec4 .sec4-port .cocaImg{
+        width: 100%;
+        height: auto;
+        float: unset;
+        padding: 0 0 0 0;
+    }
     
+    .section.sec4 .inner-sec4 .sec4-port .cocaImg img{
+        width: 300px;
+        height: 214px;
+    }
+
+    .section.sec4 .inner-sec4 .sec4-Txt{
+        width: 100%;
+        height: auto;
+        padding: 0 0 0 0;
+        margin: 65% 0 0 0;
+        /* border: 1px solid #000; */
+    }
+
+    .section.sec4 .inner-sec4 .sec4-Txt .logoTxt h1.cocaLogo{
+        width: 160px;
+        height: 52px;
+        position: absolute;
+        right:0;
+        margin-right:40px;
+    }
+    
+    .section.sec4 .inner-sec4 .sec4-Txt .logoTxt h1.cocaLogo img{
+        width:160px;
+        display: block;
+        opacity: 0;
+        float:right;
+    }
+
+    .section.sec4 .inner-sec4 .sec4-Txt .logoTxt .cocaColor >ul >li:nth-child(1)::after{
+        width: 12px;
+        height: 12px;
+        margin-top: 60px;
+        right:0;
+        margin-right: 100px;
+    }
+    .section.sec4 .inner-sec4 .sec4-Txt .logoTxt .cocaColor >ul >li:nth-child(2)::after{
+        width: 12px;
+        height: 12px;
+        margin-top: 60px;
+        right:0;
+        margin-right: 80px;
+    }
+    .section.sec4 .inner-sec4 .sec4-Txt .logoTxt .cocaColor >ul >li:nth-child(3)::after{
+        width: 12px;
+        height: 12px;
+        margin-top: 60px;
+        right:0;
+        margin-right: 60px;
+    }
+
+    .section.sec4 .inner-sec4 .sec4-Txt .coca-about{
+        padding: 0 30px;
+        box-sizing:border-box;
+    }
+
+    .section.sec4 .inner-sec4 .sec4-Txt .coca-about >h3{
+        font-size: 20px;
+        margin: 100px 0 0 0;
+    }
+    
+    .section.sec4 .inner-sec4 .sec4-Txt .coca-about >h6{
+        font-size: 14px;
+    }
+    
+    .section.sec4 .inner-sec4 .sec4-Txt .coca-about >span{
+        font-size: 12px;
+        line-height: 14px;
+    }
+    
+    .section.sec4 .inner-sec4 .sec4-Txt .coca-about >p{
+        font-size: 11px;
+        line-height: 20px;
+    }
+    
+    .section.sec4 .inner-sec4 .sec4-Txt .coca-about input[type=button]{
+        width: 100px;
+        height: 30px;
+        display: block;
+        font-size: 10px;
+    }
+
 
 }

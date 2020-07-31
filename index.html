@@ -113,7 +113,6 @@
                         </div>
                         
                     </div>
-                
             </div>
         </div>
         <script>
@@ -158,7 +157,7 @@
                 </div>
                 <div class="sec3-Txt">
                     <div class="logoTxt">
-                        <h1 class="logo">
+                        <h1 class="vibeLogo">
                             <img src="img/sec3-vibe-logo.png" alt="vibe-logo">
                         </h1>
                         <div class="vibeColor">
@@ -189,11 +188,10 @@
                 var docScrollTop=$(document).scrollTop();
                 if(docScrollTop>=goTopSec3){
                     $('.sec3-port').animate({left:'0'},2000);
-                    $('h1.logo').fadeIn(500,function(){
+                    $('h1.vibeLogo').fadeIn(500,function(){
                         $('.vibeColor>ul>li').fadeIn(1000);
                     });
-                    // $('h1.logo').animate({top:'28%'},1000);
-                    $('h1.logo img').animate({opacity:'1'},1000);
+                    $('h1.vibeLogo img').animate({opacity:'1'},1000);
                     $('.vibe-about >h3').delay(1000).fadeIn(500);
                     $('.vibe-about >h6').delay(1500).fadeIn(500);
                     $('.vibe-about >span').delay(2000).fadeIn(500);
@@ -210,10 +208,68 @@
 
         <div class="section sec4">
             <div class="inner-sec4">
-
+                <div class="sec4-port">
+                    <div class="cocaImg">
+                        <img src="img/sec4-coca.jpg" alt="cocaImg">
+                    </div>
+                </div>
+                <div class="sec4-Txt">
+                    <div class="logoTxt">
+                        <h1 class="cocaLogo">
+                            <img src="img/sec4-coca-logo.png" alt="coca-logo">
+                        </h1>
+                        <div class="cocaColor">
+                            <ul>
+                                <li></li>
+                                <li></li>
+                                <li></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="coca-about">
+                        <h3>Redesign Website</h3>
+                    <h6>Only Desktop size</h6>
+                    <span>HTML, CSS, jQuery, JavaScript <strong>100%</strong></span>
+                    <p>스크롤 위치에 따른 GNB 구현, siblings를 활용한 슬라이드쇼 구현,<br>
+                    append를 활용한 슬라이드쇼 구현</p>
+                    <input type="button" value="VIEW INDEX">
+                    <input type="button" value="VIEW LOGIN">
+                    <input type="button" value="VIEW JOIN">
+                    </div>
+                </div>
             </div>
         </div>
+        <script>
+            var cocaBtn=$('.coca-about input[type=button]');
+            $(window).on('scroll', sec4_scrollFunc);
+            function sec4_scrollFunc(){
+                var goTopSec4=$('.section.sec4').offset().top;
+                var docScrollTop=$(document).scrollTop();
+                if(docScrollTop>=goTopSec4){
+                    $('.sec4-port').animate({left:'0'},2000);
+                    $('h1.cocaLogo').fadeIn(500,function(){
+                        $('.cocaColor>ul>li').fadeIn(1000);
+                    });
+                    $('h1.cocaLogo img').animate({opacity:'1'},1000);
+                    $('.coca-about >h3').delay(1000).fadeIn(500);
+                    $('.coca-about >h6').delay(1500).fadeIn(500);
+                    $('.coca-about >span').delay(2000).fadeIn(500);
+                    $('.coca-about >p').delay(2500).fadeIn(500);
+                    cocaBtn.delay(3000).fadeIn(500);
+                }
+            }
 
+            cocaBtn.eq(0).on('click',function(){
+                window.open('http://yeonzzy.dothome.co.kr/project_coca-cola/open-index.html');
+            });
+            cocaBtn.eq(1).on('click',function(){
+                window.open('http://yeonzzy.dothome.co.kr/project_coca-cola/login.html');
+            });
+            cocaBtn.eq(2).on('click',function(){
+                window.open('http://yeonzzy.dothome.co.kr/project_coca-cola/join.html');
+            });
+            
+        </script>
         
     </div>
 </div>
