@@ -113,6 +113,9 @@
                         </div>
                         
                     </div>
+                <div class="sec2-arrow">
+                    <img src="img/commons/arrow.png" alt="arrow">
+                </div>
             </div>
         </div>
         <script>
@@ -120,7 +123,7 @@
              var sec2Go=$('.introTxt-4>p');
              sec2Go.on('click',sec2GoFunc);
              function sec2GoFunc(){
-                 $('html,body').animate({scrollTop:goTopSec2},1000);
+                 $('html,body').animate({scrollTop:goTopSec2+1},1000);
                  console.log(goTopSec2);
                 }
 
@@ -138,18 +141,22 @@
                      $('.markup.html').delay(1000).animate({width:'90%'},1000);
                      $('.markup.css').delay(1200).animate({width:'95%'},1000);
                      $('.coding.jquery').delay(1400).animate({width:'80%'},1000);
-                     $('.coding.jScript').delay(1600).animate({width:'40%'},1000);
+                     $('.coding.jScript').delay(1600).animate({width:'50%'},1000);
                      $('.design.pho').delay(1800).animate({width:'95%'},1000);
                      $('.design.ill').delay(2000).animate({width:'80%'},1000);
-
+                     $('.sec2-arrow').delay(2500).fadeIn(200);
+                     
                      $('.selfie').delay(3000).fadeIn(2000);
                      $('.heartBack').delay(4000).fadeIn();
+                     
                  }
              }
-             
         </script>
         <div class="section sec3">
             <div class="inner-sec3">
+                <div class="sec3-arrow">
+                    <img src="img/commons/arrow.png" alt="arrow">
+                </div>
                 <div class="sec3-port">
                     <div class="vibeImg">
                         <img src="img/sec3-vibe.jpg" alt="vibeImg">
@@ -170,18 +177,28 @@
                     </div>
                     <div class="vibe-about">
                         <h3>Reponsive Website</h3>
-                    <h6>Only Desktop, Tablet, Mobile size</h6>
-                    <span>반응형 웹<br>
-                    HTML, CSS, jQuery, JavaScript <strong>100%</strong></span>
-                    <p>앨범의 슬라이드쇼 구현, Player구현,<br>
-                    팝업창을 활용한 로그인 및 회원가입 구현</p>
-                    <input type="button" value="VIEW INDEX">
+                        <h6>Only Desktop, Tablet, Mobile size</h6>
+                        <span>반응형 웹<br>
+                        HTML, CSS, jQuery, JavaScript <strong>100%</strong></span>
+                        <p>✔️앨범의 슬라이드쇼 구현<br>
+                        ✔️Player구현<br>
+                        ✔️팝업창을 활용한 로그인 및 회원가입 구현</p>
+                        <input type="button" value="VIEW INDEX">
                     </div>
                 </div>
             </div>
         </div>
         <script>
-            var vibeBtn=$('.vibe-about input[type=button]');
+            var vibeBtn=$('.vibe-about>input[type=button]');
+
+            var sec3Go=$('.sec2-arrow');
+            var goTopSec3=$('.section.sec3').offset().top;
+            sec3Go.on('click',sec3GoFunc);
+            function sec3GoFunc(){
+                 $('html,body').animate({scrollTop:goTopSec3+1},1000);
+                 console.log(goTopSec3);
+            }
+
             $(window).on('scroll', sec3_scrollFunc);
             function sec3_scrollFunc(){
                 var goTopSec3=$('.section.sec3').offset().top;
@@ -192,11 +209,12 @@
                         $('.vibeColor>ul>li').fadeIn(1000);
                     });
                     $('h1.vibeLogo img').animate({opacity:'1'},1000);
-                    $('.vibe-about >h3').delay(1000).fadeIn(500);
-                    $('.vibe-about >h6').delay(1500).fadeIn(500);
-                    $('.vibe-about >span').delay(2000).fadeIn(500);
-                    $('.vibe-about >p').delay(2500).fadeIn(500);
+                    $('.vibe-about>h3').delay(1000).fadeIn(500);
+                    $('.vibe-about>h6').delay(1500).fadeIn(500);
+                    $('.vibe-about>span').delay(2000).fadeIn(500);
+                    $('.vibe-about>p').delay(2500).fadeIn(500);
                     vibeBtn.delay(3000).fadeIn(500);
+                    $('.sec3-arrow').delay(3500).fadeIn(200);
                 }
             }
 
@@ -205,9 +223,11 @@
             });
             
         </script>
-
         <div class="section sec4">
             <div class="inner-sec4">
+                <div class="sec4-arrow">
+                    <img src="img/commons/arrow.png" alt="arrow">
+                </div>
                 <div class="sec4-port">
                     <div class="cocaImg">
                         <img src="img/sec4-coca.jpg" alt="cocaImg">
@@ -228,10 +248,11 @@
                     </div>
                     <div class="coca-about">
                         <h3>Redesign Website</h3>
-                    <h6>Only Desktop size</h6>
-                    <span>HTML, CSS, jQuery, JavaScript <strong>100%</strong></span>
-                    <p>스크롤 위치에 따른 GNB 구현, siblings를 활용한 슬라이드쇼 구현,<br>
-                    append를 활용한 슬라이드쇼 구현</p>
+                        <h6>Only Desktop size</h6>
+                        <span>HTML, CSS, jQuery, JavaScript <strong>100%</strong></span>
+                        <p>✔️스크롤 위치에 따른 GNB 구현<br>
+                        ✔️siblings를 활용한 슬라이드쇼 구현<br>
+                        ✔️append를 활용한 슬라이드쇼 구현</p>
                     <input type="button" value="VIEW INDEX">
                     <input type="button" value="VIEW LOGIN">
                     <input type="button" value="VIEW JOIN">
@@ -240,7 +261,16 @@
             </div>
         </div>
         <script>
-            var cocaBtn=$('.coca-about input[type=button]');
+            var cocaBtn=$('.coca-about>input[type=button]');
+
+            var sec4Go=$('.sec3-arrow');
+            var goTopSec4=$('.section.sec4').offset().top;
+            sec4Go.on('click',sec4GoFunc);
+            function sec4GoFunc(){
+                 $('html,body').animate({scrollTop:goTopSec4+1},1000);
+                 console.log(goTopSec4);
+            }
+
             $(window).on('scroll', sec4_scrollFunc);
             function sec4_scrollFunc(){
                 var goTopSec4=$('.section.sec4').offset().top;
@@ -251,11 +281,12 @@
                         $('.cocaColor>ul>li').fadeIn(1000);
                     });
                     $('h1.cocaLogo img').animate({opacity:'1'},1000);
-                    $('.coca-about >h3').delay(1000).fadeIn(500);
-                    $('.coca-about >h6').delay(1500).fadeIn(500);
-                    $('.coca-about >span').delay(2000).fadeIn(500);
-                    $('.coca-about >p').delay(2500).fadeIn(500);
+                    $('.coca-about>h3').delay(1000).fadeIn(500);
+                    $('.coca-about>h6').delay(1500).fadeIn(500);
+                    $('.coca-about>span').delay(2000).fadeIn(500);
+                    $('.coca-about>p').delay(2500).fadeIn(500);
                     cocaBtn.delay(3000).fadeIn(500);
+                    $('.sec4-arrow').delay(3500).fadeIn(200);
                 }
             }
 
@@ -270,7 +301,89 @@
             });
             
         </script>
-        
+        <div class="section sec5">
+            <div class="inner-sec5">
+                <div class="sec5-arrow">
+                    <img src="img/commons/arrow.png" alt="arrow">
+                </div>
+                <div class="sec5-port">
+                    <div class="appleImg">
+                        <img src="img/sec5-apple.png" alt="appleImg">
+                    </div>
+                </div>
+                <div class="sec5-Txt">
+                    <div class="logoTxt">
+                        <h1 class="appleLogo">
+                            <img src="img/sec5-apple-logo.png" alt="apple-logo">
+                        </h1>
+                        <div class="appleColor">
+                            <ul>
+                                <li></li>
+                                <li></li>
+                                <li></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="apple-about">
+                        <h3>Reponsive Website</h3>
+                        <h6>Only Desktop, Mobile size</h6>
+                        <span>반응형 웹<br>
+                        HTML, CSS, jQuery, JavaScript <strong>100%</strong></span>
+                        <p>✔️각 브라우저에 따른 벤더프리픽스 사용<br>
+                        ✔️transition 활용<br>
+                        ✔️모바일사이즈에서 GNB toggle 활용</p>
+                    <input type="button" value="APPLE INDEX">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <script>
+            var appleBtn=$('.apple-about>input[type=button]');
+
+            var sec5Go=$('.sec4-arrow');
+            var goTopSec5=$('.section.sec5').offset().top;
+            sec5Go.on('click',sec5GoFunc);
+            function sec5GoFunc(){
+                 $('html,body').animate({scrollTop:goTopSec5+1},1000);
+                 console.log(goTopSec5);
+            }
+
+            $(window).on('scroll', sec5_scrollFunc);
+            function sec5_scrollFunc(){
+                var goTopSec5=$('.section.sec5').offset().top;
+                var docScrollTop=$(document).scrollTop();
+                if(docScrollTop>=goTopSec5){
+                    $('.sec5-port').animate({left:'0'},2000);
+                    $('h1.appleLogo').fadeIn(500,function(){
+                        $('.appleColor>ul>li').fadeIn(1000);
+                    });
+                    $('h1.appleLogo img').animate({opacity:'1'},1000);
+                    $('.apple-about>h3').delay(1000).fadeIn(500);
+                    $('.apple-about>h6').delay(1500).fadeIn(500);
+                    $('.apple-about>span').delay(2000).fadeIn(500);
+                    $('.apple-about>p').delay(2500).fadeIn(500);
+                    appleBtn.delay(3000).fadeIn(500);
+                    $('.sec5-arrow').delay(3500).fadeIn(200);
+                }
+            }
+
+            appleBtn.on('click',function(){
+                window.open('http://yeonzzy.dothome.co.kr/apple/apple.html');
+            });
+            
+        </script>
+        <div class="section sec6">
+
+        </div>
+        <script>
+            var sec6Go=$('.sec5-arrow');
+            var goTopSec6=$('.section.sec6').offset().top;
+            sec6Go.on('click',sec6GoFunc);
+            function sec6GoFunc(){
+                 $('html,body').animate({scrollTop:goTopSec6+1},1000);
+                 console.log(goTopSec6);
+            }
+        </script>
     </div>
 </div>
     
