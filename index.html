@@ -26,37 +26,8 @@
                     <p>Let's go about me👇</p>
                 </div>
         </div>
-        <script>
-            $(document).ready(function(){
-                $('.introTxt-1').delay(1000).fadeIn(0, function(){
-                    $('.introTxt-1').animate({width:'100%'},3000);
-                    $('.introTxt-1').fadeOut(0);
-    
-                    $('.introTxt-2').delay(3000).fadeIn(0, function(){
-                        $('.introTxt-2').animate({width:'100%'},4000);
-                        $('.introTxt-2').fadeOut(0);
-                    
-                        $('.introTxt-3').delay(4000).fadeIn(0, function(){
-                            $('.introTxt-3>span').animate({width:'90%'},4000);
-                            $('.openGrdient').fadeIn(2000);
-                            $('.introTxt-3').animate({width:'100%'},4000);
-                            
-                        });
-                    });
-                });
-                $('.introTxt-4').delay(10000).fadeIn(1000,function(){
-                    aboutMe();
-                });
-             });
-    
-             function aboutMe(){
-                $('.introTxt-4').animate({top:'57%'},1000, function(){
-                        $(this).animate({top:'57.5%'},1000, function(){
-                            aboutMe();
-                        });
-                    });
-             }
-        </script>
+        <script type="text/javascript" src="js/section01.js"></script>
+
         <div class="section sec2">
             <div class="inner-sec2">
                 <div class="grdient-border g-b-top"></div>
@@ -118,40 +89,8 @@
                 </div>
             </div>
         </div>
-        <script>
-             var goTopSec2=$('.section.sec2').offset().top;
-             var sec2Go=$('.introTxt-4>p');
-             sec2Go.on('click',sec2GoFunc);
-             function sec2GoFunc(){
-                 $('html,body').animate({scrollTop:goTopSec2+1},1000);
-                 console.log(goTopSec2);
-                }
+        <script type="text/javascript" src="js/section02.js"></script>
 
-             $(window).on('scroll', sec2_scrollFunc)
-             function sec2_scrollFunc(){
-                 var docScrollTop=$(document).scrollTop();
-                 if(docScrollTop>=goTopSec2){
-                     $('.inner-txt>h1').fadeIn(1000,function(){
-                        $('.inner-txt').css({borderBottom:'1px solid #eee'});
-                     });
-                     $('.inner-txt>span').delay(200).fadeIn(1000);
-
-                     $('.graph-txt').delay(500).fadeIn(1000);
-                     $('.graph-shape>ul>li').delay(500).fadeIn(1000);
-                     $('.markup.html').delay(1000).animate({width:'90%'},1000);
-                     $('.markup.css').delay(1200).animate({width:'95%'},1000);
-                     $('.coding.jquery').delay(1400).animate({width:'80%'},1000);
-                     $('.coding.jScript').delay(1600).animate({width:'50%'},1000);
-                     $('.design.pho').delay(1800).animate({width:'95%'},1000);
-                     $('.design.ill').delay(2000).animate({width:'80%'},1000);
-                     $('.sec2-arrow').delay(2500).fadeIn(200);
-                     
-                     $('.selfie').delay(3000).fadeIn(2000);
-                     $('.heartBack').delay(4000).fadeIn();
-                     
-                 }
-             }
-        </script>
         <div class="section sec3">
             <div class="inner-sec3">
                 <div class="sec3-arrow">
@@ -188,41 +127,8 @@
                 </div>
             </div>
         </div>
-        <script>
-            var vibeBtn=$('.vibe-about>input[type=button]');
+        <script type="text/javascript" src="js/section03.js"></script>
 
-            var sec3Go=$('.sec2-arrow');
-            var goTopSec3=$('.section.sec3').offset().top;
-            sec3Go.on('click',sec3GoFunc);
-            function sec3GoFunc(){
-                 $('html,body').animate({scrollTop:goTopSec3+1},1000);
-                 console.log(goTopSec3);
-            }
-
-            $(window).on('scroll', sec3_scrollFunc);
-            function sec3_scrollFunc(){
-                var goTopSec3=$('.section.sec3').offset().top;
-                var docScrollTop=$(document).scrollTop();
-                if(docScrollTop>=goTopSec3){
-                    $('.sec3-port').animate({left:'0'},2000);
-                    $('h1.vibeLogo').fadeIn(500,function(){
-                        $('.vibeColor>ul>li').fadeIn(1000);
-                    });
-                    $('h1.vibeLogo img').animate({opacity:'1'},1000);
-                    $('.vibe-about>h3').delay(1000).fadeIn(500);
-                    $('.vibe-about>h6').delay(1500).fadeIn(500);
-                    $('.vibe-about>span').delay(2000).fadeIn(500);
-                    $('.vibe-about>p').delay(2500).fadeIn(500);
-                    vibeBtn.delay(3000).fadeIn(500);
-                    $('.sec3-arrow').delay(3500).fadeIn(200);
-                }
-            }
-
-            vibeBtn.on('click',function(){
-                window.open('http://yeonzzy.dothome.co.kr/project_vibe/index.html');
-            });
-            
-        </script>
         <div class="section sec4">
             <div class="inner-sec4">
                 <div class="sec4-arrow">
@@ -260,47 +166,8 @@
                 </div>
             </div>
         </div>
-        <script>
-            var cocaBtn=$('.coca-about>input[type=button]');
+        <script type="text/javascript" src="js/section04.js"></script>
 
-            var sec4Go=$('.sec3-arrow');
-            var goTopSec4=$('.section.sec4').offset().top;
-            sec4Go.on('click',sec4GoFunc);
-            function sec4GoFunc(){
-                 $('html,body').animate({scrollTop:goTopSec4+1},1000);
-                 console.log(goTopSec4);
-            }
-
-            $(window).on('scroll', sec4_scrollFunc);
-            function sec4_scrollFunc(){
-                var goTopSec4=$('.section.sec4').offset().top;
-                var docScrollTop=$(document).scrollTop();
-                if(docScrollTop>=goTopSec4){
-                    $('.sec4-port').animate({left:'0'},2000);
-                    $('h1.cocaLogo').fadeIn(500,function(){
-                        $('.cocaColor>ul>li').fadeIn(1000);
-                    });
-                    $('h1.cocaLogo img').animate({opacity:'1'},1000);
-                    $('.coca-about>h3').delay(1000).fadeIn(500);
-                    $('.coca-about>h6').delay(1500).fadeIn(500);
-                    $('.coca-about>span').delay(2000).fadeIn(500);
-                    $('.coca-about>p').delay(2500).fadeIn(500);
-                    cocaBtn.delay(3000).fadeIn(500);
-                    $('.sec4-arrow').delay(3500).fadeIn(200);
-                }
-            }
-
-            cocaBtn.eq(0).on('click',function(){
-                window.open('http://yeonzzy.dothome.co.kr/project_coca-cola/open-index.html');
-            });
-            cocaBtn.eq(1).on('click',function(){
-                window.open('http://yeonzzy.dothome.co.kr/project_coca-cola/login.html');
-            });
-            cocaBtn.eq(2).on('click',function(){
-                window.open('http://yeonzzy.dothome.co.kr/project_coca-cola/join.html');
-            });
-            
-        </script>
         <div class="section sec5">
             <div class="inner-sec5">
                 <div class="sec5-arrow">
@@ -337,53 +204,12 @@
                 </div>
             </div>
         </div>
-        <script>
-            var appleBtn=$('.apple-about>input[type=button]');
-
-            var sec5Go=$('.sec4-arrow');
-            var goTopSec5=$('.section.sec5').offset().top;
-            sec5Go.on('click',sec5GoFunc);
-            function sec5GoFunc(){
-                 $('html,body').animate({scrollTop:goTopSec5+1},1000);
-                 console.log(goTopSec5);
-            }
-
-            $(window).on('scroll', sec5_scrollFunc);
-            function sec5_scrollFunc(){
-                var goTopSec5=$('.section.sec5').offset().top;
-                var docScrollTop=$(document).scrollTop();
-                if(docScrollTop>=goTopSec5){
-                    $('.sec5-port').animate({left:'0'},2000);
-                    $('h1.appleLogo').fadeIn(500,function(){
-                        $('.appleColor>ul>li').fadeIn(1000);
-                    });
-                    $('h1.appleLogo img').animate({opacity:'1'},1000);
-                    $('.apple-about>h3').delay(1000).fadeIn(500);
-                    $('.apple-about>h6').delay(1500).fadeIn(500);
-                    $('.apple-about>span').delay(2000).fadeIn(500);
-                    $('.apple-about>p').delay(2500).fadeIn(500);
-                    appleBtn.delay(3000).fadeIn(500);
-                    $('.sec5-arrow').delay(3500).fadeIn(200);
-                }
-            }
-
-            appleBtn.on('click',function(){
-                window.open('http://yeonzzy.dothome.co.kr/apple/apple.html');
-            });
-            
-        </script>
+        
+        <script type="text/javascript" src="js/section05.js"></script>
         <div class="section sec6">
 
         </div>
-        <script>
-            var sec6Go=$('.sec5-arrow');
-            var goTopSec6=$('.section.sec6').offset().top;
-            sec6Go.on('click',sec6GoFunc);
-            function sec6GoFunc(){
-                 $('html,body').animate({scrollTop:goTopSec6+1},1000);
-                 console.log(goTopSec6);
-            }
-        </script>
+        <script type="text/javascript" src="js/section06.js"></script>
     </div>
 </div>
     
