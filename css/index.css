@@ -10,6 +10,47 @@
     height: 600%;
 }
 
+.inner-wrap span.topGo{
+    width: 50px;
+    height: 50px;
+    position: fixed;
+    bottom: 30px;
+    right: 30px;
+    background: rgba(255,255,255,0.5);
+    display: block;
+    box-shadow: 1px 1px 3px rgba(0,0,0,0.7);
+    border-radius: 50%;
+    z-index: 99;
+    display: none;
+    cursor: pointer;
+}
+
+.inner-wrap span.topGo >p{
+    text-align: center;
+    font-size: 20px;
+    line-height: 10px;
+    font-family: 'VT323', monospace;
+    padding: 11px 0 0 0;
+}
+
+.inner-wrap span.menu{
+    width: 50px;
+    height: auto;
+    position: fixed;
+    top: 50px;
+    right: 50px;
+    display: block;
+    z-index: 99;
+    display: none;
+    cursor: pointer;
+}
+
+.inner-wrap span.menu >img{
+    width: 45px;
+    display: block;
+    margin: 0 auto;
+}
+
 /*section1 부분!!!!!!*/
 .inner-wrap .section{
     width: 100%;
@@ -121,12 +162,12 @@
 }
 
 .section.sec2 .inner-sec2 .grdient-border{
-    width: 90%;
+    width: 95%;
     height: 10px;
     box-sizing:border-box;
     position: absolute;
     left: 0;
-    margin-left :5%;
+    margin-left :2.5%;
 }
 
 .section.sec2 .inner-sec2 .grdient-border.g-b-top{
@@ -1094,6 +1135,17 @@
 /*미디어쿼리!!!!!!!!!!!!!!*/
 /*태블릿사이즈*/
 @media only screen and (min-width:768px) and (max-width:1024px){
+    /*menu 부분*/
+    .inner-wrap span.menu{
+        right: 30px;
+    }
+
+    /*topGoBtn 부분*/
+    .inner-wrap span.topGo{
+        bottom: 50px;
+        right: 40px;
+    }
+    
     /*section1 부분*/
     .section.sec1 .introTxt-1 >p{
         letter-spacing: 20px;
@@ -1441,6 +1493,32 @@
 
 /*모바일사이즈*/
 @media only screen and (max-width:767px){
+    /*mewnu 부분*/
+    .inner-wrap span.menu{
+        width: 40px;
+        top: 40px;
+        right: 10px;
+    }
+    
+    .inner-wrap span.menu >img{
+        width: 30px;
+    }
+
+    /*goTopBtn 부분*/
+    .inner-wrap span.topGo{
+        width: 40px;
+        height: 40px;
+        bottom: 40px;
+        right: 20px;
+    }
+    
+    .inner-wrap span.topGo >p{
+        text-align: center;
+        font-size: 15px;
+        line-height: 10px;
+        font-family: 'VT323', monospace;
+        padding: 9px 0 0 0;
+    }
     /*section1 부분*/
     .section.sec1 p{
         font-size: 20px;
