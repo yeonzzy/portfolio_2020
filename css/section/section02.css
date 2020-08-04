@@ -111,7 +111,7 @@
     width: 100px;
     height: 50px;
     display: inline-block;
-    background: url(../img/sec2-heartEffect.gif) no-repeat;
+    background: url(../../img/section/section02/sec2-heartEffect.gif) no-repeat;
     background-size: 50px;
     background-position: center;
     position: absolute;
@@ -262,7 +262,7 @@
 .section.sec2 .inner-sec2 .myself-pic .inner-pic .selfie{
     width: 100%;
     height: 100%;
-    background: url(../../img/sec2-selfie.png) no-repeat;
+    background: url(../../img/section/section02/sec2-selfie.png) no-repeat;
     background-size: 400px;
     background-position: center;
     overflow: hidden;

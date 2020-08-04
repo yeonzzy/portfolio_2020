@@ -12,7 +12,6 @@
         background: rgba(0,0,0,0.8);
     }
     
-
     /*topGoBtn 부분*/
     .inner-wrap span.topGo{
         bottom: 50px;
@@ -25,7 +24,7 @@
     }
      /*section2 부분*/
      .section.sec2{
-        background: url(../../img/sec2-selfie-m.jpg) no-repeat;
+        background: url(../../img/section/section02/sec2-selfie-m.jpg) no-repeat;
         background-size: cover;
         background-position: center;
     }
@@ -420,6 +419,7 @@
         font-family: 'VT323', monospace;
         padding: 9px 0 0 0;
     }
+
     /*section1 부분*/
     .section.sec1 p{
         font-size: 20px;
@@ -439,7 +439,7 @@
 
     /*section2 부분*/
     .section.sec2{
-        background: url(../../img/sec2-selfie-m.jpg) no-repeat;
+        background: url(../../img/section/section02/sec2-selfie-m.jpg) no-repeat;
         background-size: 900px;
         background-position: center;
     }
@@ -486,7 +486,7 @@
         display: inline-block;
         margin-top: -35px;
         margin-left: 105px;
-        background: url(../../img/sec2-starEffect-m.gif) no-repeat;
+        background: url(../../img/section/section02/sec2-starEffect-m.gif) no-repeat;
         background-size: 20px;
         background-position: center;
         position: absolute;
@@ -669,15 +669,15 @@
     }
     
     .section.sec4 .inner-sec4 .sec4-port .cocaImg img{
-        width: 300px;
-        height: 214px;
+        width: 280px;
+        height: 225px;
     }
 
     .section.sec4 .inner-sec4 .sec4-Txt{
         width: 100%;
         height: auto;
         padding: 0 0 0 0;
-        margin: 58% 0 0 0;
+        margin: 62% 0 0 0;
         /* border: 1px solid #000; */
     }
 
@@ -780,15 +780,15 @@
     }
     
     .section.sec5 .inner-sec5 .sec5-port .appleImg img{
-        width: 280px;
-        height: 195px;
+        width: 275px;
+        height: 192px;
     }
 
     .section.sec5 .inner-sec5 .sec5-Txt{
         width: 100%;
         height: auto;
         padding: 0 0 0 0;
-        margin: 55% 0 0 0;
+        margin: 52% 0 0 0;
         /* border: 1px solid #000; */
     }
 
