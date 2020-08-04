@@ -19,8 +19,11 @@ function sec3_scrollFunc() {
 var infoLi = $(".foot-info>ul>li");
 infoLi.eq(0).on("click", function () {
   window.open(
-    "https://mail.google.com/mail/?view=cm&fs=1&to=yeonji99@gmail.com"
-  );
+    "https://mail.google.com/mail/?view=cm&fs=1&to=yeonji99@gmail.com");
+});
+infoLi.eq(1).on("click", function () {
+  window.open(
+    "https://drive.google.com/file/d/1fAZfZ3GIuM75rRzJ6pKgIHaIQTrVoCSv/view?usp=sharing");
 });
 infoLi.eq(2).on("click", function () {
   window.open("https://github.com/yeonzzy");
