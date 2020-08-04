@@ -1,0 +1,92 @@
+@charset "utf-8";
+
+.inner-wrap span.menu{
+    width: 50px;
+    height: auto;
+    position: fixed;
+    top: 50px;
+    right: 50px;
+    display: block;
+    z-index: 99;
+    display: none;
+    cursor: pointer;
+}
+
+.inner-wrap span.menu >img{
+    width: 45px;
+    display: block;
+    margin: 0 auto;
+}
+
+.inner-wrap .menuBox{
+    width: 400px;
+    height: 100%;
+    position: fixed;
+    z-index: 99;
+    top: 0;
+    right: -400px;
+    background: #0009;
+}
+
+.inner-wrap .menuBox span.menuClose{
+    display: block;
+    color: #fff;
+    width: 30px;
+    height: 30px;
+    position: absolute;
+    top: 50px;
+    right: 50px;
+    cursor: pointer;
+}
+
+.inner-wrap .menuBox span.menuClose >img{
+    width: 100%;
+    display: block;
+}
+
+.inner-wrap .menuBox span.menuClose:hover{
+    transform: scale(1.1);
+    transition: ease-out 0.5s;
+}
+
+.inner-wrap .menuBox .inner-menuBox{
+    width: 100%;
+    height: auto;
+    margin: 0 auto;
+    /* border: 1px solid #fff; */
+    padding: 25% 12%;
+    box-sizing: border-box;
+}
+
+.inner-wrap .menuBox .inner-menuBox >ul >li{
+    width: 100%;
+    height: auto;
+    margin: 20px auto;
+    /* border: 1px solid #fff; */
+    color: #fff;
+    /* background: linear-gradient(to right, #f64f59, #c471ed, #12c2e9);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent; */
+    font-size: 40px;
+    padding: 15px 0 0 0;
+    box-sizing: border-box;
+    text-align: center;
+    font-family: 'Timmana', sans-serif;
+    cursor: pointer;
+}
+
+.inner-wrap .menuBox .inner-menuBox >ul >li:nth-child(3){
+    color: rgb(255, 196, 0);
+}
+.inner-wrap .menuBox .inner-menuBox >ul >li:nth-child(4){
+    color: rgb(255, 196, 0);
+}
+.inner-wrap .menuBox .inner-menuBox >ul >li:nth-child(5){
+    color: rgb(255, 196, 0);
+}
+
+.inner-wrap .menuBox .inner-menuBox >ul >li:hover{
+    background: linear-gradient(to right, #f64f59, #c471ed, #12c2e9);
+    /* -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent; */
+}

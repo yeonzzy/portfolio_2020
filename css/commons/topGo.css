@@ -1,0 +1,24 @@
+@charset "utf-8";
+
+.inner-wrap span.topGo{
+    width: 50px;
+    height: 50px;
+    position: fixed;
+    bottom: 30px;
+    right: 30px;
+    background: rgba(255,255,255,0.5);
+    display: block;
+    box-shadow: 1px 1px 3px rgba(0,0,0,0.7);
+    border-radius: 50%;
+    z-index: 10;
+    display: none;
+    cursor: pointer;
+}
+
+.inner-wrap span.topGo >p{
+    text-align: center;
+    font-size: 20px;
+    line-height: 10px;
+    font-family: 'VT323', monospace;
+    padding: 11px 0 0 0;
+}

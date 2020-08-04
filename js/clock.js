@@ -19,15 +19,19 @@ function newClock() {
   var now_m = new Date().getMinutes();
   var now_s = new Date().getSeconds();
   var ampm;
-  if (now_h >= 12) {
+  if (now_h > 12) {
     ampm = "PM";
     now_h -= 12;
+  }else if(now_h < 10){
+    now_h = "0" + now_h;
   } else {
     ampm = "AM";
   }
+
   if (now_s < 10) {
     now_s = "0" + now_s;
   }
+
   if (now_m < 10) {
     now_m = "0" + now_m;
   }

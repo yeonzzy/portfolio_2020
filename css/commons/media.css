@@ -1,0 +1,928 @@
+@charset "utf-8";
+
+/*미디어쿼리!!!!!!!!!!!!!!*/
+/*태블릿사이즈*/
+@media only screen and (min-width:768px) and (max-width:1024px){
+    /*menu 부분*/
+    .inner-wrap span.menu{
+        right: 30px;
+    }
+
+    .inner-wrap .menuBox{
+        background: rgba(0,0,0,0.8);
+    }
+    
+
+    /*topGoBtn 부분*/
+    .inner-wrap span.topGo{
+        bottom: 50px;
+        right: 40px;
+    }
+    
+    /*section1 부분*/
+    .section.sec1 .introTxt-1 >p{
+        letter-spacing: 20px;
+    }
+     /*section2 부분*/
+     .section.sec2{
+        background: url(../../img/sec2-selfie-m.jpg) no-repeat;
+        background-size: cover;
+        background-position: center;
+    }
+
+    .section.sec2 .inner-sec2 .myself-txt{
+        height: 100%;
+        padding: 50px 0;
+        float: unset;
+        color: #fff;
+        margin: 0 auto;
+    }
+
+    .section.sec2 .inner-sec2 .myself-txt .inner-txt{
+        width:100%;
+        margin: 0 0 10px 0;
+        padding: 0 0 30px 0;
+        opacity: 0.8;
+        margin: 0 auto;
+    }
+
+    .section.sec2 .inner-sec2 .myself-txt .inner-txt >h1{
+        font-size: 35px;
+        line-height: 120px;
+    }
+
+    .section.sec2 .inner-sec2 .myself-txt .graph{
+        padding: 40px 20px;
+    }
+
+    .section.sec2 .inner-sec2 .myself-txt .graph .graph-txt{
+        width: 25%;
+        color: #fff;
+    }
+    
+    .section.sec2 .inner-sec2 .myself-txt .graph .graph-txt >ul >li{
+        opacity: 0.8;
+    }
+    
+    .section.sec2 .inner-sec2 .myself-txt .graph .graph-shape{
+        width: 75%;
+        padding: 0 0 0 10px;
+    }
+    
+    .section.sec2 .inner-sec2 .myself-txt .graph .graph-shape >ul >li{
+        opacity: 0.6;
+    }
+
+    .section.sec2 .inner-sec2 .myself-pic{
+        display: none;
+    }
+
+    .section.sec2 .inner-sec2 .myself-pic .inner-pic .selfie .heartBack >img{
+        display: none;
+    }
+
+    /*section3 부분*/
+    .section.sec3{
+        /* border:1px solid #00f; */
+        padding: 5% 0 0 0;
+        box-sizing: border-box;
+    }
+
+    .section.sec3 .inner-sec3 .sec3-port{
+        width: 100%;
+        height: auto;
+        float: unset;
+        /* border: 1px solid #f00; */
+    }
+
+    .section.sec3 .inner-sec3 .sec3-port .vibeImg{
+        width: 100%;
+        height: auto;
+        float: unset;
+        padding: 0 0 0 0;
+    }
+    
+    .section.sec3 .inner-sec3 .sec3-port .vibeImg img{
+        width: 600px;
+        height: 414px;
+    }
+
+    .section.sec3 .inner-sec3 .sec3-Txt{
+        width: 100%;
+        height: auto;
+        padding: 0 0 0 0;
+        margin: 55% 0 0 0;
+        /* border: 1px solid #000; */
+    }
+
+    .section.sec3 .inner-sec3 .sec3-Txt .logoTxt h1.vibeLogo{
+        width: 400px;
+        height: 66px;
+        position: absolute;
+        right:0;
+        margin-right:100px;
+    }
+    
+    .section.sec3 .inner-sec3 .sec3-Txt .logoTxt h1.vibeLogo img{
+        width:400px;
+        display: block;
+        opacity: 0;
+        float:right;
+    }
+
+    .section.sec3 .inner-sec3 .sec3-Txt .logoTxt .vibeColor >ul >li:nth-child(1)::after{
+        width: 15px;
+        height: 15px;
+        margin-top: 80px;
+        right:0;
+        margin-right: 160px;
+    }
+    .section.sec3 .inner-sec3 .sec3-Txt .logoTxt .vibeColor >ul >li:nth-child(2)::after{
+        width: 15px;
+        height: 15px;
+        margin-top: 80px;
+        right:0;
+        margin-right: 130px;
+    }
+    .section.sec3 .inner-sec3 .sec3-Txt .logoTxt .vibeColor >ul >li:nth-child(3)::after{
+        width: 15px;
+        height: 15px;
+        margin-top: 80px;
+        right:0;
+        margin-right: 100px;
+    }
+
+    .section.sec3 .inner-sec3 .sec3-Txt .vibe-about{
+        padding: 0 80px;
+        box-sizing:border-box;
+    }
+
+    /*section4 부분*/
+    .section.sec4{
+        /* border:1px solid #00f; */
+        padding: 5% 0 0 0;
+        box-sizing: border-box;
+    }
+
+    .section.sec4 .inner-sec4 .sec4-port{
+        width: 100%;
+        height: auto;
+        float: unset;
+        /* border: 1px solid #f00; */
+    }
+
+    .section.sec4 .inner-sec4 .sec4-port .cocaImg{
+        width: 100%;
+        height: auto;
+        float: unset;
+        padding: 0 0 0 0;
+    }
+    
+    .section.sec4 .inner-sec4 .sec4-port .cocaImg img{
+        width: 560px;
+        height: 450px;
+    }
+
+    .section.sec4 .inner-sec4 .sec4-Txt{
+        width: 100%;
+        height: auto;
+        padding: 0 0 0 0;
+        margin: 60% 0 0 0;
+        /* border: 1px solid #000; */
+    }
+
+    .section.sec4 .inner-sec4 .sec4-Txt .logoTxt h1.cocaLogo{
+        width: 230px;
+        height: 75px;
+        position: absolute;
+        right:0;
+        margin-right:110px;
+    }
+    
+    .section.sec4 .inner-sec4 .sec4-Txt .logoTxt h1.cocaLogo img{
+        width:230px;
+        display: block;
+        opacity: 0;
+        float:right;
+    }
+
+    .section.sec4 .inner-sec4 .sec4-Txt .logoTxt .cocaColor >ul >li:nth-child(1)::after{
+        width: 15px;
+        height: 15px;
+        margin-top: 100px;
+        right:0;
+        margin-right: 200px;
+    }
+    .section.sec4 .inner-sec4 .sec4-Txt .logoTxt .cocaColor >ul >li:nth-child(2)::after{
+        width: 15px;
+        height: 15px;
+        margin-top: 100px;
+        right:0;
+        margin-right: 170px;
+    }
+    .section.sec4 .inner-sec4 .sec4-Txt .logoTxt .cocaColor >ul >li:nth-child(3)::after{
+        width: 15px;
+        height: 15px;
+        margin-top: 100px;
+        right:0;
+        margin-right: 140px;
+    }
+
+    .section.sec4 .inner-sec4 .sec4-Txt .coca-about{
+        padding: 0 80px;
+        box-sizing:border-box;
+    }
+
+    .section.sec4 .inner-sec4 .sec4-Txt .coca-about >h3{
+        font-size: 20px;
+        margin: 120px 0 0 0;
+    }
+
+    /*section5 부분*/
+    .section.sec5{
+        /* border:1px solid #00f; */
+        padding: 5% 0 0 0;
+        box-sizing: border-box;
+    }
+
+    .section.sec5 .inner-sec5 .sec5-port{
+        width: 100%;
+        height: auto;
+        float: unset;
+        /* border: 1px solid #f00; */
+    }
+
+    .section.sec5 .inner-sec5 .sec5-port .appleImg{
+        width: 100%;
+        height: auto;
+        float: unset;
+        padding: 0 0 0 0;
+    }
+    
+    .section.sec5 .inner-sec5 .sec5-port .appleImg img{
+        width: 600px;
+        height: 414px;
+    }
+
+    .section.sec5 .inner-sec5 .sec5-Txt{
+        width: 100%;
+        height: auto;
+        padding: 0 0 0 0;
+        margin: 55% 0 0 0;
+        /* border: 1px solid #000; */
+    }
+
+    .section.sec5 .inner-sec5 .sec5-Txt .logoTxt h1.appleLogo{
+        width: 218px;
+        height: 75px;
+        position: absolute;
+        right:0;
+        margin-right:110px;
+    }
+    
+    .section.sec5 .inner-sec5 .sec5-Txt .logoTxt h1.appleLogo img{
+        width:218px;
+        display: block;
+        opacity: 0;
+        float:right;
+    }
+
+    .section.sec5 .inner-sec5 .sec5-Txt .logoTxt .appleColor >ul >li:nth-child(1)::after{
+        width: 15px;
+        height: 15px;
+        margin-top: 90px;
+        right:0;
+        margin-right: 170px;
+    }
+    .section.sec5 .inner-sec5 .sec5-Txt .logoTxt .appleColor >ul >li:nth-child(2)::after{
+        width: 15px;
+        height: 15px;
+        margin-top: 90px;
+        right:0;
+        margin-right: 140px;
+    }
+    .section.sec5 .inner-sec5 .sec5-Txt .logoTxt .appleColor >ul >li:nth-child(3)::after{
+        width: 15px;
+        height: 15px;
+        margin-top: 90px;
+        right:0;
+        margin-right: 110px;
+    }
+
+    .section.sec5 .inner-sec5 .sec5-Txt .apple-about{
+        padding: 0 80px;
+        box-sizing:border-box;
+    }
+
+    .section.sec5 .inner-sec5 .sec5-Txt .apple-about >h3{
+        font-size: 20px;
+        margin: 130px 0 0 0;
+    }
+
+    /*footer 부분!*/
+    .section.footer .inner-foot .inner-foot-con .foot-intro{
+        width: 100%;
+        float: unset;
+        border-right: 0px;
+        border-bottom: 1px solid rgba(255,255,255,0.4);
+    }
+    
+    .section.footer .inner-foot .inner-foot-con .foot-info{
+        width: 100%;
+        padding: 50px 120px;
+        float: unset;
+        /* border: 1px solid #00f; */
+        border-bottom: 1px solid rgba(255,255,255,0.4);
+    }
+    
+    .section.footer .inner-foot .inner-foot-con .foot-info >ul>li:nth-child(1)::before{
+        padding-right: 10px;
+    }
+    
+    .section.footer .inner-foot .inner-foot-con .foot-info >ul>li:nth-child(2)::before{
+        padding-right: 10px;
+    }
+    
+    .section.footer .inner-foot .inner-foot-con .foot-info >ul>li:nth-child(3)::before{
+        padding-right: 10px
+    }
+    
+    .section.footer .inner-foot .foot-bottom >p{
+        padding: 50px 0;
+    }
+    
+    .section.footer .inner-foot .foot-bottom p.phone{
+        text-align: left;
+    }
+    
+    .section.footer .inner-foot .foot-bottom p.nowTime{
+        letter-spacing: 2px;
+        font-family: 'VT323', monospace;
+        font-size: 20px;
+        opacity: 0.9;
+        text-align: right;
+    }
+}
+
+/*모바일사이즈*/
+@media only screen and (max-width:767px){
+    /*menu 부분*/
+    .inner-wrap span.menu{
+        width: 40px;
+        top: 40px;
+        right: 10px;
+    }
+    
+    .inner-wrap span.menu >img{
+        width: 30px;
+    }
+
+    .inner-wrap .menuBox{
+        width: 100%;
+        background: #000;
+    }
+    
+    .inner-wrap .menuBox span.menuClose{
+        width: 20px;
+        height: 20px;
+        top: 40px;
+        right: 20px;
+    }
+
+    .inner-wrap .menuBox .inner-menuBox{
+        width: 100%;
+        height: auto;
+        margin: 0 auto;
+        /* border: 1px solid #fff; */
+        padding: 20% 12%;
+        box-sizing: border-box;
+    }
+    
+    .inner-wrap .menuBox .inner-menuBox >ul >li{
+        margin: 15px auto;
+        color: #fff;
+        font-size: 35px;
+        padding: 15px 0 0 0;
+    }
+
+    /*goTopBtn 부분*/
+    .inner-wrap span.topGo{
+        width: 40px;
+        height: 40px;
+        bottom: 20px;
+        right: 20px;
+    }
+    
+    .inner-wrap span.topGo >p{
+        text-align: center;
+        font-size: 15px;
+        line-height: 10px;
+        font-family: 'VT323', monospace;
+        padding: 9px 0 0 0;
+    }
+    /*section1 부분*/
+    .section.sec1 p{
+        font-size: 20px;
+    }
+    .section.sec1 .introTxt-1 >p{
+        letter-spacing: 10px;
+    }
+    .section.sec1 .introTxt-2 >p{
+        letter-spacing: 5px;
+    }
+    .section.sec1 .introTxt-3 >p{
+        letter-spacing: 5px;
+    }
+    .section.sec1 .introTxt-4{
+        padding-left: 10%;
+    }
+
+    /*section2 부분*/
+    .section.sec2{
+        background: url(../../img/sec2-selfie-m.jpg) no-repeat;
+        background-size: 900px;
+        background-position: center;
+    }
+
+    .section.sec2 .inner-sec2 .sec2-arrow{
+        width:20px;
+        height: 12px;
+        bottom: 40px;
+        margin-left: -10px;
+    }
+
+    .section.sec2 .inner-sec2  .myself-txt{
+        height: auto;
+        padding: 10px 0;
+        box-sizing: border-box;
+        float: unset;
+        color: #fff;
+        margin: 0 auto;
+    }
+    
+    .section.sec2 .inner-sec2 .myself-txt .inner-txt{
+        width: 100%;
+        padding: 0 0 20px 0;
+        opacity: 0.8;
+        margin: 0 auto;
+        /* border: 1px solid #f00; */
+    }
+
+    .section.sec2 .inner-sec2 .myself-txt .inner-txt >h1{
+        font-size: 16px;
+        line-height: 110px;
+        letter-spacing: 10px;
+    }
+
+    .section.sec2 .inner-sec2 .myself-txt .inner-txt >span{
+        font-size: 10px;
+        line-height: 24px;
+    }
+
+    .section.sec2 .inner-sec2 .myself-txt .inner-txt >span::before{
+        content: "";
+        width: 50px;
+        height: 50px;
+        display: inline-block;
+        margin-top: -35px;
+        margin-left: 105px;
+        background: url(../../img/sec2-starEffect-m.gif) no-repeat;
+        background-size: 20px;
+        background-position: center;
+        position: absolute;
+    }
+
+    .section.sec2 .inner-sec2 .myself-txt .graph{
+        padding: 20px 0px;
+    }
+
+    .section.sec2 .inner-sec2 .myself-txt .graph .graph-txt{
+        width: 25%;
+        color: #fff;
+    }
+    
+    .section.sec2 .inner-sec2 .myself-txt .graph .graph-txt >ul >li{
+        line-height: 22px;
+        padding: 12px 0;
+        opacity: 0.8;
+        font-size: 12px;
+    }
+    
+    .section.sec2 .inner-sec2 .myself-txt .graph .graph-shape{
+        width: 75%;
+        padding: 0 0 0 10px;
+    }
+    
+    .section.sec2 .inner-sec2 .myself-txt .graph .graph-shape >ul >li{
+        line-height: 22px;
+        padding: 12px 0;
+        opacity: 0.6;
+        font-size: 12px;
+    }
+
+    .section.sec2 .inner-sec2 .myself-pic{
+        width: 100%;
+        height: auto;
+        display: none;
+    }
+
+    .section.sec2 .inner-sec2 .myself-pic .inner-pic .selfie .heartBack >img{
+        display: none;
+    }
+    
+    /*section3 부분*/
+    .section.sec3{
+        /* border:1px solid #00f; */
+        padding: 5% 0 0 0;
+        box-sizing: border-box;
+    }
+
+    .section.sec3 .inner-sec3 .sec3-arrow{
+        width:20px;
+        height: 12px;
+        bottom: 20px;
+        margin-left: -10px;
+    }
+
+    .section.sec3 .inner-sec3 .sec3-port{
+        width: 100%;
+        height: auto;
+        float: unset;
+        /* border: 1px solid #f00; */
+    }
+
+    .section.sec3 .inner-sec3 .sec3-port .vibeImg{
+        width: 100%;
+        height: auto;
+        float: unset;
+        padding: 0 0 0 0;
+    }
+    
+    .section.sec3 .inner-sec3 .sec3-port .vibeImg img{
+        width: 300px;
+        height: 207px;
+    }
+
+    .section.sec3 .inner-sec3 .sec3-Txt{
+        width: 100%;
+        height: auto;
+        padding: 0 0 0 0;
+        margin: 58% 0 0 0;
+        /* border: 1px solid; */
+    }
+
+    .section.sec3 .inner-sec3 .sec3-Txt .logoTxt h1.vibeLogo{
+        width: 220px;
+        height: 36px;
+        position: absolute;
+        right:0;
+        margin-right:30px;
+    }
+    
+    .section.sec3 .inner-sec3 .sec3-Txt .logoTxt h1.vibeLogo img{
+        width: 100%;
+        display: block;
+        opacity: 0;
+        float:right;
+    }
+
+    .section.sec3 .inner-sec3 .sec3-Txt .logoTxt .vibeColor >ul >li:nth-child(1)::after{
+        width: 12px;
+        height: 12px;
+        margin-top: 50px;
+        right:0;
+        margin-right: 70px;
+    }
+    .section.sec3 .inner-sec3 .sec3-Txt .logoTxt .vibeColor >ul >li:nth-child(2)::after{
+        width: 12px;
+        height: 12px;
+        margin-top: 50px;
+        right:0;
+        margin-right: 50px;
+    }
+    .section.sec3 .inner-sec3 .sec3-Txt .logoTxt .vibeColor >ul >li:nth-child(3)::after{
+        width: 12px;
+        height: 12px;
+        margin-top: 50px;
+        right:0;
+        margin-right: 30px;
+    }
+
+    .section.sec3 .inner-sec3 .sec3-Txt .vibe-about{
+        padding: 0 30px;
+        box-sizing:border-box;
+    }
+
+    .section.sec3 .inner-sec3 .sec3-Txt .vibe-about >h3{
+        font-size: 20px;
+        margin: 80px 0 0 0;
+    }
+    
+    .section.sec3 .inner-sec3 .sec3-Txt .vibe-about >h6{
+        font-size: 14px;
+        margin: 0 0 5px 0;
+    }
+    
+    .section.sec3 .inner-sec3 .sec3-Txt .vibe-about >span{
+        font-size: 12px;
+        line-height: 14px;
+    }
+    
+    .section.sec3 .inner-sec3 .sec3-Txt .vibe-about >p{
+        font-size: 12px;
+        line-height: 20px;
+        margin: 10px 0 0 0;
+    }
+    
+    .section.sec3 .inner-sec3 .sec3-Txt .vibe-about >input[type=button]{
+        width: 120px;
+        height: 30px;
+        margin: 10px 0 0 0;
+    }
+
+    /*section4 부분*/
+    .section.sec4{
+        /* border:1px solid #00f; */
+        padding: 5% 0 0 0;
+        box-sizing: border-box;
+    }
+
+    .section.sec4 .inner-sec4 .sec4-arrow{
+        width:20px;
+        height: 12px;
+        bottom: 20px;
+        margin-left: -10px;
+    }
+
+    .section.sec4 .inner-sec4 .sec4-port{
+        width: 100%;
+        height: auto;
+        float: unset;
+        /* border: 1px solid #f00; */
+    }
+
+    .section.sec4 .inner-sec4 .sec4-port .cocaImg{
+        width: 100%;
+        height: auto;
+        float: unset;
+        padding: 0 0 0 0;
+    }
+    
+    .section.sec4 .inner-sec4 .sec4-port .cocaImg img{
+        width: 300px;
+        height: 214px;
+    }
+
+    .section.sec4 .inner-sec4 .sec4-Txt{
+        width: 100%;
+        height: auto;
+        padding: 0 0 0 0;
+        margin: 58% 0 0 0;
+        /* border: 1px solid #000; */
+    }
+
+    .section.sec4 .inner-sec4 .sec4-Txt .logoTxt h1.cocaLogo{
+        width: 140px;
+        height: 46px;
+        position: absolute;
+        right:0;
+        margin-right:40px;
+    }
+    
+    .section.sec4 .inner-sec4 .sec4-Txt .logoTxt h1.cocaLogo img{
+        width: 100%;
+        display: block;
+        opacity: 0;
+        float:right;
+    }
+
+    .section.sec4 .inner-sec4 .sec4-Txt .logoTxt .cocaColor >ul >li:nth-child(1)::after{
+        width: 12px;
+        height: 12px;
+        margin-top: 60px;
+        right:0;
+        margin-right: 100px;
+    }
+    .section.sec4 .inner-sec4 .sec4-Txt .logoTxt .cocaColor >ul >li:nth-child(2)::after{
+        width: 12px;
+        height: 12px;
+        margin-top: 60px;
+        right:0;
+        margin-right: 80px;
+    }
+    .section.sec4 .inner-sec4 .sec4-Txt .logoTxt .cocaColor >ul >li:nth-child(3)::after{
+        width: 12px;
+        height: 12px;
+        margin-top: 60px;
+        right:0;
+        margin-right: 60px;
+    }
+
+    .section.sec4 .inner-sec4 .sec4-Txt .coca-about{
+        padding: 0 30px;
+        box-sizing:border-box;
+    }
+
+    .section.sec4 .inner-sec4 .sec4-Txt .coca-about >h3{
+        font-size: 20px;
+        margin: 80px 0 0 0;
+    }
+    
+    .section.sec4 .inner-sec4 .sec4-Txt .coca-about >h6{
+        font-size: 14px;
+        margin: 0 0 5px 0;
+    }
+    
+    .section.sec4 .inner-sec4 .sec4-Txt .coca-about >span{
+        font-size: 12px;
+        line-height: 14px;
+    }
+    
+    .section.sec4 .inner-sec4 .sec4-Txt .coca-about >p{
+        font-size: 11px;
+        line-height: 20px;
+        margin: 10px 0 0 0;
+    }
+    
+    .section.sec4 .inner-sec4 .sec4-Txt .coca-about >input[type=button]{
+        width: 100px;
+        height: 30px;
+        font-size: 10px;
+        margin: 10px 0 0 0;
+    }
+
+     /*section5 부분*/
+     .section.sec5{
+        /* border:1px solid #00f; */
+        padding: 5% 0 0 0;
+        box-sizing: border-box;
+    }
+
+    .section.sec5 .inner-sec5 .sec5-arrow{
+        width:20px;
+        height: 12px;
+        bottom: 20px;
+        margin-left: -10px;
+    }
+    
+    .section.sec5 .inner-sec5 .sec5-port{
+        width: 100%;
+        height: auto;
+        float: unset;
+        /* border: 1px solid #f00; */
+    }
+
+    .section.sec5 .inner-sec5 .sec5-port .appleImg{
+        width: 100%;
+        height: auto;
+        float: unset;
+        padding: 0 0 0 0;
+    }
+    
+    .section.sec5 .inner-sec5 .sec5-port .appleImg img{
+        width: 280px;
+        height: 195px;
+    }
+
+    .section.sec5 .inner-sec5 .sec5-Txt{
+        width: 100%;
+        height: auto;
+        padding: 0 0 0 0;
+        margin: 55% 0 0 0;
+        /* border: 1px solid #000; */
+    }
+
+    .section.sec5 .inner-sec5 .sec5-Txt .logoTxt h1.appleLogo{
+        width: 135px;
+        height: 47px;
+        position: absolute;
+        right:0;
+        margin-right:40px;
+    }
+    
+    .section.sec5 .inner-sec5 .sec5-Txt .logoTxt h1.appleLogo img{
+        width: 100%;
+        display: block;
+        opacity: 0;
+        float:right;
+    }
+
+    .section.sec5 .inner-sec5 .sec5-Txt .logoTxt .appleColor >ul >li:nth-child(1)::after{
+        width: 12px;
+        height: 12px;
+        margin-top: 60px;
+        right:0;
+        margin-right: 80px;
+    }
+    .section.sec5 .inner-sec5 .sec5-Txt .logoTxt .appleColor >ul >li:nth-child(2)::after{
+        width: 12px;
+        height: 12px;
+        margin-top: 60px;
+        right:0;
+        margin-right: 60px;
+    }
+    .section.sec5 .inner-sec5 .sec5-Txt .logoTxt .appleColor >ul >li:nth-child(3)::after{
+        width: 12px;
+        height: 12px;
+        margin-top: 60px;
+        right:0;
+        margin-right: 40px;
+    }
+
+    .section.sec5 .inner-sec5 .sec5-Txt .apple-about{
+        padding: 0 30px;
+        box-sizing:border-box;
+    }
+
+    .section.sec5 .inner-sec5 .sec5-Txt .apple-about >h3{
+        font-size: 20px;
+        margin: 80px 0 0 0;
+    }
+    
+    .section.sec5 .inner-sec5 .sec5-Txt .apple-about >h6{
+        font-size: 14px;
+        margin: 0 0 5px 0;
+    }
+    
+    .section.sec5 .inner-sec5 .sec5-Txt .apple-about >span{
+        font-size: 12px;
+        line-height: 14px;
+    }
+    
+    .section.sec5 .inner-sec5 .sec5-Txt .apple-about >p{
+        font-size: 12px;
+        line-height: 20px;
+        margin: 10px 0 0 0;
+    }
+    
+    .section.sec5 .inner-sec5 .sec5-Txt .apple-about >input[type=button]{
+        width: 120px;
+        height: 30px;
+        margin: 10px 0 0 0;
+    }
+
+    /*footer 부분!*/
+    .section.footer .inner-foot{
+        padding: 30% 10%;
+    }
+
+    .section.footer .inner-foot .inner-foot-con .foot-intro{
+        width: 100%;
+        float: unset;
+        border-right: 0px solid rgba(255,255,255,0.4);
+        border-bottom: 1px solid rgba(255,255,255,0.4);
+    }
+    
+    .section.footer .inner-foot .inner-foot-con .foot-intro >h1{
+        line-height: 60px;
+        padding: 35px 0 15px 0;
+        box-sizing: border-box;
+        font-size: 60px;
+        letter-spacing: 10px;
+        /* border: 1px solid #000; */
+    }
+    
+    .section.footer .inner-foot .inner-foot-con .foot-info{
+        width: 100%;
+        padding: 0 50px;
+        float: unset;
+        border-bottom: 1px solid rgba(255,255,255,0.4);
+        /* border: 1px solid #00f; */
+    }
+    
+    .section.footer .inner-foot .inner-foot-con .foot-info >ul>li{
+        line-height: 60px;
+        font-size: 22px;
+        /* border: 1px solid #000; */
+    }
+
+    .section.footer .inner-foot .foot-bottom{
+        /* border: 1px solid #f00; */
+        display: block;
+        justify-content: unset;
+        flex-wrap: unset;
+        padding: 20px 0 0 0;
+    }
+    
+    .section.footer .inner-foot .foot-bottom >p{
+        display: block;
+        width: 100%;
+        padding: 10px 0 0 0;
+        font-size: 10px;
+        
+    }
+    
+    .section.footer .inner-foot .foot-bottom p.phone{
+        text-align: right;
+    }
+    
+    .section.footer .inner-foot .foot-bottom p.copyright{
+        text-align: right;
+    }
+    
+    .section.footer .inner-foot .foot-bottom p.nowTime{
+        text-align: right;
+        font-size: 10px;
+    }
+
+}
