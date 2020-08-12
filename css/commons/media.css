@@ -393,12 +393,12 @@
         height: auto;
         margin: 0 auto;
         /* border: 1px solid #fff; */
-        padding: 20% 12%;
+        padding: 18% 12%;
         box-sizing: border-box;
     }
     
     .inner-wrap .menuBox .inner-menuBox >ul >li{
-        margin: 15px auto;
+        margin: 10px auto;
         color: #fff;
         font-size: 35px;
         padding: 15px 0 0 0;
