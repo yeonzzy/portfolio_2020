@@ -16,6 +16,7 @@
     width: 45px;
     display: block;
     margin: 0 auto;
+    cursor: pointer !important;
 }
 
 .inner-wrap .menuBox{
@@ -24,7 +25,7 @@
     position: fixed;
     z-index: 99;
     top: 0;
-    right: -400px;
+    right: -100%;
     background: #0009;
 }
 
@@ -36,12 +37,12 @@
     position: absolute;
     top: 50px;
     right: 50px;
-    cursor: pointer;
 }
 
 .inner-wrap .menuBox span.menuClose >img{
     width: 100%;
     display: block;
+    cursor: pointer !important;
 }
 
 .inner-wrap .menuBox span.menuClose:hover{
