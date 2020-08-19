@@ -29,5 +29,5 @@ function sec3_scrollFunc() {
 }
 
 vibeBtn.on("click", function () {
-  window.open("http://yeonzzy.dothome.co.kr/project_vibe/index.html");
+  window.open("http://yeonzzy.dothome.co.kr/naver-vibe/index.html");
 });
