@@ -38,7 +38,7 @@ menuBtn.on('click',function(){
 //menuBox CloseBtn 클릭시
 //menuBtn, goTopBtn 나타내고 menuBox 사라지기
 $('span.menuClose').on('click', function(){
-  $('.menuBox').animate({right:'-400px'},500,function(){
+  $('.menuBox').animate({right:'-100%'},1000,function(){
     menuBtn.fadeIn();
     topGoBtn.css({opacity:'1'});
   });
