@@ -112,7 +112,7 @@
 }
 .section.sec3 .inner-sec3 .sec3-Txt .logoTxt .vibeColor >ul >li:nth-child(2)::after{
     content: "";
-    background: #ff3a4e;
+    background: #fd1d1d;
     width: 15px;
     height: 15px;
     border-radius: 50%;
@@ -124,7 +124,7 @@
 }
 .section.sec3 .inner-sec3 .sec3-Txt .logoTxt .vibeColor >ul >li:nth-child(3)::after{
     content: "";
-    background: #7e4cff;
+    background: #833ab4;
     width: 15px;
     height: 15px;
     border-radius: 50%;
@@ -184,5 +184,5 @@
 }
 
 .section.sec3 .inner-sec3 .sec3-Txt .vibe-about >input[type=button]:hover{
-    background: linear-gradient(60deg, #ff3a4e,#7e4cff);
+    background: linear-gradient(60deg, #833ab4, #fd1d1d, #fcb045);
 }

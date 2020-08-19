@@ -29,11 +29,11 @@ function sec4_scrollFunc() {
 }
 
 cocaBtn.eq(0).on("click", function () {
-  window.open("http://yeonzzy.dothome.co.kr/project_coca-cola/open-index.html");
+  window.open("http://yeonzzy.dothome.co.kr/coca-cola/open-index.html");
 });
 cocaBtn.eq(1).on("click", function () {
-  window.open("http://yeonzzy.dothome.co.kr/project_coca-cola/login.html");
+  window.open("http://yeonzzy.dothome.co.kr/coca-cola/login.html");
 });
 cocaBtn.eq(2).on("click", function () {
-  window.open("http://yeonzzy.dothome.co.kr/project_coca-cola/join.html");
+  window.open("http://yeonzzy.dothome.co.kr/coca-cola/join.html");
 });
