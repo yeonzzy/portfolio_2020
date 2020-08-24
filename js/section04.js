@@ -1,6 +1,6 @@
 var vibeBtn = $(".vibe-about>input[type=button]");
 
-var sec4Go = $(".sec2-arrow");
+var sec4Go = $(".sec3-arrow");
 var goTopsec4 = $(".section.sec4").offset().top;
 sec4Go.on("click", sec4GoFunc);
 function sec4GoFunc() {

@@ -44,7 +44,6 @@
 .section.sec6 .inner-sec6 .sec6-port{
     width: 60%;
     height: auto;
-    float: left;
     position: absolute;
     left: -100%;
     z-index: 1;
@@ -75,24 +74,40 @@
 }
 
 .section.sec6 .inner-sec6 .sec6-Txt .logoTxt{
-    width: 100%;
+    width: 50%;
     height: auto;
 }
 
 .section.sec6 .inner-sec6 .sec6-Txt .logoTxt h1.appleLogo{
-    width: 300px;
-    height: 107px;
-    position: absolute;
+    width: 100%;
 }
 
 .section.sec6 .inner-sec6 .sec6-Txt .logoTxt h1.appleLogo img{
-    width: 300px;
+    width: 100%;
     display: block;
     opacity: 0;
 }
 
+.section.sec6 .inner-sec6 .sec6-Txt .logoTxt .appleColor{
+    float: right;
+    width: auto;
+    margin: 15px 0;
+    height: auto;
+    border: 0px solid #000;
+}
+
+.section.sec6 .inner-sec6 .sec6-Txt .logoTxt .appleColor::after{
+    content: "";
+    display: block;
+    clear: both;
+}
+
 .section.sec6 .inner-sec6 .sec6-Txt .logoTxt .appleColor >ul >li{
     display: none;
+    float: left;
+    width: 15px;
+    height: 15px;
+    margin: 0 10px;
 }
 
 .section.sec6 .inner-sec6 .sec6-Txt .logoTxt .appleColor >ul >li:nth-child(1)::after{
@@ -101,49 +116,45 @@
     width: 15px;
     height: 15px;
     border-radius: 50%;
-    float: left;
-    margin: 5px;
-    position: absolute;
-    margin-top: 120px;
-    margin-left: 220px;
+    
 }
 .section.sec6 .inner-sec6 .sec6-Txt .logoTxt .appleColor >ul >li:nth-child(2)::after{
     content: "";
-    background:#86868b ;
+    background: #86868b;
     width: 15px;
     height: 15px;
     border-radius: 50%;
-    float: left;
-    margin: 5px;
-    position: absolute;
-    margin-top: 120px;
-    margin-left: 250px;
 }
 .section.sec6 .inner-sec6 .sec6-Txt .logoTxt .appleColor >ul >li:nth-child(3)::after{
     content: "";
-    background:#2997ff;
+    background: #2997ff;
     width: 15px;
     height: 15px;
     border-radius: 50%;
-    float: left;
-    margin: 5px;
-    position: absolute;
-    margin-top: 120px;
-    margin-left: 280px;
+}
+
+.section.sec6 .inner-sec6 .sec6-Txt .logoTxt .appleColor >ul >li::after{
+    content: "";
+    display: block;
+    clear: both;
+}
+
+.section.sec6 .inner-sec6 .sec6-Txt .apple-about{
+    /* border: 1px solid #ff0; */
+    width: 100%;
+    height: auto;
+    margin: 50px 0 0 0;
 }
 
 .section.sec6 .inner-sec6 .sec6-Txt .apple-about >h3{
     font-size: 28px;
     font-weight: 500;
-    margin: 180px 0 0 0;
-    font-family: 'NanumSquare', sans-serif;
     display: none;
 }
 
 .section.sec6 .inner-sec6 .sec6-Txt .apple-about >h6{
     font-size: 14px;
     font-weight: 500;
-    font-family: 'NanumSquare', sans-serif;
     line-height: 24px;
     display: none;
     margin: 0 0 20px 0;
