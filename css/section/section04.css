@@ -1,6 +1,6 @@
 @charset "utf-8";
 
-/*section4 부분!!!!!!*/
+/*section3 부분!!!!!!*/
 .section.sec4 {
     background: #fff;
 }
@@ -8,6 +8,8 @@
 .section.sec4 .inner-sec4{
     width:100%;
     height:100%;
+    /* border:5px solid #f00;
+    box-sizing: border-box; */
     position: relative;
 }
 
@@ -41,24 +43,22 @@
 
 .section.sec4 .inner-sec4 .sec4-port{
     width: 60%;
-    height: 100%;
+    height: auto;
     float: left;
     position: absolute;
     left: -100%;
     z-index: 1;
+    border: 1px solid #00f;
 }
 
-.section.sec4 .inner-sec4 .sec4-port .cocaImg{
+.section.sec4 .inner-sec4 .sec4-port .vibeImg{
     width: 100%;
-    height: 100%;
     padding: 150px 0 0 0;
     box-sizing: border-box;
-    /* border: 1px solid; */
 }
 
-.section.sec4 .inner-sec4 .sec4-port .cocaImg img{
-    width: 720px;
-    height: 579px;
+.section.sec4 .inner-sec4 .sec4-port .vibeImg img{
+    width: 80%;
     margin: 0 auto;
     display: block;
 }
@@ -72,7 +72,8 @@
     font-style: normal;
     color: #333;
     position: absolute;
-    margin: 0 0 0 60%;
+    right: 0;
+    border: 1px solid #f00;
     
 }
 
@@ -81,23 +82,23 @@
     height: auto;
 }
 
-.section.sec4 .inner-sec4 .sec4-Txt .logoTxt h1.cocaLogo{
-    width: 315px;
-    height: 103px;
+.section.sec4 .inner-sec4 .sec4-Txt .logoTxt h1.vibeLogo{
+    width: 500px;
+    height: 82px;
     position: absolute;
 }
 
-.section.sec4 .inner-sec4 .sec4-Txt .logoTxt h1.cocaLogo img{
-    width: 315px;
+.section.sec4 .inner-sec4 .sec4-Txt .logoTxt h1.vibeLogo img{
+    width: 500px;
     display: block;
     opacity: 0;
 }
 
-.section.sec4 .inner-sec4 .sec4-Txt .logoTxt .cocaColor >ul >li{
+.section.sec4 .inner-sec4 .sec4-Txt .logoTxt .vibeColor >ul >li{
     display: none;
 }
 
-.section.sec4 .inner-sec4 .sec4-Txt .logoTxt .cocaColor >ul >li:nth-child(1)::after{
+.section.sec4 .inner-sec4 .sec4-Txt .logoTxt .vibeColor >ul >li:nth-child(1)::after{
     content:"";
     background: #000;
     width: 15px;
@@ -106,43 +107,43 @@
     float: left;
     margin: 5px;
     position: absolute;
-    margin-top: 120px;
-    margin-left: 200px;
+    margin-top: 100px;
+    margin-left: 420px;
 }
-.section.sec4 .inner-sec4 .sec4-Txt .logoTxt .cocaColor >ul >li:nth-child(2)::after{
+.section.sec4 .inner-sec4 .sec4-Txt .logoTxt .vibeColor >ul >li:nth-child(2)::after{
     content: "";
-    background: #bfbfbf;
+    background: #fd1d1d;
     width: 15px;
     height: 15px;
     border-radius: 50%;
     float: left;
     margin: 5px;
     position: absolute;
-    margin-top: 120px;
-    margin-left: 230px;
+    margin-top: 100px;
+    margin-left: 450px;
 }
-.section.sec4 .inner-sec4 .sec4-Txt .logoTxt .cocaColor >ul >li:nth-child(3)::after{
+.section.sec4 .inner-sec4 .sec4-Txt .logoTxt .vibeColor >ul >li:nth-child(3)::after{
     content: "";
-    background: #f40009;
+    background: #833ab4;
     width: 15px;
     height: 15px;
     border-radius: 50%;
     float: left;
     margin: 5px;
     position: absolute;
-    margin-top: 120px;
-    margin-left: 260px;
+    margin-top: 100px;
+    margin-left: 480px;
 }
 
-.section.sec4 .inner-sec4 .sec4-Txt .coca-about >h3{
+.section.sec4 .inner-sec4 .sec4-Txt .vibe-about >h3{
     font-size: 28px;
     font-weight: 500;
-    margin: 180px 0 0 0;
+    margin: 120px 0 0 0;
     font-family: 'NanumSquare', sans-serif;
     display: none;
 }
 
-.section.sec4 .inner-sec4 .sec4-Txt .coca-about >h6{
+.section.sec4 .inner-sec4 .sec4-Txt .vibe-about >h6{
     font-size: 14px;
     font-weight: 500;
     font-family: 'NanumSquare', sans-serif;
@@ -151,14 +152,14 @@
     margin: 0 0 20px 0;
 }
 
-.section.sec4 .inner-sec4 .sec4-Txt .coca-about >span{
+.section.sec4 .inner-sec4 .sec4-Txt .vibe-about >span{
     font-size: 16px;
     line-height: 24px;
     font-family: 'NanumSquare', sans-serif;
     display: none;
 }
 
-.section.sec4 .inner-sec4 .sec4-Txt .coca-about >p{
+.section.sec4 .inner-sec4 .sec4-Txt .vibe-about >p{
     font-size: 16px;
     line-height: 24px;
     font-family: 'NanumSquare', sans-serif;
@@ -166,7 +167,7 @@
     margin: 20px 0 0 0;
 }
 
-.section.sec4 .inner-sec4 .sec4-Txt .coca-about >input[type=button]{
+.section.sec4 .inner-sec4 .sec4-Txt .vibe-about >input[type=button]{
     width: 150px;
     height: 40px;
     border-radius: 10px;
@@ -182,7 +183,6 @@
     letter-spacing: 1px;
 }
 
-.section.sec4 .inner-sec4 .sec4-Txt .coca-about >input[type=button]:hover{
-    background: #f40009;
-    transition: ease-in 0.5s;
+.section.sec4 .inner-sec4 .sec4-Txt .vibe-about >input[type=button]:hover{
+    background: linear-gradient(60deg, #833ab4, #fd1d1d, #fcb045);
 }

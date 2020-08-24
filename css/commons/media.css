@@ -80,41 +80,38 @@
         display: none;
     }
 
-    /*section3 부분*/
-    .section.sec3{
-        /* border:1px solid #00f; */
-        padding: 5% 0 0 0;
+     /*section3 부분*/
+     .section.sec3{
+        border:1px solid #00f;
+        padding: 40px 0 0 0;
         box-sizing: border-box;
     }
 
     .section.sec3 .inner-sec3 .sec3-port{
         width: 100%;
         height: auto;
-        float: unset;
         /* border: 1px solid #f00; */
     }
 
-    .section.sec3 .inner-sec3 .sec3-port .vibeImg{
-        width: 100%;
-        height: auto;
-        float: unset;
+    .section.sec3 .inner-sec3 .sec3-port .hyundaiImg{
         padding: 0 0 0 0;
+        border: 1px solid #000;
     }
-    
-    .section.sec3 .inner-sec3 .sec3-port .vibeImg img{
-        width: 600px;
-        height: 414px;
+
+    .section.sec3 .inner-sec3 .sec3-port .hyundaiImg img{
+        width: 60%;
     }
 
     .section.sec3 .inner-sec3 .sec3-Txt{
         width: 100%;
         height: auto;
-        padding: 0 0 0 0;
-        margin: 55% 0 0 0;
-        /* border: 1px solid #000; */
+        padding: 10px;
+        margin: 0 0 0 0;
+        position: static;
+        border: 1px solid #f00;
     }
 
-    .section.sec3 .inner-sec3 .sec3-Txt .logoTxt h1.vibeLogo{
+    .section.sec3 .inner-sec3 .sec3-Txt .logoTxt h1.hyundaiLogo{
         width: 400px;
         height: 66px;
         position: absolute;
@@ -122,36 +119,51 @@
         margin-right:100px;
     }
     
-    .section.sec3 .inner-sec3 .sec3-Txt .logoTxt h1.vibeLogo img{
+    .section.sec3 .inner-sec3 .sec3-Txt .logoTxt h1.hyundaiLogo img{
         width:400px;
         display: block;
         opacity: 0;
         float:right;
     }
 
-    .section.sec3 .inner-sec3 .sec3-Txt .logoTxt .vibeColor >ul >li:nth-child(1)::after{
-        width: 15px;
-        height: 15px;
-        margin-top: 80px;
-        right:0;
-        margin-right: 160px;
+    .section.sec3 .inner-sec3 .sec3-Txt .logoTxt .hyundaiColor{
+        padding: 20px;
+        box-sizing: border-box;
+        border: 1px solid #000;
     }
-    .section.sec3 .inner-sec3 .sec3-Txt .logoTxt .vibeColor >ul >li:nth-child(2)::after{
+    
+    .section.sec3 .inner-sec3 .sec3-Txt .logoTxt .hyundaiColor >ul >li{
+        display: none;
+        float: left;
         width: 15px;
         height: 15px;
-        margin-top: 80px;
-        right:0;
-        margin-right: 130px;
+        margin: 0 10px;
     }
-    .section.sec3 .inner-sec3 .sec3-Txt .logoTxt .vibeColor >ul >li:nth-child(3)::after{
+    
+    .section.sec3 .inner-sec3 .sec3-Txt .logoTxt .hyundaiColor >ul >li:nth-child(1)::after{
+        content:"";
+        background: #008837;
         width: 15px;
         height: 15px;
-        margin-top: 80px;
-        right:0;
-        margin-right: 100px;
+        border-radius: 50%;
+        
+    }
+    .section.sec3 .inner-sec3 .sec3-Txt .logoTxt .hyundaiColor >ul >li:nth-child(2)::after{
+        content: "";
+        background: #FFB300;
+        width: 15px;
+        height: 15px;
+        border-radius: 50%;
+    }
+    .section.sec3 .inner-sec3 .sec3-Txt .logoTxt .hyundaiColor >ul >li:nth-child(3)::after{
+        content: "";
+        background: #1d4483;
+        width: 15px;
+        height: 15px;
+        border-radius: 50%;
     }
 
-    .section.sec3 .inner-sec3 .sec3-Txt .vibe-about{
+    .section.sec3 .inner-sec3 .sec3-Txt .hyundai-about{
         padding: 0 80px;
         box-sizing:border-box;
     }
@@ -170,71 +182,66 @@
         /* border: 1px solid #f00; */
     }
 
-    .section.sec4 .inner-sec4 .sec4-port .cocaImg{
+    .section.sec4 .inner-sec4 .sec4-port .vibeImg{
         width: 100%;
         height: auto;
         float: unset;
         padding: 0 0 0 0;
     }
     
-    .section.sec4 .inner-sec4 .sec4-port .cocaImg img{
-        width: 560px;
-        height: 450px;
+    .section.sec .inner-sec4 .sec4-port .vibeImg img{
+        width: 600px;
+        height: 414px;
     }
 
     .section.sec4 .inner-sec4 .sec4-Txt{
         width: 100%;
         height: auto;
         padding: 0 0 0 0;
-        margin: 60% 0 0 0;
+        margin: 55% 0 0 0;
         /* border: 1px solid #000; */
     }
 
-    .section.sec4 .inner-sec4 .sec4-Txt .logoTxt h1.cocaLogo{
-        width: 230px;
-        height: 75px;
+    .section.sec4 .inner-sec4 .sec4-Txt .logoTxt h1.vibeLogo{
+        width: 400px;
+        height: 66px;
         position: absolute;
         right:0;
-        margin-right:110px;
+        margin-right:100px;
     }
     
-    .section.sec4 .inner-sec4 .sec4-Txt .logoTxt h1.cocaLogo img{
-        width:230px;
+    .section.sec4 .inner-sec4 .sec4-Txt .logoTxt h1.vibeLogo img{
+        width:400px;
         display: block;
         opacity: 0;
         float:right;
     }
 
-    .section.sec4 .inner-sec4 .sec4-Txt .logoTxt .cocaColor >ul >li:nth-child(1)::after{
+    .section.sec4 .inner-sec4 .sec4-Txt .logoTxt .vibeColor >ul >li:nth-child(1)::after{
         width: 15px;
         height: 15px;
-        margin-top: 100px;
+        margin-top: 80px;
         right:0;
-        margin-right: 200px;
+        margin-right: 160px;
     }
-    .section.sec4 .inner-sec4 .sec4-Txt .logoTxt .cocaColor >ul >li:nth-child(2)::after{
+    .section.sec4 .inner-sec4 .sec4-Txt .logoTxt .vibeColor >ul >li:nth-child(2)::after{
         width: 15px;
         height: 15px;
-        margin-top: 100px;
+        margin-top: 80px;
         right:0;
-        margin-right: 170px;
+        margin-right: 130px;
     }
-    .section.sec4 .inner-sec4 .sec4-Txt .logoTxt .cocaColor >ul >li:nth-child(3)::after{
+    .section.sec4 .inner-sec4 .sec4-Txt .logoTxt .vibeColor >ul >li:nth-child(3)::after{
         width: 15px;
         height: 15px;
-        margin-top: 100px;
+        margin-top: 80px;
         right:0;
-        margin-right: 140px;
+        margin-right: 100px;
     }
 
-    .section.sec4 .inner-sec4 .sec4-Txt .coca-about{
+    .section.sec4 .inner-sec4 .sec4-Txt .vibe-about{
         padding: 0 80px;
         box-sizing:border-box;
-    }
-
-    .section.sec4 .inner-sec4 .sec4-Txt .coca-about >h3{
-        font-size: 20px;
-        margin: 120px 0 0 0;
     }
 
     /*section5 부분*/
@@ -251,19 +258,100 @@
         /* border: 1px solid #f00; */
     }
 
-    .section.sec5 .inner-sec5 .sec5-port .appleImg{
+    .section.sec5 .inner-sec5 .sec5-port .cocaImg{
         width: 100%;
         height: auto;
         float: unset;
         padding: 0 0 0 0;
     }
     
-    .section.sec5 .inner-sec5 .sec5-port .appleImg img{
+    .section.sec5 .inner-sec5 .sec5-port .cocaImg img{
+        width: 560px;
+        height: 450px;
+    }
+
+    .section.sec5 .inner-sec5 .sec5-Txt{
+        width: 100%;
+        height: auto;
+        padding: 0 0 0 0;
+        margin: 60% 0 0 0;
+        /* border: 1px solid #000; */
+    }
+
+    .section.sec5 .inner-sec5 .sec5-Txt .logoTxt h1.cocaLogo{
+        width: 230px;
+        height: 75px;
+        position: absolute;
+        right:0;
+        margin-right:110px;
+    }
+    
+    .section.sec5 .inner-sec5 .sec5-Txt .logoTxt h1.cocaLogo img{
+        width:230px;
+        display: block;
+        opacity: 0;
+        float:right;
+    }
+
+    .section.sec5 .inner-sec5 .sec5-Txt .logoTxt .cocaColor >ul >li:nth-child(1)::after{
+        width: 15px;
+        height: 15px;
+        margin-top: 100px;
+        right:0;
+        margin-right: 200px;
+    }
+    .section.sec5 .inner-sec5 .sec5-Txt .logoTxt .cocaColor >ul >li:nth-child(2)::after{
+        width: 15px;
+        height: 15px;
+        margin-top: 100px;
+        right:0;
+        margin-right: 170px;
+    }
+    .section.sec5 .inner-sec5 .sec5-Txt .logoTxt .cocaColor >ul >li:nth-child(3)::after{
+        width: 15px;
+        height: 15px;
+        margin-top: 100px;
+        right:0;
+        margin-right: 140px;
+    }
+
+    .section.sec5 .inner-sec5 .sec5-Txt .coca-about{
+        padding: 0 80px;
+        box-sizing:border-box;
+    }
+
+    .section.sec5 .inner-sec5 .sec5-Txt .coca-about >h3{
+        font-size: 20px;
+        margin: 120px 0 0 0;
+    }
+
+    /*section6 부분*/
+    .section.sec6{
+        /* border:1px solid #00f; */
+        padding: 5% 0 0 0;
+        box-sizing: border-box;
+    }
+
+    .section.sec6 .inner-sec6 .sec6-port{
+        width: 100%;
+        height: auto;
+        float: unset;
+        /* border: 1px solid #f00; */
+    }
+
+    .section.sec6 .inner-sec6 .sec6-port .appleImg{
+        width: 100%;
+        height: auto;
+        float: unset;
+        padding: 0 0 0 0;
+    }
+    
+    .section.sec6 .inner-sec6 .sec6-port .appleImg img{
         width: 600px;
         height: 414px;
     }
 
-    .section.sec5 .inner-sec5 .sec5-Txt{
+    .section.sec6 .inner-sec6 .sec6-Txt{
         width: 100%;
         height: auto;
         padding: 0 0 0 0;
@@ -271,7 +359,7 @@
         /* border: 1px solid #000; */
     }
 
-    .section.sec5 .inner-sec5 .sec5-Txt .logoTxt h1.appleLogo{
+    .section.sec6 .inner-sec6 .sec6-Txt .logoTxt h1.appleLogo{
         width: 218px;
         height: 75px;
         position: absolute;
@@ -279,28 +367,28 @@
         margin-right:110px;
     }
     
-    .section.sec5 .inner-sec5 .sec5-Txt .logoTxt h1.appleLogo img{
+    .section.sec6 .inner-sec6 .sec6-Txt .logoTxt h1.appleLogo img{
         width:218px;
         display: block;
         opacity: 0;
         float:right;
     }
 
-    .section.sec5 .inner-sec5 .sec5-Txt .logoTxt .appleColor >ul >li:nth-child(1)::after{
+    .section.sec6 .inner-sec6 .sec6-Txt .logoTxt .appleColor >ul >li:nth-child(1)::after{
         width: 15px;
         height: 15px;
         margin-top: 90px;
         right:0;
         margin-right: 170px;
     }
-    .section.sec5 .inner-sec5 .sec5-Txt .logoTxt .appleColor >ul >li:nth-child(2)::after{
+    .section.sec6 .inner-sec6 .sec6-Txt .logoTxt .appleColor >ul >li:nth-child(2)::after{
         width: 15px;
         height: 15px;
         margin-top: 90px;
         right:0;
         margin-right: 140px;
     }
-    .section.sec5 .inner-sec5 .sec5-Txt .logoTxt .appleColor >ul >li:nth-child(3)::after{
+    .section.sec6 .inner-sec6 .sec6-Txt .logoTxt .appleColor >ul >li:nth-child(3)::after{
         width: 15px;
         height: 15px;
         margin-top: 90px;
@@ -308,12 +396,12 @@
         margin-right: 110px;
     }
 
-    .section.sec5 .inner-sec5 .sec5-Txt .apple-about{
+    .section.sec6 .inner-sec6 .sec6-Txt .apple-about{
         padding: 0 80px;
         box-sizing:border-box;
     }
 
-    .section.sec5 .inner-sec5 .sec5-Txt .apple-about >h3{
+    .section.sec6 .inner-sec6 .sec6-Txt .apple-about >h3{
         font-size: 20px;
         margin: 130px 0 0 0;
     }
@@ -529,9 +617,9 @@
     .section.sec2 .inner-sec2 .myself-pic .inner-pic .selfie .heartBack >img{
         display: none;
     }
-    
-    /*section3 부분*/
-    .section.sec3{
+
+     /*section3 부분*/
+     .section.sec3{
         /* border:1px solid #00f; */
         padding: 5% 0 0 0;
         box-sizing: border-box;
@@ -551,14 +639,14 @@
         /* border: 1px solid #f00; */
     }
 
-    .section.sec3 .inner-sec3 .sec3-port .vibeImg{
+    .section.sec3 .inner-sec3 .sec3-port .hyundaiImg{
         width: 100%;
         height: auto;
         float: unset;
         padding: 0 0 0 0;
     }
     
-    .section.sec3 .inner-sec3 .sec3-port .vibeImg img{
+    .section.sec3 .inner-sec3 .sec3-port .hyundaiImg img{
         width: 300px;
         height: 207px;
     }
@@ -571,7 +659,7 @@
         /* border: 1px solid; */
     }
 
-    .section.sec3 .inner-sec3 .sec3-Txt .logoTxt h1.vibeLogo{
+    .section.sec3 .inner-sec3 .sec3-Txt .logoTxt h1.hyundaiLogo{
         width: 220px;
         height: 36px;
         position: absolute;
@@ -579,28 +667,28 @@
         margin-right:30px;
     }
     
-    .section.sec3 .inner-sec3 .sec3-Txt .logoTxt h1.vibeLogo img{
+    .section.sec3 .inner-sec3 .sec3-Txt .logoTxt h1.hyundaiLogo img{
         width: 100%;
         display: block;
         opacity: 0;
         float:right;
     }
 
-    .section.sec3 .inner-sec3 .sec3-Txt .logoTxt .vibeColor >ul >li:nth-child(1)::after{
+    .section.sec3 .inner-sec3 .sec3-Txt .logoTxt .hyundaiColor >ul >li:nth-child(1)::after{
         width: 12px;
         height: 12px;
         margin-top: 50px;
         right:0;
         margin-right: 70px;
     }
-    .section.sec3 .inner-sec3 .sec3-Txt .logoTxt .vibeColor >ul >li:nth-child(2)::after{
+    .section.sec3 .inner-sec3 .sec3-Txt .logoTxt .hyundaiColor >ul >li:nth-child(2)::after{
         width: 12px;
         height: 12px;
         margin-top: 50px;
         right:0;
         margin-right: 50px;
     }
-    .section.sec3 .inner-sec3 .sec3-Txt .logoTxt .vibeColor >ul >li:nth-child(3)::after{
+    .section.sec3 .inner-sec3 .sec3-Txt .logoTxt .hyundaiColor >ul >li:nth-child(3)::after{
         width: 12px;
         height: 12px;
         margin-top: 50px;
@@ -608,38 +696,38 @@
         margin-right: 30px;
     }
 
-    .section.sec3 .inner-sec3 .sec3-Txt .vibe-about{
+    .section.sec3 .inner-sec3 .sec3-Txt .hyundai-about{
         padding: 0 30px;
         box-sizing:border-box;
     }
 
-    .section.sec3 .inner-sec3 .sec3-Txt .vibe-about >h3{
+    .section.sec3 .inner-sec3 .sec3-Txt .hyundai-about >h3{
         font-size: 20px;
         margin: 80px 0 0 0;
     }
     
-    .section.sec3 .inner-sec3 .sec3-Txt .vibe-about >h6{
+    .section.sec3 .inner-sec3 .sec3-Txt .hyundai-about >h6{
         font-size: 14px;
         margin: 0 0 5px 0;
     }
     
-    .section.sec3 .inner-sec3 .sec3-Txt .vibe-about >span{
+    .section.sec3 .inner-sec3 .sec3-Txt .hyundai-about >span{
         font-size: 12px;
         line-height: 14px;
     }
     
-    .section.sec3 .inner-sec3 .sec3-Txt .vibe-about >p{
+    .section.sec3 .inner-sec3 .sec3-Txt .hyundai-about >p{
         font-size: 12px;
         line-height: 20px;
         margin: 10px 0 0 0;
     }
     
-    .section.sec3 .inner-sec3 .sec3-Txt .vibe-about >input[type=button]{
+    .section.sec3 .inner-sec3 .sec3-Txt .hyundai-about >input[type=button]{
         width: 120px;
         height: 30px;
         margin: 10px 0 0 0;
     }
-
+    
     /*section4 부분*/
     .section.sec4{
         /* border:1px solid #00f; */
@@ -661,98 +749,97 @@
         /* border: 1px solid #f00; */
     }
 
-    .section.sec4 .inner-sec4 .sec4-port .cocaImg{
+    .section.sec4 .inner-sec4 .sec4-port .vibeImg{
         width: 100%;
         height: auto;
         float: unset;
         padding: 0 0 0 0;
     }
     
-    .section.sec4 .inner-sec4 .sec4-port .cocaImg img{
-        width: 280px;
-        height: 225px;
+    .section.sec4 .inner-sec4 .sec4-port .vibeImg img{
+        width: 300px;
+        height: 207px;
     }
 
     .section.sec4 .inner-sec4 .sec4-Txt{
         width: 100%;
         height: auto;
         padding: 0 0 0 0;
-        margin: 62% 0 0 0;
-        /* border: 1px solid #000; */
+        margin: 58% 0 0 0;
+        /* border: 1px solid; */
     }
 
-    .section.sec4 .inner-sec4 .sec4-Txt .logoTxt h1.cocaLogo{
-        width: 140px;
-        height: 46px;
+    .section.sec4 .inner-sec4 .sec4-Txt .logoTxt h1.vibeLogo{
+        width: 220px;
+        height: 36px;
         position: absolute;
         right:0;
-        margin-right:40px;
+        margin-right:30px;
     }
     
-    .section.sec4 .inner-sec4 .sec4-Txt .logoTxt h1.cocaLogo img{
+    .section.sec4 .inner-sec4 .sec4-Txt .logoTxt h1.vibeLogo img{
         width: 100%;
         display: block;
         opacity: 0;
         float:right;
     }
 
-    .section.sec4 .inner-sec4 .sec4-Txt .logoTxt .cocaColor >ul >li:nth-child(1)::after{
+    .section.sec4 .inner-sec4 .sec4-Txt .logoTxt .vibeColor >ul >li:nth-child(1)::after{
         width: 12px;
         height: 12px;
-        margin-top: 60px;
+        margin-top: 50px;
         right:0;
-        margin-right: 100px;
+        margin-right: 70px;
     }
-    .section.sec4 .inner-sec4 .sec4-Txt .logoTxt .cocaColor >ul >li:nth-child(2)::after{
+    .section.sec4 .inner-sec4 .sec4-Txt .logoTxt .vibeColor >ul >li:nth-child(2)::after{
         width: 12px;
         height: 12px;
-        margin-top: 60px;
+        margin-top: 50px;
         right:0;
-        margin-right: 80px;
+        margin-right: 50px;
     }
-    .section.sec4 .inner-sec4 .sec4-Txt .logoTxt .cocaColor >ul >li:nth-child(3)::after{
+    .section.sec4 .inner-sec4 .sec4-Txt .logoTxt .vibeColor >ul >li:nth-child(3)::after{
         width: 12px;
         height: 12px;
-        margin-top: 60px;
+        margin-top: 50px;
         right:0;
-        margin-right: 60px;
+        margin-right: 30px;
     }
 
-    .section.sec4 .inner-sec4 .sec4-Txt .coca-about{
+    .section.sec4 .inner-sec4 .sec4-Txt .vibe-about{
         padding: 0 30px;
         box-sizing:border-box;
     }
 
-    .section.sec4 .inner-sec4 .sec4-Txt .coca-about >h3{
+    .section.sec4 .inner-sec4 .sec4-Txt .vibe-about >h3{
         font-size: 20px;
         margin: 80px 0 0 0;
     }
     
-    .section.sec4 .inner-sec4 .sec4-Txt .coca-about >h6{
+    .section.sec4 .inner-sec4 .sec4-Txt .vibe-about >h6{
         font-size: 14px;
         margin: 0 0 5px 0;
     }
     
-    .section.sec4 .inner-sec4 .sec4-Txt .coca-about >span{
+    .section.sec4 .inner-sec4 .sec4-Txt .vibe-about >span{
         font-size: 12px;
         line-height: 14px;
     }
     
-    .section.sec4 .inner-sec4 .sec4-Txt .coca-about >p{
-        font-size: 11px;
+    .section.sec4 .inner-sec4 .sec4-Txt .vibe-about >p{
+        font-size: 12px;
         line-height: 20px;
         margin: 10px 0 0 0;
     }
     
-    .section.sec4 .inner-sec4 .sec4-Txt .coca-about >input[type=button]{
-        width: 100px;
+    .section.sec4 .inner-sec4 .sec4-Txt .vibe-about >input[type=button]{
+        width: 120px;
         height: 30px;
-        font-size: 10px;
         margin: 10px 0 0 0;
     }
 
-     /*section5 부분*/
-     .section.sec5{
+    /*section5 부분*/
+    .section.sec5{
         /* border:1px solid #00f; */
         padding: 5% 0 0 0;
         box-sizing: border-box;
@@ -764,7 +851,7 @@
         bottom: 20px;
         margin-left: -10px;
     }
-    
+
     .section.sec5 .inner-sec5 .sec5-port{
         width: 100%;
         height: auto;
@@ -772,19 +859,130 @@
         /* border: 1px solid #f00; */
     }
 
-    .section.sec5 .inner-sec5 .sec5-port .appleImg{
+    .section.sec5 .inner-sec5 .sec5-port .cocaImg{
         width: 100%;
         height: auto;
         float: unset;
         padding: 0 0 0 0;
     }
     
-    .section.sec5 .inner-sec5 .sec5-port .appleImg img{
+    .section.sec5 .inner-sec5 .sec5-port .cocaImg img{
+        width: 280px;
+        height: 225px;
+    }
+
+    .section.sec5 .inner-sec5 .sec5-Txt{
+        width: 100%;
+        height: auto;
+        padding: 0 0 0 0;
+        margin: 62% 0 0 0;
+        /* border: 1px solid #000; */
+    }
+
+    .section.sec5 .inner-sec5 .sec5-Txt .logoTxt h1.cocaLogo{
+        width: 140px;
+        height: 46px;
+        position: absolute;
+        right:0;
+        margin-right:40px;
+    }
+    
+    .section.sec5 .inner-sec5 .sec5-Txt .logoTxt h1.cocaLogo img{
+        width: 100%;
+        display: block;
+        opacity: 0;
+        float:right;
+    }
+
+    .section.sec5 .inner-sec5 .sec5-Txt .logoTxt .cocaColor >ul >li:nth-child(1)::after{
+        width: 12px;
+        height: 12px;
+        margin-top: 60px;
+        right:0;
+        margin-right: 100px;
+    }
+    .section.sec5 .inner-sec5 .sec5-Txt .logoTxt .cocaColor >ul >li:nth-child(2)::after{
+        width: 12px;
+        height: 12px;
+        margin-top: 60px;
+        right:0;
+        margin-right: 80px;
+    }
+    .section.sec5 .inner-sec5 .sec5-Txt .logoTxt .cocaColor >ul >li:nth-child(3)::after{
+        width: 12px;
+        height: 12px;
+        margin-top: 60px;
+        right:0;
+        margin-right: 60px;
+    }
+
+    .section.sec5 .inner-sec5 .sec5-Txt .coca-about{
+        padding: 0 30px;
+        box-sizing:border-box;
+    }
+
+    .section.sec5 .inner-sec5 .sec5-Txt .coca-about >h3{
+        font-size: 20px;
+        margin: 80px 0 0 0;
+    }
+    
+    .section.sec5 .inner-sec5 .sec5-Txt .coca-about >h6{
+        font-size: 14px;
+        margin: 0 0 5px 0;
+    }
+    
+    .section.sec5 .inner-sec5 .sec5-Txt .coca-about >span{
+        font-size: 12px;
+        line-height: 14px;
+    }
+    
+    .section.sec5 .inner-sec5 .sec5-Txt .coca-about >p{
+        font-size: 11px;
+        line-height: 20px;
+        margin: 10px 0 0 0;
+    }
+    
+    .section.sec5 .inner-sec5 .sec5-Txt .coca-about >input[type=button]{
+        width: 100px;
+        height: 30px;
+        font-size: 10px;
+        margin: 10px 0 0 0;
+    }
+
+     /*section6 부분*/
+     .section.sec6{
+        /* border:1px solid #00f; */
+        padding: 5% 0 0 0;
+        box-sizing: border-box;
+    }
+
+    .section.sec6 .inner-sec6 .sec6-arrow{
+        width:20px;
+        height: 12px;
+        bottom: 20px;
+        margin-left: -10px;
+    }
+    
+    .section.sec6 .inner-sec6 .sec6-port{
+        width: 100%;
+        height: auto;
+        float: unset;
+        /* border: 1px solid #f00; */
+    }
+
+    .section.sec6 .inner-sec6 .sec6-port .appleImg{
+        width: 100%;
+        height: auto;
+        float: unset;
+        padding: 0 0 0 0;
+    }
+    
+    .section.sec6 .inner-sec6 .sec6-port .appleImg img{
         width: 275px;
         height: 192px;
     }
 
-    .section.sec5 .inner-sec5 .sec5-Txt{
+    .section.sec6 .inner-sec6 .sec6-Txt{
         width: 100%;
         height: auto;
         padding: 0 0 0 0;
@@ -792,7 +990,7 @@
         /* border: 1px solid #000; */
     }
 
-    .section.sec5 .inner-sec5 .sec5-Txt .logoTxt h1.appleLogo{
+    .section.sec6 .inner-sec6 .sec6-Txt .logoTxt h1.appleLogo{
         width: 135px;
         height: 47px;
         position: absolute;
@@ -800,28 +998,28 @@
         margin-right:40px;
     }
     
-    .section.sec5 .inner-sec5 .sec5-Txt .logoTxt h1.appleLogo img{
+    .section.sec6 .inner-sec6 .sec6-Txt .logoTxt h1.appleLogo img{
         width: 100%;
         display: block;
         opacity: 0;
         float:right;
     }
 
-    .section.sec5 .inner-sec5 .sec5-Txt .logoTxt .appleColor >ul >li:nth-child(1)::after{
+    .section.sec6 .inner-sec6 .sec6-Txt .logoTxt .appleColor >ul >li:nth-child(1)::after{
         width: 12px;
         height: 12px;
         margin-top: 60px;
         right:0;
         margin-right: 80px;
     }
-    .section.sec5 .inner-sec5 .sec5-Txt .logoTxt .appleColor >ul >li:nth-child(2)::after{
+    .section.sec6 .inner-sec6 .sec6-Txt .logoTxt .appleColor >ul >li:nth-child(2)::after{
         width: 12px;
         height: 12px;
         margin-top: 60px;
         right:0;
         margin-right: 60px;
     }
-    .section.sec5 .inner-sec5 .sec5-Txt .logoTxt .appleColor >ul >li:nth-child(3)::after{
+    .section.sec6 .inner-sec6 .sec6-Txt .logoTxt .appleColor >ul >li:nth-child(3)::after{
         width: 12px;
         height: 12px;
         margin-top: 60px;
@@ -829,33 +1027,33 @@
         margin-right: 40px;
     }
 
-    .section.sec5 .inner-sec5 .sec5-Txt .apple-about{
+    .section.sec6 .inner-sec6 .sec6-Txt .apple-about{
         padding: 0 30px;
         box-sizing:border-box;
     }
 
-    .section.sec5 .inner-sec5 .sec5-Txt .apple-about >h3{
+    .section.sec6 .inner-sec6 .sec6-Txt .apple-about >h3{
         font-size: 20px;
         margin: 80px 0 0 0;
     }
     
-    .section.sec5 .inner-sec5 .sec5-Txt .apple-about >h6{
+    .section.sec6 .inner-sec6 .sec6-Txt .apple-about >h6{
         font-size: 14px;
         margin: 0 0 5px 0;
     }
     
-    .section.sec5 .inner-sec5 .sec5-Txt .apple-about >span{
+    .section.sec6 .inner-sec6 .sec6-Txt .apple-about >span{
         font-size: 12px;
         line-height: 14px;
     }
     
-    .section.sec5 .inner-sec5 .sec5-Txt .apple-about >p{
+    .section.sec6 .inner-sec6 .sec6-Txt .apple-about >p{
         font-size: 12px;
         line-height: 20px;
         margin: 10px 0 0 0;
     }
     
-    .section.sec5 .inner-sec5 .sec5-Txt .apple-about >input[type=button]{
+    .section.sec6 .inner-sec6 .sec6-Txt .apple-about >input[type=button]{
         width: 120px;
         height: 30px;
         margin: 10px 0 0 0;

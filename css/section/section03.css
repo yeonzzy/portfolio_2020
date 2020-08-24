@@ -43,23 +43,21 @@
 
 .section.sec3 .inner-sec3 .sec3-port{
     width: 60%;
-    height: 100%;
-    float: left;
+    height: auto;
     position: absolute;
     left: -100%;
     z-index: 1;
 }
 
-.section.sec3 .inner-sec3 .sec3-port .vibeImg{
+.section.sec3 .inner-sec3 .sec3-port .hyundaiImg{
     width: 100%;
-    height: 100%;
     padding: 150px 0 0 0;
     box-sizing: border-box;
+    border: 0px solid #00f;
 }
 
-.section.sec3 .inner-sec3 .sec3-port .vibeImg img{
-    width: 800px;
-    height: 552px;
+.section.sec3 .inner-sec3 .sec3-port .hyundaiImg img{
+    width: 80%;
     margin: 0 auto;
     display: block;
 }
@@ -69,97 +67,111 @@
     height: auto;
     padding: 12% 0 0 0;
     box-sizing: border-box;
-    float: left;
     font-style: normal;
     color: #333;
     position: absolute;
-    margin: 0 0 0 60%;
-    
+    right: 0;
+    border: 1px solid #f00;
 }
 
 .section.sec3 .inner-sec3 .sec3-Txt .logoTxt{
-    width: 100%;
+    width: 65%;
     height: auto;
+    border: 0px solid #00f;
 }
 
-.section.sec3 .inner-sec3 .sec3-Txt .logoTxt h1.vibeLogo{
-    width: 500px;
-    height: 82px;
-    position: absolute;
+.section.sec3 .inner-sec3 .sec3-Txt .logoTxt h1.hyundaiLogo{
+    width: 100%;
 }
 
-.section.sec3 .inner-sec3 .sec3-Txt .logoTxt h1.vibeLogo img{
-    width: 500px;
+.section.sec3 .inner-sec3 .sec3-Txt .logoTxt h1.hyundaiLogo img{
+    width: 100%;
     display: block;
     opacity: 0;
 }
 
-.section.sec3 .inner-sec3 .sec3-Txt .logoTxt .vibeColor >ul >li{
+.section.sec3 .inner-sec3 .sec3-Txt .logoTxt .hyundaiColor{
+    float: right;
+    width: auto;
+    margin: 15px 0;
+    height: auto;
+    border: 0px solid #000;
+}
+
+.section.sec3 .inner-sec3 .sec3-Txt .logoTxt .hyundaiColor::after{
+    content: "";
+    display: block;
+    clear: both;
+}
+
+.section.sec3 .inner-sec3 .sec3-Txt .logoTxt .hyundaiColor >ul >li{
     display: none;
+    float: left;
+    width: 15px;
+    height: 15px;
+    margin: 0 10px;
 }
 
-.section.sec3 .inner-sec3 .sec3-Txt .logoTxt .vibeColor >ul >li:nth-child(1)::after{
+.section.sec3 .inner-sec3 .sec3-Txt .logoTxt .hyundaiColor >ul >li:nth-child(1)::after{
     content:"";
-    background: #000;
+    background: #008837;
     width: 15px;
     height: 15px;
     border-radius: 50%;
-    float: left;
-    margin: 5px;
-    position: absolute;
-    margin-top: 100px;
-    margin-left: 420px;
+    
 }
-.section.sec3 .inner-sec3 .sec3-Txt .logoTxt .vibeColor >ul >li:nth-child(2)::after{
+.section.sec3 .inner-sec3 .sec3-Txt .logoTxt .hyundaiColor >ul >li:nth-child(2)::after{
     content: "";
-    background: #fd1d1d;
+    background: #FFB300;
     width: 15px;
     height: 15px;
     border-radius: 50%;
-    float: left;
-    margin: 5px;
-    position: absolute;
-    margin-top: 100px;
-    margin-left: 450px;
 }
-.section.sec3 .inner-sec3 .sec3-Txt .logoTxt .vibeColor >ul >li:nth-child(3)::after{
+.section.sec3 .inner-sec3 .sec3-Txt .logoTxt .hyundaiColor >ul >li:nth-child(3)::after{
     content: "";
-    background: #833ab4;
+    background: #1d4483;
     width: 15px;
     height: 15px;
     border-radius: 50%;
-    float: left;
-    margin: 5px;
-    position: absolute;
-    margin-top: 100px;
-    margin-left: 480px;
 }
 
-.section.sec3 .inner-sec3 .sec3-Txt .vibe-about >h3{
+.section.sec3 .inner-sec3 .sec3-Txt .logoTxt .hyundaiColor >ul >li::after{
+    content: "";
+    display: block;
+    clear: both;
+}
+
+.section.sec3 .inner-sec3 .sec3-Txt .hyundai-about{
+    border: 0px solid #ff0;
+    width: 100%;
+    height: auto;
+    margin: 50px 0 0 0;
+}
+
+.section.sec3 .inner-sec3 .sec3-Txt .hyundai-about >h3{
     font-size: 28px;
     font-weight: 500;
-    margin: 120px 0 0 0;
-    font-family: 'NanumSquare', sans-serif;
+    font-family: 'Source Sans Pro', sans-serif;
     display: none;
 }
 
-.section.sec3 .inner-sec3 .sec3-Txt .vibe-about >h6{
+.section.sec3 .inner-sec3 .sec3-Txt .hyundai-about >h6{
     font-size: 14px;
     font-weight: 500;
-    font-family: 'NanumSquare', sans-serif;
+    font-family: 'Source Sans Pro', sans-serif;
     line-height: 24px;
     display: none;
     margin: 0 0 20px 0;
 }
 
-.section.sec3 .inner-sec3 .sec3-Txt .vibe-about >span{
+.section.sec3 .inner-sec3 .sec3-Txt .hyundai-about >span{
     font-size: 16px;
     line-height: 24px;
     font-family: 'NanumSquare', sans-serif;
     display: none;
 }
 
-.section.sec3 .inner-sec3 .sec3-Txt .vibe-about >p{
+.section.sec3 .inner-sec3 .sec3-Txt .hyundai-about >p{
     font-size: 16px;
     line-height: 24px;
     font-family: 'NanumSquare', sans-serif;
@@ -167,7 +179,7 @@
     margin: 20px 0 0 0;
 }
 
-.section.sec3 .inner-sec3 .sec3-Txt .vibe-about >input[type=button]{
+.section.sec3 .inner-sec3 .sec3-Txt .hyundai-about >input[type=button]{
     width: 150px;
     height: 40px;
     border-radius: 10px;
@@ -183,6 +195,17 @@
     letter-spacing: 1px;
 }
 
-.section.sec3 .inner-sec3 .sec3-Txt .vibe-about >input[type=button]:hover{
-    background: linear-gradient(60deg, #833ab4, #fd1d1d, #fcb045);
+.section.sec3 .inner-sec3 .sec3-Txt .hyundai-about >input[type=button]:hover{
+    background: #008837;
+    transition: all .5s;
+}
+
+.section.sec3 .inner-sec3 .sec3-Txt .hyundai-about input.h-sub{
+    margin: 10px 0 0 0;
+    background: rgb(197, 197, 197);
+}
+
+.section.sec3 .inner-sec3 .sec3-Txt .hyundai-about input.h-sub:hover{
+    background: #FFB300;
+    transition: all .5s;
 }

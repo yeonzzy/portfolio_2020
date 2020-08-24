@@ -1,7 +1,7 @@
 //footer Clock
 
-$(window).on("scroll", sec3_scrollFunc);
-function sec3_scrollFunc() {
+$(window).on("scroll", foot_scrollFunc);
+function foot_scrollFunc() {
   clearInterval(setTimer);
   var goTofoot = $(".footer").offset().top;
   var docScrollTop = $(document).scrollTop();
