@@ -82,7 +82,7 @@
 
      /*section3 부분*/
      .section.sec3{
-        border:1px solid #00f;
+        border: 0px solid #00f;
         padding: 40px 0 0 0;
         box-sizing: border-box;
     }
@@ -90,81 +90,51 @@
     .section.sec3 .inner-sec3 .sec3-port{
         width: 100%;
         height: auto;
-        /* border: 1px solid #f00; */
+        border: 0px solid #f00;
     }
 
     .section.sec3 .inner-sec3 .sec3-port .hyundaiImg{
         padding: 0 0 0 0;
-        border: 1px solid #000;
+        border: 0px solid #000;
     }
 
     .section.sec3 .inner-sec3 .sec3-port .hyundaiImg img{
-        width: 60%;
+        width: 70%;
     }
 
     .section.sec3 .inner-sec3 .sec3-Txt{
         width: 100%;
         height: auto;
-        padding: 10px;
-        margin: 0 0 0 0;
-        position: static;
-        border: 1px solid #f00;
+        padding: 0 10px;
+        margin: 50% 0 0 0;
+        /* border: 1px solid #f00; */
     }
 
-    .section.sec3 .inner-sec3 .sec3-Txt .logoTxt h1.hyundaiLogo{
-        width: 400px;
-        height: 66px;
-        position: absolute;
-        right:0;
-        margin-right:100px;
+    .section.sec3 .inner-sec3 .sec3-Txt .logoTxt{
+        float: right;
     }
-    
-    .section.sec3 .inner-sec3 .sec3-Txt .logoTxt h1.hyundaiLogo img{
-        width:400px;
+
+    .section.sec3 .inner-sec3 .sec3-Txt .logoTxt::after{
+        content: "";
         display: block;
-        opacity: 0;
-        float:right;
+        clear: both;
+    }
+
+    .section.sec3 .inner-sec3 .sec3-Txt .logoTxt h1.hyundaiLogo img{
+        width: 90%;
+        float: right;
+        /* border: 1px solid #000; */
     }
 
     .section.sec3 .inner-sec3 .sec3-Txt .logoTxt .hyundaiColor{
-        padding: 20px;
+        padding: 10px 0;
         box-sizing: border-box;
-        border: 1px solid #000;
-    }
-    
-    .section.sec3 .inner-sec3 .sec3-Txt .logoTxt .hyundaiColor >ul >li{
-        display: none;
-        float: left;
-        width: 15px;
-        height: 15px;
-        margin: 0 10px;
-    }
-    
-    .section.sec3 .inner-sec3 .sec3-Txt .logoTxt .hyundaiColor >ul >li:nth-child(1)::after{
-        content:"";
-        background: #008837;
-        width: 15px;
-        height: 15px;
-        border-radius: 50%;
-        
-    }
-    .section.sec3 .inner-sec3 .sec3-Txt .logoTxt .hyundaiColor >ul >li:nth-child(2)::after{
-        content: "";
-        background: #FFB300;
-        width: 15px;
-        height: 15px;
-        border-radius: 50%;
-    }
-    .section.sec3 .inner-sec3 .sec3-Txt .logoTxt .hyundaiColor >ul >li:nth-child(3)::after{
-        content: "";
-        background: #1d4483;
-        width: 15px;
-        height: 15px;
-        border-radius: 50%;
+        margin: 10px 0;
     }
 
     .section.sec3 .inner-sec3 .sec3-Txt .hyundai-about{
-        padding: 0 80px;
+        padding: 0 0 0 80px;
+        margin: 15% 0 0 0;
         box-sizing:border-box;
     }
 
@@ -451,8 +421,110 @@
     }
 }
 
+/*태블릿 ~ 모바일 중간 사이즈*/
+@media only screen and (min-width:481px) and (max-width:767px){
+    /*section3 부분*/
+    .section.sec3{
+        /* border:1px solid #00f; */
+        padding: 40px 0 0 0;
+        box-sizing: border-box;
+    }
+
+    .section.sec3 .inner-sec3 .sec3-arrow{
+        width:20px;
+        height: 12px;
+        bottom: 20px;
+        margin-left: -10px;
+    }
+
+    .section.sec3 .inner-sec3 .sec3-port{
+        width: 100%;
+        height: auto;
+        /* border: 1px solid #f00; */
+    }
+
+    .section.sec3 .inner-sec3 .sec3-port .hyundaiImg{
+        padding: 0 0 0 0;
+        border: 0px solid #000;
+    }
+
+    .section.sec3 .inner-sec3 .sec3-port .hyundaiImg img{
+        width: 60%;
+    }
+
+    .section.sec3 .inner-sec3 .sec3-Txt{
+        width: 100%;
+        height: auto;
+        padding: 0 0 0 0;
+        margin: 45% 0 0 0;
+        /* border: 1px solid #000; */
+    }
+
+    .section.sec3 .inner-sec3 .sec3-Txt .logoTxt{
+        float: right;
+        /* border: 1px solid #000; */
+    }
+
+    .section.sec3 .inner-sec3 .sec3-Txt .logoTxt::after{
+        content: "";
+        display: block;
+        clear: both;
+    }
+
+    .section.sec3 .inner-sec3 .sec3-Txt .logoTxt h1.hyundaiLogo img{
+        width: 80%;
+        float: right;
+    }
+
+    .section.sec3 .inner-sec3 .sec3-Txt .logoTxt .hyundaiColor{
+        padding: 10px 0;
+        box-sizing: border-box;
+        margin: 10px 0;
+    }
+
+    .section.sec3 .inner-sec3 .sec3-Txt .hyundai-about{
+        padding: 0 0 0 80px;
+        margin: 17% 0;
+        box-sizing:border-box;
+    }
+
+    .section.sec3 .inner-sec3 .sec3-Txt .hyundai-about >h6{
+        font-size: 14px;
+        margin: 0 0 5px 0;
+    }
+    
+    .section.sec3 .inner-sec3 .sec3-Txt .hyundai-about >span{
+        font-size: 12px;
+        line-height: 14px;
+    }
+    
+    .section.sec3 .inner-sec3 .sec3-Txt .hyundai-about >p{
+        font-size: 12px;
+        line-height: 20px;
+        margin: 10px 0 0 0;
+    }
+    
+    .section.sec3 .inner-sec3 .sec3-Txt .hyundai-about >input[type=button]{
+        width: 120px;
+        height: 30px;
+        margin: 10px 0 0 0;
+        font-size: 11px;
+    }
+
+
+
+
+
+
+
+    
+
+    
+}
+
+
 /*모바일사이즈*/
-@media only screen and (max-width:767px){
+@media only screen and (max-width:480px){
     /*menu 부분*/
     .inner-wrap span.menu{
         width: 40px;

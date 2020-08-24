@@ -71,7 +71,7 @@
     color: #333;
     position: absolute;
     right: 0;
-    border: 1px solid #f00;
+    border: 0px solid #f00;
 }
 
 .section.sec3 .inner-sec3 .sec3-Txt .logoTxt{
@@ -142,7 +142,7 @@
 }
 
 .section.sec3 .inner-sec3 .sec3-Txt .hyundai-about{
-    border: 0px solid #ff0;
+    /* border: 1px solid #ff0; */
     width: 100%;
     height: auto;
     margin: 50px 0 0 0;
