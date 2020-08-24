@@ -7,6 +7,7 @@ var goTopSec2 = $(".section.sec2").offset().top;
 var goTopSec3 = $(".section.sec3").offset().top;
 var goTopSec4 = $(".section.sec4").offset().top;
 var goTopSec5 = $(".section.sec5").offset().top;
+var goTopSec6 = $(".section.sec6").offset().top;
 var goTofoot = $(".footer").offset().top;
 
 $(document).ready(function () {
@@ -61,5 +62,8 @@ menuLi.eq(4).on('click',function(){
   $("html,body").animate({ scrollTop:goTopSec5+1}, 1000);
 });
 menuLi.eq(5).on('click',function(){
+  $("html,body").animate({ scrollTop:goTopSec6+1}, 1000);
+});
+menuLi.eq(6).on('click',function(){
   $("html,body").animate({ scrollTop:goTofoot+1}, 1000);
 });

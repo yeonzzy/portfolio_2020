@@ -71,28 +71,44 @@
     color: #333;
     position: absolute;
     right: 0;
-    
 }
 
 .section.sec5 .inner-sec5 .sec5-Txt .logoTxt{
-    width: 100%;
+    width: 50%;
     height: auto;
 }
 
 .section.sec5 .inner-sec5 .sec5-Txt .logoTxt h1.cocaLogo{
-    width: 315px;
-    height: 103px;
-    position: absolute;
+    width: 100%;
 }
 
 .section.sec5 .inner-sec5 .sec5-Txt .logoTxt h1.cocaLogo img{
-    width: 315px;
+    width: 100%;
     display: block;
     opacity: 0;
 }
 
+.section.sec5 .inner-sec5 .sec5-Txt .logoTxt .cocaColor{
+    float: right;
+    width: auto;
+    margin: 15px 0;
+    height: auto;
+    padding-right: 20px;
+    /* border: 1px solid #000; */
+}
+
+.section.sec5 .inner-sec5 .sec5-Txt .logoTxt .cocaColor::after{
+    content: "";
+    display: block;
+    clear: both;
+}
+
 .section.sec5 .inner-sec5 .sec5-Txt .logoTxt .cocaColor >ul >li{
     display: none;
+    float: left;
+    width: 15px;
+    height: 15px;
+    margin: 0 10px;
 }
 
 .section.sec5 .inner-sec5 .sec5-Txt .logoTxt .cocaColor >ul >li:nth-child(1)::after{
@@ -101,11 +117,6 @@
     width: 15px;
     height: 15px;
     border-radius: 50%;
-    float: left;
-    margin: 5px;
-    position: absolute;
-    margin-top: 120px;
-    margin-left: 200px;
 }
 .section.sec5 .inner-sec5 .sec5-Txt .logoTxt .cocaColor >ul >li:nth-child(2)::after{
     content: "";
@@ -113,37 +124,37 @@
     width: 15px;
     height: 15px;
     border-radius: 50%;
-    float: left;
-    margin: 5px;
-    position: absolute;
-    margin-top: 120px;
-    margin-left: 230px;
 }
 .section.sec5 .inner-sec5 .sec5-Txt .logoTxt .cocaColor >ul >li:nth-child(3)::after{
     content: "";
     background: #f40009;
     width: 15px;
     height: 15px;
-    border-radius: 50%;
-    float: left;
-    margin: 5px;
-    position: absolute;
-    margin-top: 120px;
-    margin-left: 260px;
+    border-radius: 50%;;
+}
+
+.section.sec5 .inner-sec5 .sec5-Txt .logoTxt .cocaColor >ul >li::after{
+    content: "";
+    display: block;
+    clear: both;
+}
+
+.section.sec5 .inner-sec5 .sec5-Txt .coca-about{
+    /* border: 1px solid #ff0; */
+    width: 100%;
+    height: auto;
+    margin: 50px 0 0 0;
 }
 
 .section.sec5 .inner-sec5 .sec5-Txt .coca-about >h3{
     font-size: 28px;
     font-weight: 500;
-    margin: 180px 0 0 0;
-    font-family: 'NanumSquare', sans-serif;
     display: none;
 }
 
 .section.sec5 .inner-sec5 .sec5-Txt .coca-about >h6{
     font-size: 14px;
     font-weight: 500;
-    font-family: 'NanumSquare', sans-serif;
     line-height: 24px;
     display: none;
     margin: 0 0 20px 0;

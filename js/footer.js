@@ -1,4 +1,4 @@
-var footGo = $(".sec5-arrow");
+var footGo = $(".sec6-arrow");
 var goTofoot = $(".footer").offset().top;
 footGo.on("click", footGoFunc);
 function footGoFunc() {

@@ -44,11 +44,10 @@
 .section.sec4 .inner-sec4 .sec4-port{
     width: 60%;
     height: auto;
-    float: left;
     position: absolute;
     left: -100%;
     z-index: 1;
-    border: 1px solid #00f;
+    /* border: 1px solid #00f; */
 }
 
 .section.sec4 .inner-sec4 .sec4-port .vibeImg{
@@ -73,29 +72,47 @@
     color: #333;
     position: absolute;
     right: 0;
-    border: 1px solid #f00;
+    border: 0px solid #f00;
     
 }
 
 .section.sec4 .inner-sec4 .sec4-Txt .logoTxt{
-    width: 100%;
+    width: 65%;
     height: auto;
+    border: 0px solid #00f;
 }
 
 .section.sec4 .inner-sec4 .sec4-Txt .logoTxt h1.vibeLogo{
-    width: 500px;
-    height: 82px;
-    position: absolute;
+    width: 100%;
 }
 
 .section.sec4 .inner-sec4 .sec4-Txt .logoTxt h1.vibeLogo img{
-    width: 500px;
+    width: 100%;
     display: block;
     opacity: 0;
 }
 
+
+.section.sec4 .inner-sec4 .sec4-Txt .logoTxt .vibeColor{
+    float: right;
+    width: auto;
+    margin: 15px 0;
+    height: auto;
+    /* border: 1px solid #000; */
+}
+
+.section.sec4 .inner-sec4 .sec4-Txt .logoTxt .vibeColor::after{
+    content: "";
+    display: block;
+    clear: both;
+}
+
 .section.sec4 .inner-sec4 .sec4-Txt .logoTxt .vibeColor >ul >li{
     display: none;
+    float: left;
+    width: 15px;
+    height: 15px;
+    margin: 0 0 0 10px;
 }
 
 .section.sec4 .inner-sec4 .sec4-Txt .logoTxt .vibeColor >ul >li:nth-child(1)::after{
@@ -104,49 +121,48 @@
     width: 15px;
     height: 15px;
     border-radius: 50%;
-    float: left;
-    margin: 5px;
-    position: absolute;
-    margin-top: 100px;
-    margin-left: 420px;
 }
+
 .section.sec4 .inner-sec4 .sec4-Txt .logoTxt .vibeColor >ul >li:nth-child(2)::after{
     content: "";
     background: #fd1d1d;
     width: 15px;
     height: 15px;
     border-radius: 50%;
-    float: left;
-    margin: 5px;
-    position: absolute;
-    margin-top: 100px;
-    margin-left: 450px;
 }
+
 .section.sec4 .inner-sec4 .sec4-Txt .logoTxt .vibeColor >ul >li:nth-child(3)::after{
     content: "";
     background: #833ab4;
     width: 15px;
     height: 15px;
     border-radius: 50%;
-    float: left;
-    margin: 5px;
-    position: absolute;
-    margin-top: 100px;
-    margin-left: 480px;
+}
+
+.section.sec4 .inner-sec4 .sec4-Txt .logoTxt .vibeColor >ul >li::after{
+    content: "";
+    display: block;
+    clear: both;
+}
+
+.section.sec4 .inner-sec4 .sec4-Txt .vibe-about{
+    border: 0px solid #ff0;
+    width: 100%;
+    height: auto;
+    margin: 50px 0 0 0;
 }
 
 .section.sec4 .inner-sec4 .sec4-Txt .vibe-about >h3{
     font-size: 28px;
     font-weight: 500;
-    margin: 120px 0 0 0;
-    font-family: 'NanumSquare', sans-serif;
+    font-family: 'Source Sans Pro', sans-serif;
     display: none;
 }
 
 .section.sec4 .inner-sec4 .sec4-Txt .vibe-about >h6{
     font-size: 14px;
     font-weight: 500;
-    font-family: 'NanumSquare', sans-serif;
+    font-family: 'Source Sans Pro', sans-serif;
     line-height: 24px;
     display: none;
     margin: 0 0 20px 0;

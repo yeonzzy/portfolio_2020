@@ -1,6 +1,6 @@
 var cocaBtn = $(".coca-about>input[type=button]");
 
-var sec5Go = $(".sec3-arrow");
+var sec5Go = $(".sec4-arrow");
 var goTopsec5 = $(".section.sec5").offset().top;
 sec5Go.on("click", sec5GoFunc);
 function sec5GoFunc() {

@@ -7,10 +7,6 @@
     .inner-wrap span.menu{
         right: 30px;
     }
-
-    .inner-wrap .menuBox{
-        background: rgba(0,0,0,0.8);
-    }
     
     /*topGoBtn 부분*/
     .inner-wrap span.topGo{
@@ -82,7 +78,7 @@
 
      /*section3 부분*/
      .section.sec3{
-        border: 0px solid #00f;
+        /* border: 1px solid #00f; */
         padding: 40px 0 0 0;
         box-sizing: border-box;
     }
@@ -123,11 +119,13 @@
     .section.sec3 .inner-sec3 .sec3-Txt .logoTxt h1.hyundaiLogo img{
         width: 90%;
         float: right;
+        padding-right: 30px;
+        box-sizing: border-box;
         /* border: 1px solid #000; */
     }
 
     .section.sec3 .inner-sec3 .sec3-Txt .logoTxt .hyundaiColor{
-        padding: 10px 0;
+        padding: 10px 30px 0 0;
         box-sizing: border-box;
         margin: 10px 0;
     }
@@ -140,240 +138,187 @@
 
     /*section4 부분*/
     .section.sec4{
-        /* border:1px solid #00f; */
-        padding: 5% 0 0 0;
+        /* border: 1px solid #00f; */
+        padding: 40px 0 0 0;
         box-sizing: border-box;
     }
 
     .section.sec4 .inner-sec4 .sec4-port{
         width: 100%;
         height: auto;
-        float: unset;
         /* border: 1px solid #f00; */
     }
 
     .section.sec4 .inner-sec4 .sec4-port .vibeImg{
-        width: 100%;
-        height: auto;
-        float: unset;
         padding: 0 0 0 0;
+        /* border: 1px solid #000; */
     }
-    
-    .section.sec .inner-sec4 .sec4-port .vibeImg img{
-        width: 600px;
-        height: 414px;
+
+    .section.sec4 .inner-sec4 .sec4-port .vibeImg img{
+        width: 70%;
     }
 
     .section.sec4 .inner-sec4 .sec4-Txt{
         width: 100%;
         height: auto;
-        padding: 0 0 0 0;
-        margin: 55% 0 0 0;
+        padding: 0 10px;
+        margin: 50% 0 0 0;
+        /* border: 1px solid #f00; */
+    }
+
+    .section.sec4 .inner-sec4 .sec4-Txt .logoTxt{
+        float: right;
+    }
+
+    .section.sec4 .inner-sec4 .sec4-Txt .logoTxt::after{
+        content: "";
+        display: block;
+        clear: both;
+    }
+
+    .section.sec4 .inner-sec4 .sec4-Txt .logoTxt h1.vibeLogo img{
+        width: 90%;
+        float: right;
+        padding-right: 30px;
+        box-sizing: border-box;
         /* border: 1px solid #000; */
     }
 
-    .section.sec4 .inner-sec4 .sec4-Txt .logoTxt h1.vibeLogo{
-        width: 400px;
-        height: 66px;
-        position: absolute;
-        right:0;
-        margin-right:100px;
-    }
-    
-    .section.sec4 .inner-sec4 .sec4-Txt .logoTxt h1.vibeLogo img{
-        width:400px;
-        display: block;
-        opacity: 0;
-        float:right;
-    }
-
-    .section.sec4 .inner-sec4 .sec4-Txt .logoTxt .vibeColor >ul >li:nth-child(1)::after{
-        width: 15px;
-        height: 15px;
-        margin-top: 80px;
-        right:0;
-        margin-right: 160px;
-    }
-    .section.sec4 .inner-sec4 .sec4-Txt .logoTxt .vibeColor >ul >li:nth-child(2)::after{
-        width: 15px;
-        height: 15px;
-        margin-top: 80px;
-        right:0;
-        margin-right: 130px;
-    }
-    .section.sec4 .inner-sec4 .sec4-Txt .logoTxt .vibeColor >ul >li:nth-child(3)::after{
-        width: 15px;
-        height: 15px;
-        margin-top: 80px;
-        right:0;
-        margin-right: 100px;
+    .section.sec4 .inner-sec4 .sec4-Txt .logoTxt .vibeColor{
+        padding: 10px 30px 0 0;
+        box-sizing: border-box;
+        margin: 10px 0;
     }
 
     .section.sec4 .inner-sec4 .sec4-Txt .vibe-about{
-        padding: 0 80px;
+        padding: 0 0 0 80px;
+        margin: 15% 0 0 0;
         box-sizing:border-box;
+        /* border: 1px solid #ff0; */
     }
 
     /*section5 부분*/
     .section.sec5{
-        /* border:1px solid #00f; */
-        padding: 5% 0 0 0;
+        /* border: 1px solid #00f; */
+        padding: 40px 0 0 0;
         box-sizing: border-box;
     }
 
     .section.sec5 .inner-sec5 .sec5-port{
         width: 100%;
         height: auto;
-        float: unset;
-        /* border: 1px solid #f00; */
     }
 
     .section.sec5 .inner-sec5 .sec5-port .cocaImg{
-        width: 100%;
-        height: auto;
-        float: unset;
         padding: 0 0 0 0;
+        /* border: 1px solid #000; */
     }
-    
+
     .section.sec5 .inner-sec5 .sec5-port .cocaImg img{
-        width: 560px;
-        height: 450px;
+        width: 60%;
     }
 
     .section.sec5 .inner-sec5 .sec5-Txt{
         width: 100%;
         height: auto;
-        padding: 0 0 0 0;
-        margin: 60% 0 0 0;
+        padding: 0 10px;
+        margin: 50% 0 0 0;
+        /* border: 1px solid #f00; */
+    }
+
+    .section.sec5 .inner-sec5 .sec5-Txt .logoTxt{
+        float: right;
+    }
+
+    .section.sec5 .inner-sec5 .sec5-Txt .logoTxt::after{
+        content: "";
+        display: block;
+        clear: both;
+    }
+
+    .section.sec5 .inner-sec5 .sec5-Txt .logoTxt h1.cocaLogo img{
+        width: 80%;
+        float: right;
+        padding-right: 30px;
+        box-sizing: border-box;
         /* border: 1px solid #000; */
     }
 
-    .section.sec5 .inner-sec5 .sec5-Txt .logoTxt h1.cocaLogo{
-        width: 230px;
-        height: 75px;
-        position: absolute;
-        right:0;
-        margin-right:110px;
-    }
-    
-    .section.sec5 .inner-sec5 .sec5-Txt .logoTxt h1.cocaLogo img{
-        width:230px;
-        display: block;
-        opacity: 0;
-        float:right;
-    }
-
-    .section.sec5 .inner-sec5 .sec5-Txt .logoTxt .cocaColor >ul >li:nth-child(1)::after{
-        width: 15px;
-        height: 15px;
-        margin-top: 100px;
-        right:0;
-        margin-right: 200px;
-    }
-    .section.sec5 .inner-sec5 .sec5-Txt .logoTxt .cocaColor >ul >li:nth-child(2)::after{
-        width: 15px;
-        height: 15px;
-        margin-top: 100px;
-        right:0;
-        margin-right: 170px;
-    }
-    .section.sec5 .inner-sec5 .sec5-Txt .logoTxt .cocaColor >ul >li:nth-child(3)::after{
-        width: 15px;
-        height: 15px;
-        margin-top: 100px;
-        right:0;
-        margin-right: 140px;
+    .section.sec5 .inner-sec5 .sec5-Txt .logoTxt .cocaColor{
+        padding: 10px 30px 0 0;
+        box-sizing: border-box;
+        margin: 0 20px 0 0;
+        /* border: 1px solid #0f0; */
     }
 
     .section.sec5 .inner-sec5 .sec5-Txt .coca-about{
-        padding: 0 80px;
+        padding: 0 0 0 80px;
+        margin: 16% 0 0 0;
         box-sizing:border-box;
-    }
-
-    .section.sec5 .inner-sec5 .sec5-Txt .coca-about >h3{
-        font-size: 20px;
-        margin: 120px 0 0 0;
+        /* border: 1px solid #ff0; */
     }
 
     /*section6 부분*/
     .section.sec6{
-        /* border:1px solid #00f; */
-        padding: 5% 0 0 0;
+        /* border: 1px solid #00f; */
+        padding: 40px 0 0 0;
         box-sizing: border-box;
     }
 
     .section.sec6 .inner-sec6 .sec6-port{
         width: 100%;
         height: auto;
-        float: unset;
-        /* border: 1px solid #f00; */
     }
 
     .section.sec6 .inner-sec6 .sec6-port .appleImg{
-        width: 100%;
-        height: auto;
-        float: unset;
         padding: 0 0 0 0;
+        /* border: 1px solid #000; */
     }
-    
+
     .section.sec6 .inner-sec6 .sec6-port .appleImg img{
-        width: 600px;
-        height: 414px;
+        width: 55%;
     }
 
     .section.sec6 .inner-sec6 .sec6-Txt{
         width: 100%;
         height: auto;
-        padding: 0 0 0 0;
-        margin: 55% 0 0 0;
+        padding: 0 10px;
+        margin: 40% 0 0 0;
+        /* border: 1px solid #f00; */
+    }
+
+    .section.sec6 .inner-sec6 .sec6-Txt .logoTxt{
+        width: 30%;
+        float: right;
+        /* border: 1px solid #00f; */
+    }
+
+    .section.sec6 .inner-sec6 .sec6-Txt .logoTxt::after{
+        content: "";
+        display: block;
+        clear: both;
+    }
+
+    .section.sec6 .inner-sec6 .sec6-Txt .logoTxt h1.appleLogo img{
+        width: 100%;
+        float: right;
+        padding-right: 30px;
+        box-sizing: border-box;
         /* border: 1px solid #000; */
     }
 
-    .section.sec6 .inner-sec6 .sec6-Txt .logoTxt h1.appleLogo{
-        width: 218px;
-        height: 75px;
-        position: absolute;
-        right:0;
-        margin-right:110px;
-    }
-    
-    .section.sec6 .inner-sec6 .sec6-Txt .logoTxt h1.appleLogo img{
-        width:218px;
-        display: block;
-        opacity: 0;
-        float:right;
-    }
-
-    .section.sec6 .inner-sec6 .sec6-Txt .logoTxt .appleColor >ul >li:nth-child(1)::after{
-        width: 15px;
-        height: 15px;
-        margin-top: 90px;
-        right:0;
-        margin-right: 170px;
-    }
-    .section.sec6 .inner-sec6 .sec6-Txt .logoTxt .appleColor >ul >li:nth-child(2)::after{
-        width: 15px;
-        height: 15px;
-        margin-top: 90px;
-        right:0;
-        margin-right: 140px;
-    }
-    .section.sec6 .inner-sec6 .sec6-Txt .logoTxt .appleColor >ul >li:nth-child(3)::after{
-        width: 15px;
-        height: 15px;
-        margin-top: 90px;
-        right:0;
-        margin-right: 110px;
+    .section.sec6 .inner-sec6 .sec6-Txt .logoTxt .appleColor{
+        padding: 10px 20px 0 0;
+        box-sizing: border-box;
+        margin: 0 0;
+        /* border: 1px solid #0f0; */
     }
 
     .section.sec6 .inner-sec6 .sec6-Txt .apple-about{
-        padding: 0 80px;
+        padding: 0 0 0 80px;
+        margin: 16% 0 0 0;
         box-sizing:border-box;
-    }
-
-    .section.sec6 .inner-sec6 .sec6-Txt .apple-about >h3{
-        font-size: 20px;
-        margin: 130px 0 0 0;
+        /* border: 1px solid #ff0; */
     }
 
     /*footer 부분!*/
@@ -423,6 +368,21 @@
 
 /*태블릿 ~ 모바일 중간 사이즈*/
 @media only screen and (min-width:481px) and (max-width:767px){
+    /*menu 부분*/
+    .inner-wrap span.menu{
+        right: 20px;
+        top: 35px;
+    }
+
+    .inner-wrap .menuBox span.menuClose{
+        top: 35px;
+        right: 25px;
+    }
+
+    .inner-wrap .menuBox .inner-menuBox{
+        padding: 80px 0;
+    }
+
     /*section3 부분*/
     .section.sec3{
         /* border:1px solid #00f; */
@@ -474,16 +434,17 @@
     .section.sec3 .inner-sec3 .sec3-Txt .logoTxt h1.hyundaiLogo img{
         width: 80%;
         float: right;
+        padding-right: 30px;
     }
 
     .section.sec3 .inner-sec3 .sec3-Txt .logoTxt .hyundaiColor{
-        padding: 10px 0;
+        padding: 10px 30px 0 0;
         box-sizing: border-box;
         margin: 10px 0;
     }
 
     .section.sec3 .inner-sec3 .sec3-Txt .hyundai-about{
-        padding: 0 0 0 80px;
+        padding: 0 0 0 60px;
         margin: 17% 0;
         box-sizing:border-box;
     }
@@ -505,6 +466,277 @@
     }
     
     .section.sec3 .inner-sec3 .sec3-Txt .hyundai-about >input[type=button]{
+        width: 120px;
+        height: 30px;
+        margin: 10px 0 0 0;
+        font-size: 11px;
+    }
+
+    /*section4 부분*/
+    .section.sec4{
+        /* border:1px solid #00f; */
+        padding: 40px 0 0 0;
+        box-sizing: border-box;
+    }
+
+    .section.sec4 .inner-sec4 .sec4-arrow{
+        width:20px;
+        height: 12px;
+        bottom: 20px;
+        margin-left: -10px;
+    }
+
+    .section.sec4 .inner-sec4 .sec4-port{
+        width: 100%;
+        height: auto;
+        /* border: 1px solid #f00; */
+    }
+
+    .section.sec4 .inner-sec4 .sec4-port .vibeImg{
+        padding: 0 0 0 0;
+        border: 0px solid #000;
+    }
+
+    .section.sec4 .inner-sec4 .sec4-port .vibeImg img{
+        width: 60%;
+    }
+
+    .section.sec4 .inner-sec4 .sec4-Txt{
+        width: 100%;
+        height: auto;
+        padding: 0 0 0 0;
+        margin: 45% 0 0 0;
+        /* border: 1px solid #000; */
+    }
+
+    .section.sec4 .inner-sec4 .sec4-Txt .logoTxt{
+        float: right;
+        /* border: 1px solid #000; */
+    }
+
+    .section.sec4 .inner-sec4 .sec4-Txt .logoTxt::after{
+        content: "";
+        display: block;
+        clear: both;
+    }
+
+    .section.sec4 .inner-sec4 .sec4-Txt .logoTxt h1.vibeLogo img{
+        width: 80%;
+        float: right;
+        padding-right: 30px;
+    }
+
+    .section.sec4 .inner-sec4 .sec4-Txt .logoTxt .vibeColor{
+        padding: 10px 30px 0 0;
+        box-sizing: border-box;
+        margin: 10px 0;
+    }
+
+    .section.sec4 .inner-sec4 .sec4-Txt .vibe-about{
+        padding: 0 0 0 60px;
+        margin: 17% 0;
+        box-sizing:border-box;
+    }
+
+    .section.sec4 .inner-sec4 .sec4-Txt .vibe-about >h6{
+        font-size: 14px;
+        margin: 0 0 5px 0;
+    }
+    
+    .section.sec4 .inner-sec4 .sec4-Txt .vibe-about >span{
+        font-size: 12px;
+        line-height: 14px;
+    }
+    
+    .section.sec4 .inner-sec4 .sec4-Txt .vibe-about >p{
+        font-size: 12px;
+        line-height: 20px;
+        margin: 10px 0 0 0;
+    }
+    
+    .section.sec4 .inner-sec4 .sec4-Txt .vibe-about >input[type=button]{
+        width: 120px;
+        height: 30px;
+        margin: 10px 0 0 0;
+        font-size: 11px;
+    }
+
+    /*section5 부분*/
+    .section.sec5{
+        /* border:1px solid #00f; */
+        padding: 40px 0 0 0;
+        box-sizing: border-box;
+    }
+
+    .section.sec5 .inner-sec5 .sec5-arrow{
+        width:20px;
+        height: 12px;
+        bottom: 20px;
+        margin-left: -10px;
+    }
+
+    .section.sec5 .inner-sec5 .sec5-port{
+        width: 100%;
+        height: auto;
+        /* border: 1px solid #f00; */
+    }
+
+    .section.sec5 .inner-sec5 .sec5-port .cocaImg{
+        padding: 0 0 0 0;
+        /* border: 1px solid #000; */
+    }
+
+    .section.sec5 .inner-sec5 .sec5-port .cocaImg img{
+        width: 55%;
+    }
+
+    .section.sec5 .inner-sec5 .sec5-Txt{
+        width: 100%;
+        height: auto;
+        padding: 0 0 0 0;
+        margin: 45% 0 0 0;
+        /* border: 1px solid #000; */
+    }
+
+    .section.sec5 .inner-sec5 .sec5-Txt .logoTxt{
+        float: right;
+        /* border: 1px solid #000; */
+    }
+
+    .section.sec5 .inner-sec5 .sec5-Txt .logoTxt::after{
+        content: "";
+        display: block;
+        clear: both;
+    }
+
+    .section.sec5 .inner-sec5 .sec5-Txt .logoTxt h1.cocaLogo img{
+        width: 65%;
+        float: right;
+        padding-right: 30px;
+    }
+
+    .section.sec5 .inner-sec5 .sec5-Txt .logoTxt .cocaColor{
+        padding: 10px 40px 0 0;
+        box-sizing: border-box;
+        margin: 0 0;
+        /* border: 1px solid #f00; */
+    }
+
+    .section.sec5 .inner-sec5 .sec5-Txt .coca-about{
+        padding: 0 0 0 60px;
+        margin: 18% 0;
+        box-sizing:border-box;
+        /* border: 1px solid #f00; */
+    }
+
+    .section.sec5 .inner-sec5 .sec5-Txt .coca-about >h6{
+        font-size: 14px;
+        margin: 0 0 5px 0;
+    }
+    
+    .section.sec5 .inner-sec5 .sec5-Txt .coca-about >span{
+        font-size: 12px;
+        line-height: 14px;
+    }
+    
+    .section.sec5 .inner-sec5 .sec5-Txt .coca-about >p{
+        font-size: 12px;
+        line-height: 20px;
+        margin: 10px 0 0 0;
+    }
+    
+    .section.sec5 .inner-sec5 .sec5-Txt .coca-about >input[type=button]{
+        width: 120px;
+        height: 30px;
+        margin: 10px 0 0 0;
+        font-size: 11px;
+    }
+
+    /*section6 부분*/
+    .section.sec6{
+        /* border:1px solid #00f; */
+        padding: 40px 0 0 0;
+        box-sizing: border-box;
+    }
+
+    .section.sec6 .inner-sec6 .sec6-arrow{
+        width:20px;
+        height: 12px;
+        bottom: 20px;
+        margin-left: -10px;
+    }
+
+    .section.sec6 .inner-sec6 .sec6-port{
+        width: 100%;
+        height: auto;
+    }
+
+    .section.sec6 .inner-sec6 .sec6-port .appleImg{
+        padding: 0 0 0 0;
+        /* border: 1px solid #000; */
+    }
+
+    .section.sec6 .inner-sec6 .sec6-port .appleImg img{
+        width: 60%;
+    }
+
+    .section.sec6 .inner-sec6 .sec6-Txt{
+        width: 100%;
+        height: auto;
+        padding: 0 0 0 0;
+        margin: 45% 0 0 0;
+        /* border: 1px solid #000; */
+    }
+
+    .section.sec6 .inner-sec6 .sec6-Txt .logoTxt{
+        float: right;
+        /* border: 1px solid #000; */
+    }
+
+    .section.sec6 .inner-sec6 .sec6-Txt .logoTxt::after{
+        content: "";
+        display: block;
+        clear: both;
+    }
+
+    .section.sec6 .inner-sec6 .sec6-Txt .logoTxt h1.appleLogo img{
+        width: 65%;
+        float: right;
+        padding-right: 30px;
+        /* border: 1px solid #00f; */
+    }
+
+    .section.sec6 .inner-sec6 .sec6-Txt .logoTxt .appleColor{
+        padding: 10px 20px 0 0;
+        box-sizing: border-box;
+        margin: 0 0;
+        /* border: 1px solid #f00; */
+    }
+
+    .section.sec6 .inner-sec6 .sec6-Txt .apple-about{
+        padding: 0 0 0 60px;
+        margin: 18% 0;
+        box-sizing:border-box;
+        /* border: 1px solid #f00; */
+    }
+
+    .section.sec6 .inner-sec6 .sec6-Txt .apple-about >h6{
+        font-size: 14px;
+        margin: 0 0 5px 0;
+    }
+    
+    .section.sec6 .inner-sec6 .sec6-Txt .apple-about >span{
+        font-size: 12px;
+        line-height: 14px;
+    }
+    
+    .section.sec6 .inner-sec6 .sec6-Txt .apple-about >p{
+        font-size: 12px;
+        line-height: 20px;
+        margin: 10px 0 0 0;
+    }
+    
+    .section.sec6 .inner-sec6 .sec6-Txt .apple-about >input[type=button]{
         width: 120px;
         height: 30px;
         margin: 10px 0 0 0;
@@ -558,7 +790,7 @@
     }
     
     .inner-wrap .menuBox .inner-menuBox >ul >li{
-        margin: 10px auto;
+        margin: 5px auto;
         color: #fff;
         font-size: 35px;
         padding: 15px 0 0 0;
@@ -691,9 +923,9 @@
     }
 
      /*section3 부분*/
-     .section.sec3{
+    .section.sec3{
         /* border:1px solid #00f; */
-        padding: 5% 0 0 0;
+        padding: 40px 0 0 0;
         box-sizing: border-box;
     }
 
@@ -707,75 +939,80 @@
     .section.sec3 .inner-sec3 .sec3-port{
         width: 100%;
         height: auto;
-        float: unset;
         /* border: 1px solid #f00; */
     }
 
     .section.sec3 .inner-sec3 .sec3-port .hyundaiImg{
-        width: 100%;
-        height: auto;
-        float: unset;
         padding: 0 0 0 0;
+        border: 0px solid #000;
     }
-    
+
     .section.sec3 .inner-sec3 .sec3-port .hyundaiImg img{
-        width: 300px;
-        height: 207px;
+        width: 65%;
     }
 
     .section.sec3 .inner-sec3 .sec3-Txt{
         width: 100%;
         height: auto;
         padding: 0 0 0 0;
-        margin: 58% 0 0 0;
-        /* border: 1px solid; */
+        margin: 45% 0 0 0;
+        /* border: 1px solid #000; */
     }
 
-    .section.sec3 .inner-sec3 .sec3-Txt .logoTxt h1.hyundaiLogo{
-        width: 220px;
-        height: 36px;
-        position: absolute;
-        right:0;
-        margin-right:30px;
+    .section.sec3 .inner-sec3 .sec3-Txt .logoTxt{
+        float: right;
+        /* border: 1px solid #000; */
     }
-    
-    .section.sec3 .inner-sec3 .sec3-Txt .logoTxt h1.hyundaiLogo img{
-        width: 100%;
+
+    .section.sec3 .inner-sec3 .sec3-Txt .logoTxt::after{
+        content: "";
         display: block;
-        opacity: 0;
-        float:right;
+        clear: both;
+    }
+
+    .section.sec3 .inner-sec3 .sec3-Txt .logoTxt h1.hyundaiLogo img{
+        width: 80%;
+        float: right;
+        padding-right: 30px;
+    }
+
+    .section.sec3 .inner-sec3 .sec3-Txt .logoTxt .hyundaiColor{
+        padding: 10px 22px 0 0;
+        box-sizing: border-box;
+        margin: 0 0;
+        /* border: 1px solid #00f; */
+    }
+
+    .section.sec3 .inner-sec3 .sec3-Txt .logoTxt .hyundaiColor >ul >li{
+        width: 12px;
+        height: 12px;
     }
 
     .section.sec3 .inner-sec3 .sec3-Txt .logoTxt .hyundaiColor >ul >li:nth-child(1)::after{
         width: 12px;
         height: 12px;
-        margin-top: 50px;
-        right:0;
-        margin-right: 70px;
     }
+
     .section.sec3 .inner-sec3 .sec3-Txt .logoTxt .hyundaiColor >ul >li:nth-child(2)::after{
         width: 12px;
         height: 12px;
-        margin-top: 50px;
-        right:0;
-        margin-right: 50px;
     }
+
     .section.sec3 .inner-sec3 .sec3-Txt .logoTxt .hyundaiColor >ul >li:nth-child(3)::after{
         width: 12px;
         height: 12px;
-        margin-top: 50px;
-        right:0;
-        margin-right: 30px;
     }
 
     .section.sec3 .inner-sec3 .sec3-Txt .hyundai-about{
-        padding: 0 30px;
+        padding: 0 0 0 40px;
+        margin: 17% 0;
         box-sizing:border-box;
+        /* border: 1px solid #f00; */
     }
 
     .section.sec3 .inner-sec3 .sec3-Txt .hyundai-about >h3{
         font-size: 20px;
-        margin: 80px 0 0 0;
+        margin: 0 0 0 0;
     }
     
     .section.sec3 .inner-sec3 .sec3-Txt .hyundai-about >h6{
@@ -791,19 +1028,20 @@
     .section.sec3 .inner-sec3 .sec3-Txt .hyundai-about >p{
         font-size: 12px;
         line-height: 20px;
-        margin: 10px 0 0 0;
+        margin: 10px 0;
     }
     
     .section.sec3 .inner-sec3 .sec3-Txt .hyundai-about >input[type=button]{
-        width: 120px;
+        width: 100px;
         height: 30px;
-        margin: 10px 0 0 0;
+        margin: 5px 0 0 0;
+        font-size: 10px;
     }
     
     /*section4 부분*/
     .section.sec4{
         /* border:1px solid #00f; */
-        padding: 5% 0 0 0;
+        padding: 40px 0 0 0;
         box-sizing: border-box;
     }
 
@@ -817,75 +1055,80 @@
     .section.sec4 .inner-sec4 .sec4-port{
         width: 100%;
         height: auto;
-        float: unset;
         /* border: 1px solid #f00; */
     }
 
     .section.sec4 .inner-sec4 .sec4-port .vibeImg{
-        width: 100%;
-        height: auto;
-        float: unset;
         padding: 0 0 0 0;
+        border: 0px solid #000;
     }
-    
+
     .section.sec4 .inner-sec4 .sec4-port .vibeImg img{
-        width: 300px;
-        height: 207px;
+        width: 65%;
     }
 
     .section.sec4 .inner-sec4 .sec4-Txt{
         width: 100%;
         height: auto;
         padding: 0 0 0 0;
-        margin: 58% 0 0 0;
-        /* border: 1px solid; */
+        margin: 45% 0 0 0;
+        /* border: 1px solid #000; */
     }
 
-    .section.sec4 .inner-sec4 .sec4-Txt .logoTxt h1.vibeLogo{
-        width: 220px;
-        height: 36px;
-        position: absolute;
-        right:0;
-        margin-right:30px;
+    .section.sec4 .inner-sec4 .sec4-Txt .logoTxt{
+        float: right;
+        /* border: 1px solid #000; */
     }
-    
-    .section.sec4 .inner-sec4 .sec4-Txt .logoTxt h1.vibeLogo img{
-        width: 100%;
+
+    .section.sec4 .inner-sec4 .sec4-Txt .logoTxt::after{
+        content: "";
         display: block;
-        opacity: 0;
-        float:right;
+        clear: both;
+    }
+
+    .section.sec4 .inner-sec4 .sec4-Txt .logoTxt h1.vibeLogo img{
+        width: 80%;
+        float: right;
+        padding-right: 30px;
+    }
+
+    .section.sec4 .inner-sec4 .sec4-Txt .logoTxt .vibeColor{
+        padding: 10px 30px 0 0;
+        box-sizing: border-box;
+        margin: 0 0;
+        /* border: 1px solid #00f; */
+    }
+
+    .section.sec4 .inner-sec4 .sec4-Txt .logoTxt .vibeColor >ul >li{
+        width: 12px;
+        height: 12px;
     }
 
     .section.sec4 .inner-sec4 .sec4-Txt .logoTxt .vibeColor >ul >li:nth-child(1)::after{
         width: 12px;
         height: 12px;
-        margin-top: 50px;
-        right:0;
-        margin-right: 70px;
     }
+
     .section.sec4 .inner-sec4 .sec4-Txt .logoTxt .vibeColor >ul >li:nth-child(2)::after{
         width: 12px;
         height: 12px;
-        margin-top: 50px;
-        right:0;
-        margin-right: 50px;
     }
+
     .section.sec4 .inner-sec4 .sec4-Txt .logoTxt .vibeColor >ul >li:nth-child(3)::after{
         width: 12px;
         height: 12px;
-        margin-top: 50px;
-        right:0;
-        margin-right: 30px;
     }
 
     .section.sec4 .inner-sec4 .sec4-Txt .vibe-about{
-        padding: 0 30px;
+        padding: 0 0 0 40px;
+        margin: 17% 0;
         box-sizing:border-box;
+        /* border: 1px solid #f00; */
     }
 
     .section.sec4 .inner-sec4 .sec4-Txt .vibe-about >h3{
         font-size: 20px;
-        margin: 80px 0 0 0;
+        margin: 0 0 0 0;
     }
     
     .section.sec4 .inner-sec4 .sec4-Txt .vibe-about >h6{
@@ -901,19 +1144,20 @@
     .section.sec4 .inner-sec4 .sec4-Txt .vibe-about >p{
         font-size: 12px;
         line-height: 20px;
-        margin: 10px 0 0 0;
+        margin: 10px 0;
     }
     
     .section.sec4 .inner-sec4 .sec4-Txt .vibe-about >input[type=button]{
-        width: 120px;
+        width: 100px;
         height: 30px;
-        margin: 10px 0 0 0;
+        margin: 5px 0 0 0;
+        font-size: 10px;
     }
 
     /*section5 부분*/
     .section.sec5{
         /* border:1px solid #00f; */
-        padding: 5% 0 0 0;
+        padding: 40px 0 0 0;
         box-sizing: border-box;
     }
 
@@ -927,75 +1171,80 @@
     .section.sec5 .inner-sec5 .sec5-port{
         width: 100%;
         height: auto;
-        float: unset;
         /* border: 1px solid #f00; */
     }
 
     .section.sec5 .inner-sec5 .sec5-port .cocaImg{
-        width: 100%;
-        height: auto;
-        float: unset;
         padding: 0 0 0 0;
+        /* border: 1px solid #000; */
     }
-    
+
     .section.sec5 .inner-sec5 .sec5-port .cocaImg img{
-        width: 280px;
-        height: 225px;
+        width: 60%;
     }
 
     .section.sec5 .inner-sec5 .sec5-Txt{
         width: 100%;
         height: auto;
         padding: 0 0 0 0;
-        margin: 62% 0 0 0;
+        margin: 50% 0 0 0;
         /* border: 1px solid #000; */
     }
 
-    .section.sec5 .inner-sec5 .sec5-Txt .logoTxt h1.cocaLogo{
-        width: 140px;
-        height: 46px;
-        position: absolute;
-        right:0;
-        margin-right:40px;
+    .section.sec5 .inner-sec5 .sec5-Txt .logoTxt{
+        float: right;
+        /* border: 1px solid #000; */
     }
-    
-    .section.sec5 .inner-sec5 .sec5-Txt .logoTxt h1.cocaLogo img{
-        width: 100%;
+
+    .section.sec5 .inner-sec5 .sec5-Txt .logoTxt::after{
+        content: "";
         display: block;
-        opacity: 0;
-        float:right;
+        clear: both;
+    }
+
+    .section.sec5 .inner-sec5 .sec5-Txt .logoTxt h1.cocaLogo img{
+        width: 80%;
+        float: right;
+        padding-right: 30px;
+    }
+
+    .section.sec5 .inner-sec5 .sec5-Txt .logoTxt .cocaColor{
+        padding: 10px 35px 0 0;
+        box-sizing: border-box;
+        margin: 0 0;
+        /* border: 1px solid #00f; */
+    }
+
+    .section.sec5 .inner-sec5 .sec5-Txt .logoTxt .cocaColor >ul >li{
+        width: 12px;
+        height: 12px;
     }
 
     .section.sec5 .inner-sec5 .sec5-Txt .logoTxt .cocaColor >ul >li:nth-child(1)::after{
         width: 12px;
         height: 12px;
-        margin-top: 60px;
-        right:0;
-        margin-right: 100px;
     }
+
     .section.sec5 .inner-sec5 .sec5-Txt .logoTxt .cocaColor >ul >li:nth-child(2)::after{
         width: 12px;
         height: 12px;
-        margin-top: 60px;
-        right:0;
-        margin-right: 80px;
     }
+
     .section.sec5 .inner-sec5 .sec5-Txt .logoTxt .cocaColor >ul >li:nth-child(3)::after{
         width: 12px;
         height: 12px;
-        margin-top: 60px;
-        right:0;
-        margin-right: 60px;
     }
 
     .section.sec5 .inner-sec5 .sec5-Txt .coca-about{
-        padding: 0 30px;
+        padding: 0 0 0 40px;
+        margin: 20% 0;
         box-sizing:border-box;
+        /* border: 1px solid #f00; */
     }
 
     .section.sec5 .inner-sec5 .sec5-Txt .coca-about >h3{
         font-size: 20px;
-        margin: 80px 0 0 0;
+        margin: 0 0 0 0;
     }
     
     .section.sec5 .inner-sec5 .sec5-Txt .coca-about >h6{
@@ -1009,22 +1258,22 @@
     }
     
     .section.sec5 .inner-sec5 .sec5-Txt .coca-about >p{
-        font-size: 11px;
+        font-size: 12px;
         line-height: 20px;
-        margin: 10px 0 0 0;
+        margin: 10px 0;
     }
     
     .section.sec5 .inner-sec5 .sec5-Txt .coca-about >input[type=button]{
         width: 100px;
         height: 30px;
+        margin: 5px 0 0 0;
         font-size: 10px;
-        margin: 10px 0 0 0;
     }
 
      /*section6 부분*/
      .section.sec6{
         /* border:1px solid #00f; */
-        padding: 5% 0 0 0;
+        padding: 40px 0 0 0;
         box-sizing: border-box;
     }
 
@@ -1034,79 +1283,84 @@
         bottom: 20px;
         margin-left: -10px;
     }
-    
+
     .section.sec6 .inner-sec6 .sec6-port{
         width: 100%;
         height: auto;
-        float: unset;
         /* border: 1px solid #f00; */
     }
 
     .section.sec6 .inner-sec6 .sec6-port .appleImg{
-        width: 100%;
-        height: auto;
-        float: unset;
         padding: 0 0 0 0;
+        /* border: 1px solid #000; */
     }
-    
+
     .section.sec6 .inner-sec6 .sec6-port .appleImg img{
-        width: 275px;
-        height: 192px;
+        width: 60%;
     }
 
     .section.sec6 .inner-sec6 .sec6-Txt{
         width: 100%;
         height: auto;
         padding: 0 0 0 0;
-        margin: 52% 0 0 0;
+        margin: 45% 0 0 0;
         /* border: 1px solid #000; */
     }
 
-    .section.sec6 .inner-sec6 .sec6-Txt .logoTxt h1.appleLogo{
-        width: 135px;
-        height: 47px;
-        position: absolute;
-        right:0;
-        margin-right:40px;
+    .section.sec6 .inner-sec6 .sec6-Txt .logoTxt{
+        float: right;
+        /* border: 1px solid #000; */
     }
-    
-    .section.sec6 .inner-sec6 .sec6-Txt .logoTxt h1.appleLogo img{
-        width: 100%;
+
+    .section.sec6 .inner-sec6 .sec6-Txt .logoTxt::after{
+        content: "";
         display: block;
-        opacity: 0;
-        float:right;
+        clear: both;
+    }
+
+    .section.sec6 .inner-sec6 .sec6-Txt .logoTxt h1.appleLogo img{
+        width: 80%;
+        float: right;
+        padding-right: 30px;
+    }
+
+    .section.sec6 .inner-sec6 .sec6-Txt .logoTxt .appleColor{
+        padding: 10px 20px 0 0;
+        box-sizing: border-box;
+        margin: 0 0;
+        /* border: 1px solid #00f; */
+    }
+
+    .section.sec6 .inner-sec6 .sec6-Txt .logoTxt .appleColor >ul >li{
+        width: 12px;
+        height: 12px;
     }
 
     .section.sec6 .inner-sec6 .sec6-Txt .logoTxt .appleColor >ul >li:nth-child(1)::after{
         width: 12px;
         height: 12px;
-        margin-top: 60px;
-        right:0;
-        margin-right: 80px;
     }
+
     .section.sec6 .inner-sec6 .sec6-Txt .logoTxt .appleColor >ul >li:nth-child(2)::after{
         width: 12px;
         height: 12px;
-        margin-top: 60px;
-        right:0;
-        margin-right: 60px;
     }
+
     .section.sec6 .inner-sec6 .sec6-Txt .logoTxt .appleColor >ul >li:nth-child(3)::after{
         width: 12px;
         height: 12px;
-        margin-top: 60px;
-        right:0;
-        margin-right: 40px;
     }
 
     .section.sec6 .inner-sec6 .sec6-Txt .apple-about{
-        padding: 0 30px;
+        padding: 0 0 0 40px;
+        margin: 21% 0;
         box-sizing:border-box;
+        /* border: 1px solid #f00; */
     }
 
     .section.sec6 .inner-sec6 .sec6-Txt .apple-about >h3{
         font-size: 20px;
-        margin: 80px 0 0 0;
+        margin: 0 0 0 0;
     }
     
     .section.sec6 .inner-sec6 .sec6-Txt .apple-about >h6{
@@ -1122,13 +1376,14 @@
     .section.sec6 .inner-sec6 .sec6-Txt .apple-about >p{
         font-size: 12px;
         line-height: 20px;
-        margin: 10px 0 0 0;
+        margin: 10px 0;
     }
     
     .section.sec6 .inner-sec6 .sec6-Txt .apple-about >input[type=button]{
-        width: 120px;
+        width: 100px;
         height: 30px;
-        margin: 10px 0 0 0;
+        margin: 5px 0 0 0;
+        font-size: 10px;
     }
 
     /*footer 부분!*/

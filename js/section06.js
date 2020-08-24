@@ -1,6 +1,6 @@
 var appleBtn = $(".apple-about>input[type=button]");
 
-var sec6Go = $(".sec4-arrow");
+var sec6Go = $(".sec5-arrow");
 var goTopsec6 = $(".section.sec6").offset().top;
 sec6Go.on("click", sec6GoFunc);
 function sec6GoFunc() {
