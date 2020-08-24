@@ -85,6 +85,9 @@
 .inner-wrap .menuBox .inner-menuBox >ul >li:nth-child(5){
     color: rgb(255, 196, 0);
 }
+.inner-wrap .menuBox .inner-menuBox >ul >li:nth-child(6){
+    color: rgb(255, 196, 0);
+}
 
 .inner-wrap .menuBox .inner-menuBox >ul >li:hover{
     background: linear-gradient(to right, #f64f59, #c471ed, #12c2e9);

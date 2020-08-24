@@ -6,6 +6,7 @@
 @import url(section/section03.css);
 @import url(section/section04.css);
 @import url(section/section05.css);
+@import url(section/section06.css);
 @import url(section/footer.css);
 @import url(commons/media.css);
 
@@ -16,12 +17,12 @@
 
 .inner-wrap{
     width: 100%;
-    height: 600%;
+    height: 700%;
 }
 
 .inner-wrap .section{
     width: 100%;
-    height: 16.6666%;
+    height: 14.2857%;
     font-style: italic;
 }
 

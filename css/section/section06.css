@@ -1,23 +1,25 @@
 @charset "utf-8";
 
-/*section4 부분!!!!!!*/
-.section.sec5 {
+/*section5 부분!!!!!!*/
+.section.sec6 {
     background: #fff;
 }
 
-.section.sec5 .inner-sec5{
+.section.sec6 .inner-sec6{
     width:100%;
     height:100%;
+    /* border:5px solid #f00;
+    box-sizing: border-box; */
     position: relative;
 }
 
-.section.sec5 .inner-sec5::after{
+.section.sec6 .inner-sec6::after{
     content: "";
     display: block;
     clear: both;
 }
 
-.section.sec5 .inner-sec5 .sec5-arrow{
+.section.sec6 .inner-sec6 .sec6-arrow{
     position: absolute;
     width:30px;
     height: 18px;
@@ -28,18 +30,18 @@
     z-index: 10;
 }
 
-.section.sec5 .inner-sec5 .sec5-arrow >img{
+.section.sec6 .inner-sec6 .sec6-arrow >img{
     display: block;
     width: 100%;
     cursor: pointer;
 }
 
-.section.sec5 .inner-sec5 .sec5-arrow >img:hover{
+.section.sec6 .inner-sec6 .sec6-arrow >img:hover{
     transition: ease-in-out 1.0s;
     transform: scale(1.1);
 }
 
-.section.sec5 .inner-sec5 .sec5-port{
+.section.sec6 .inner-sec6 .sec6-port{
     width: 60%;
     height: auto;
     float: left;
@@ -48,56 +50,54 @@
     z-index: 1;
 }
 
-.section.sec5 .inner-sec5 .sec5-port .cocaImg{
+.section.sec6 .inner-sec6 .sec6-port .appleImg{
     width: 100%;
     padding: 150px 0 0 0;
     box-sizing: border-box;
-    /* border: 1px solid; */
 }
 
-.section.sec5 .inner-sec5 .sec5-port .cocaImg img{
-    width: 70%;
+.section.sec6 .inner-sec6 .sec6-port .appleImg img{
+    width: 80%;
     margin: 0 auto;
     display: block;
 }
 
-.section.sec5 .inner-sec5 .sec5-Txt{
+.section.sec6 .inner-sec6 .sec6-Txt{
     width: 40%;
     height: auto;
-    padding: 12% 0 0 0;
+    padding: 11% 0 0 0;
     box-sizing: border-box;
     float: left;
     font-style: normal;
     color: #333;
     position: absolute;
     right: 0;
-    
 }
 
-.section.sec5 .inner-sec5 .sec5-Txt .logoTxt{
+.section.sec6 .inner-sec6 .sec6-Txt .logoTxt{
     width: 100%;
     height: auto;
 }
 
-.section.sec5 .inner-sec5 .sec5-Txt .logoTxt h1.cocaLogo{
-    width: 315px;
-    height: 103px;
+.section.sec6 .inner-sec6 .sec6-Txt .logoTxt h1.appleLogo{
+    width: 300px;
+    height: 107px;
     position: absolute;
 }
 
-.section.sec5 .inner-sec5 .sec5-Txt .logoTxt h1.cocaLogo img{
-    width: 315px;
+.section.sec6 .inner-sec6 .sec6-Txt .logoTxt h1.appleLogo img{
+    width: 300px;
     display: block;
     opacity: 0;
 }
 
-.section.sec5 .inner-sec5 .sec5-Txt .logoTxt .cocaColor >ul >li{
+.section.sec6 .inner-sec6 .sec6-Txt .logoTxt .appleColor >ul >li{
     display: none;
 }
 
-.section.sec5 .inner-sec5 .sec5-Txt .logoTxt .cocaColor >ul >li:nth-child(1)::after{
+.section.sec6 .inner-sec6 .sec6-Txt .logoTxt .appleColor >ul >li:nth-child(1)::after{
     content:"";
-    background: #000;
+    background: #1d1d1f;
     width: 15px;
     height: 15px;
     border-radius: 50%;
@@ -105,11 +105,11 @@
     margin: 5px;
     position: absolute;
     margin-top: 120px;
-    margin-left: 200px;
+    margin-left: 220px;
 }
-.section.sec5 .inner-sec5 .sec5-Txt .logoTxt .cocaColor >ul >li:nth-child(2)::after{
+.section.sec6 .inner-sec6 .sec6-Txt .logoTxt .appleColor >ul >li:nth-child(2)::after{
     content: "";
-    background: #bfbfbf;
+    background:#86868b ;
     width: 15px;
     height: 15px;
     border-radius: 50%;
@@ -117,11 +117,11 @@
     margin: 5px;
     position: absolute;
     margin-top: 120px;
-    margin-left: 230px;
+    margin-left: 250px;
 }
-.section.sec5 .inner-sec5 .sec5-Txt .logoTxt .cocaColor >ul >li:nth-child(3)::after{
+.section.sec6 .inner-sec6 .sec6-Txt .logoTxt .appleColor >ul >li:nth-child(3)::after{
     content: "";
-    background: #f40009;
+    background:#2997ff;
     width: 15px;
     height: 15px;
     border-radius: 50%;
@@ -129,10 +129,10 @@
     margin: 5px;
     position: absolute;
     margin-top: 120px;
-    margin-left: 260px;
+    margin-left: 280px;
 }
 
-.section.sec5 .inner-sec5 .sec5-Txt .coca-about >h3{
+.section.sec6 .inner-sec6 .sec6-Txt .apple-about >h3{
     font-size: 28px;
     font-weight: 500;
     margin: 180px 0 0 0;
@@ -140,7 +140,7 @@
     display: none;
 }
 
-.section.sec5 .inner-sec5 .sec5-Txt .coca-about >h6{
+.section.sec6 .inner-sec6 .sec6-Txt .apple-about >h6{
     font-size: 14px;
     font-weight: 500;
     font-family: 'NanumSquare', sans-serif;
@@ -149,14 +149,14 @@
     margin: 0 0 20px 0;
 }
 
-.section.sec5 .inner-sec5 .sec5-Txt .coca-about >span{
+.section.sec6 .inner-sec6 .sec6-Txt .apple-about >span{
     font-size: 16px;
     line-height: 24px;
     font-family: 'NanumSquare', sans-serif;
     display: none;
 }
 
-.section.sec5 .inner-sec5 .sec5-Txt .coca-about >p{
+.section.sec6 .inner-sec6 .sec6-Txt .apple-about >p{
     font-size: 16px;
     line-height: 24px;
     font-family: 'NanumSquare', sans-serif;
@@ -164,7 +164,7 @@
     margin: 20px 0 0 0;
 }
 
-.section.sec5 .inner-sec5 .sec5-Txt .coca-about >input[type=button]{
+.section.sec6 .inner-sec6 .sec6-Txt .apple-about >input[type=button]{
     width: 150px;
     height: 40px;
     border-radius: 10px;
@@ -180,7 +180,7 @@
     letter-spacing: 1px;
 }
 
-.section.sec5 .inner-sec5 .sec5-Txt .coca-about >input[type=button]:hover{
-    background: #f40009;
+.section.sec6 .inner-sec6 .sec6-Txt .apple-about >input[type=button]:hover{
+    background: #2997ff;
     transition: ease-in 0.5s;
 }
