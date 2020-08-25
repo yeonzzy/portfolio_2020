@@ -28,6 +28,21 @@ function sec3_scrollFunc() {
   }
 }
 
-hyundaiBtn.on("click", function () {
+hyundaiBtn.eq(0).on("click", function () {
   window.open("http://yeonzzy.dothome.co.kr/hyundai-elevator/index.html");
+});
+hyundaiBtn.eq(1).on("click", function () {
+  window.open("http://yeonzzy.dothome.co.kr/hyundai-elevator/html/about.html");
+});
+hyundaiBtn.eq(2).on("click", function () {
+  window.open("http://yeonzzy.dothome.co.kr/hyundai-elevator/html/business.html");
+});
+hyundaiBtn.eq(3).on("click", function () {
+  window.open("http://yeonzzy.dothome.co.kr/hyundai-elevator/html/news.html");
+});
+hyundaiBtn.eq(4).on("click", function () {
+  window.open("http://yeonzzy.dothome.co.kr/hyundai-elevator/html/career.html");
+});
+hyundaiBtn.eq(5).on("click", function () {
+  window.open("http://yeonzzy.dothome.co.kr/hyundai-elevator/html/support.html");
 });
