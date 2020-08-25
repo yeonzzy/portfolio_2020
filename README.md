@@ -10,9 +10,9 @@ _UI designed & developed by_ **yeonji**
 - 부족하지만 열심히 만들었습니다😇
 
 ### Preview
-```markdown
+
 ![portfolio](https://user-images.githubusercontent.com/68604663/91186473-0c58a480-e72a-11ea-852d-892bd20a2e93.jpg)
-```
+
 
 ### Structure
 
