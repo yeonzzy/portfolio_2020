@@ -23,7 +23,7 @@ infoLi.eq(0).on("click", function () {
 });
 infoLi.eq(1).on("click", function () {
   window.open(
-    "https://drive.google.com/file/d/1fAZfZ3GIuM75rRzJ6pKgIHaIQTrVoCSv/view?usp=sharing");
+    "https://drive.google.com/file/d/1ye92UWUOyJKccmxykS7jaZ1vcpybezIu/view?usp=sharing");
 });
 infoLi.eq(2).on("click", function () {
   window.open("https://github.com/yeonzzy");
