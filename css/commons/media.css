@@ -18,6 +18,7 @@
     .section.sec1 .introTxt-1 >p{
         letter-spacing: 20px;
     }
+
      /*section2 부분*/
      .section.sec2{
         background: url(../../img/section/section02/sec2-selfie-m.jpg) no-repeat;
@@ -383,6 +384,75 @@
         padding: 80px 0;
     }
 
+    /*section2 부분*/
+    .section.sec2{
+        background: url(../../img/section/section02/sec2-selfie-m.jpg) no-repeat;
+        background-size: cover;
+        background-position: center;
+    }
+
+    .section.sec2 .inner-sec2 .grdient-border.g-b-top{
+        margin-top: 10px;
+    }
+
+    .section.sec2 .inner-sec2 .grdient-border.g-b-bottom{
+        margin-bottom: 10px;
+    }
+
+    .section.sec2 .inner-sec2 .myself-txt{
+        width: 80%;
+        height: 100%;
+        padding: 50px 0;
+        float: unset;
+        color: #fff;
+        margin: 0 auto;
+        /* border: 1px solid #f00; */
+    }
+
+    .section.sec2 .inner-sec2 .myself-txt .inner-txt{
+        width:100%;
+        margin: 0 0 10px 0;
+        padding: 0 0 30px 0;
+        opacity: 0.8;
+        margin: 0 auto;
+    }
+
+    .section.sec2 .inner-sec2 .myself-txt .inner-txt >h1{
+        font-size: 30px;
+        line-height: 120px;
+        /* border: 1px solid #fff; */
+    }
+
+    .section.sec2 .inner-sec2 .myself-txt .graph{
+        padding: 40px 10px;
+    }
+
+    .section.sec2 .inner-sec2 .myself-txt .graph .graph-txt{
+        width: 25%;
+        color: #fff;
+    }
+    
+    .section.sec2 .inner-sec2 .myself-txt .graph .graph-txt >ul >li{
+        opacity: 0.8;
+    }
+    
+    .section.sec2 .inner-sec2 .myself-txt .graph .graph-shape{
+        width: 75%;
+        padding: 0 0 0 10px;
+    }
+    
+    .section.sec2 .inner-sec2 .myself-txt .graph .graph-shape >ul >li{
+        opacity: 0.6;
+    }
+
+    .section.sec2 .inner-sec2 .myself-pic{
+        display: none;
+    }
+
+    .section.sec2 .inner-sec2 .myself-pic .inner-pic .selfie .heartBack >img{
+        display: none;
+    }
+
     /*section3 부분*/
     .section.sec3{
         /* border:1px solid #00f; */
@@ -743,6 +813,66 @@
         font-size: 11px;
     }
 
+    /*footer 부분!*/
+    .section.footer .inner-foot .inner-foot-con{
+        padding: 0 10px;
+        box-sizing: border-box;
+    }
+
+    .section.footer .inner-foot .inner-foot-con .foot-intro{
+        width: 100%;
+        float: unset;
+        border-right: 0px;
+        border-bottom: 1px solid rgba(255,255,255,0.4);
+    }
+    
+    .section.footer .inner-foot .inner-foot-con .foot-info{
+        width: 100%;
+        padding: 50px 120px;
+        margin: 0 auto;
+        float: unset;
+        /* border: 1px solid #00f; */
+        border-bottom: 1px solid rgba(255,255,255,0.4);
+    }
+
+    .section.footer .inner-foot .inner-foot-con .foot-info >ul>li{
+        font-size: 25px;
+    }
+    
+    .section.footer .inner-foot .inner-foot-con .foot-info >ul>li:nth-child(1)::before{
+        padding-right: 10px;
+    }
+    
+    .section.footer .inner-foot .inner-foot-con .foot-info >ul>li:nth-child(2)::before{
+        padding-right: 10px;
+    }
+    
+    .section.footer .inner-foot .inner-foot-con .foot-info >ul>li:nth-child(3)::before{
+        padding-right: 10px
+    }
+
+    .section.footer .inner-foot .foot-bottom{
+        margin: 0 auto;
+        padding: 0 10px;
+        box-sizing: border-box;
+    }
+    
+    .section.footer .inner-foot .foot-bottom >p{
+        padding: 50px 0;
+    }
+    
+    .section.footer .inner-foot .foot-bottom p.phone{
+        text-align: left;
+    }
+    
+    .section.footer .inner-foot .foot-bottom p.nowTime{
+        letter-spacing: 2px;
+        font-family: 'VT323', monospace;
+        font-size: 20px;
+        opacity: 0.9;
+        text-align: right;
+    }
+
 
 
 
@@ -836,6 +966,14 @@
         background-position: center;
     }
 
+    .section.sec2 .inner-sec2 .grdient-border.g-b-top{
+        margin-top: 10px;
+    }
+
+    .section.sec2 .inner-sec2 .grdient-border.g-b-bottom{
+        margin-bottom: 10px;
+    }
+
     .section.sec2 .inner-sec2 .sec2-arrow{
         width:20px;
         height: 12px;
@@ -844,6 +982,7 @@
     }
 
     .section.sec2 .inner-sec2  .myself-txt{
+        width: 80%;
         height: auto;
         padding: 10px 0;
         box-sizing: border-box;
@@ -862,13 +1001,14 @@
 
     .section.sec2 .inner-sec2 .myself-txt .inner-txt >h1{
         font-size: 16px;
-        line-height: 110px;
+        line-height: 80px;
+        padding: 20px 0 0 0;
         letter-spacing: 10px;
     }
 
     .section.sec2 .inner-sec2 .myself-txt .inner-txt >span{
         font-size: 10px;
-        line-height: 24px;
+        line-height: 10px;
     }
 
     .section.sec2 .inner-sec2 .myself-txt .inner-txt >span::before{
