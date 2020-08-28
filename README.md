@@ -5,7 +5,9 @@
 _UI designed & developed by_ **yeonji**
 
 ### About project
-
+```
+⭐ 반응형 : 데스크탑, 태블릿, 모바일
+```
 - 이 홈페이지는 저의 작업물을 모아둔 사이트입니다.
 - 부족하지만 열심히 만들었습니다😇
 
