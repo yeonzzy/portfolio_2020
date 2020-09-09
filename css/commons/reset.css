@@ -3,6 +3,14 @@
 @import url('https://cdn.jsdelivr.net/gh/moonspam/NanumSquare@1.0/nanumsquare.css');
 @import url('https://fonts.googleapis.com/css2?family=VT323&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&family=Timmana&display=swap');
+@font-face{
+    font-family: 'GodoM';
+    src: url(../../font/GodoM.ttf) format('truetype');
+}
+@font-face{
+    font-family: 'NanumSquareRoundR';
+    src: url(../../font/NanumSquareRoundR.ttf) format('truetype');
+}
 
 *{
     margin: 0;
@@ -15,6 +23,7 @@
     user-select: none;
     /*텍스트 태그 시 마우스 커서모양 변경*/
     cursor: default;
+    /* font-family: 'GodoM'; */
 }
 
 /*스크롤모양 삭제*/

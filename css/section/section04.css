@@ -155,14 +155,12 @@
 .section.sec4 .inner-sec4 .sec4-Txt .vibe-about >h3{
     font-size: 28px;
     font-weight: 500;
-    font-family: 'Source Sans Pro', sans-serif;
     display: none;
 }
 
 .section.sec4 .inner-sec4 .sec4-Txt .vibe-about >h6{
     font-size: 14px;
     font-weight: 500;
-    font-family: 'Source Sans Pro', sans-serif;
     line-height: 24px;
     display: none;
     margin: 0 0 20px 0;
@@ -171,14 +169,15 @@
 .section.sec4 .inner-sec4 .sec4-Txt .vibe-about >span{
     font-size: 16px;
     line-height: 24px;
-    font-family: 'NanumSquare', sans-serif;
+        font-family: 'NanumSquareRoundR';
+
     display: none;
 }
 
 .section.sec4 .inner-sec4 .sec4-Txt .vibe-about >p{
     font-size: 16px;
     line-height: 24px;
-    font-family: 'NanumSquare', sans-serif;
+    font-family: 'NanumSquareRoundR';
     display: none;
     margin: 20px 0 0 0;
 }

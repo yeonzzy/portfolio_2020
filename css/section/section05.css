@@ -163,14 +163,14 @@
 .section.sec5 .inner-sec5 .sec5-Txt .coca-about >span{
     font-size: 16px;
     line-height: 24px;
-    font-family: 'NanumSquare', sans-serif;
+    font-family: 'NanumSquareRoundR';
     display: none;
 }
 
 .section.sec5 .inner-sec5 .sec5-Txt .coca-about >p{
     font-size: 16px;
     line-height: 24px;
-    font-family: 'NanumSquare', sans-serif;
+    font-family: 'NanumSquareRoundR';
     display: none;
     margin: 20px 0 0 0;
 }

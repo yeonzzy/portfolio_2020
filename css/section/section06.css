@@ -163,14 +163,14 @@
 .section.sec6 .inner-sec6 .sec6-Txt .apple-about >span{
     font-size: 16px;
     line-height: 24px;
-    font-family: 'NanumSquare', sans-serif;
+    font-family: 'NanumSquareRoundR';
     display: none;
 }
 
 .section.sec6 .inner-sec6 .sec6-Txt .apple-about >p{
     font-size: 16px;
     line-height: 24px;
-    font-family: 'NanumSquare', sans-serif;
+    font-family: 'NanumSquareRoundR';
     display: none;
     margin: 20px 0 0 0;
 }

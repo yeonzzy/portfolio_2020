@@ -32,6 +32,7 @@
     height: auto;
     float: left;
     margin: 0 auto;
+    padding: 0 0 0 10%;
     border-right: 1px solid rgba(255,255,255,0.4);
     box-sizing: border-box;
     /* border: 1px solid #f00; */
@@ -50,7 +51,7 @@
 }
 
 .section.footer .inner-foot .inner-foot-con .foot-info{
-    width: 40%;
+    width: 50%;
     height: auto;
     padding: 0 0 0 10%;
     float: left;
@@ -69,7 +70,7 @@
 }
 
 .section.footer .inner-foot .inner-foot-con .foot-info >ul>li:nth-child(1)::before{
-    content: "✉️";
+    content: "📗";
     padding-right: 5px;
     box-sizing: border-box;
 }

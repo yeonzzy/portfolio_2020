@@ -27,6 +27,7 @@
     top: 0;
     right: -100%;
     background: #000;
+    overflow-y: scroll;
 }
 
 .inner-wrap .menuBox span.menuClose{

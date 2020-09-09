@@ -18,12 +18,12 @@ function sec3_scrollFunc() {
 
 var infoLi = $(".foot-info>ul>li");
 infoLi.eq(0).on("click", function () {
-  window.open(
-    "https://mail.google.com/mail/?view=cm&fs=1&to=yeonji99@gmail.com");
+  window.open("https://yeonzzy.tistory.com/");
 });
 infoLi.eq(1).on("click", function () {
   window.open(
-    "https://drive.google.com/file/d/1ye92UWUOyJKccmxykS7jaZ1vcpybezIu/view?usp=sharing");
+    "https://drive.google.com/file/d/1ye92UWUOyJKccmxykS7jaZ1vcpybezIu/view?usp=sharing"
+  );
 });
 infoLi.eq(2).on("click", function () {
   window.open("https://github.com/yeonzzy");

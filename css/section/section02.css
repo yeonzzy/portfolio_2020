@@ -100,7 +100,7 @@
 
 .section.sec2 .inner-sec2 .myself-txt .inner-txt >span{
     font-style: normal;
-    font-family: 'NanumSquare', sans-serif;
+    font-family: 'NanumSquareRoundR';
     font-size: 14px;
     line-height: 30px;
     display: none;
@@ -163,6 +163,7 @@
     padding: 15px 0;
     box-sizing: border-box;
     display: none;
+    font-family: 'GodoM';
 }
 
 .section.sec2 .inner-sec2 .myself-txt .graph .graph-shape >ul >li >div{
