@@ -1,6 +1,6 @@
 ### README
 
-[Kim-Yeonji :-)](yeonzzy.gitgub.io/yeonji_portfolil_2020)
+[Kim-Yeonji :-)](https://yeonzzy.gitgub.io/yeonji_portfolil_2020)
 
 _UI designed & developed by_ **yeonji**
 
